@@ -22,7 +22,7 @@
 		<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/FamilyPackThumbnail.jpg?raw=true</fanart>
 		<externallink>http://pastebin.com</externallink>
 	</item>
-
+<!---
 	<item>
 		<title>[B][COLOR grey]---[/COLOR] [COLOR white]DESCUBRE[/COLOR] [COLOR grey]MAS[/COLOR] [COLOR white]EN[/COLOR] [COLOR grey]---[/COLOR] [COLOR white]https://t.me/GrupoLolo[/COLOR][/B]</title>
 		<link>http://ignorame</link>
@@ -46,7 +46,7 @@
 		<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/PaypalFanart.png?raw=true</fanart>
 		<externallink>http://paypal.me/</externallink>
 	</item>
-	
+--->	
 	<item>
 		<title>[B][COLOR red]____________________[/COLOR][COLOR yellow]__________[/COLOR][COLOR red]____________________[/COLOR][/B]</title>
 		<link>http://ignorame</link>
@@ -54,7 +54,7 @@
 		<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/fanart.jpg?raw=true</fanart>
 		<externallink>http://pastebin.com</externallink>
 	</item>
-	
+<!---	
 	<item>
 		<title>[B][COLOR orange]G R A C I A S - P O R - C O L A B O R A R[/COLOR][/B]</title>
 		<link>http://ignorame</link>
@@ -62,6 +62,7 @@
 		<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/fanart.jpg?raw=true</fanart>
 		<externallink>https://pastebin.com/</externallink>
 	</item>
+	--->
 	<!---
 	<item>
 		<title>[B][COLOR orange]SI HAS DONADO A LA CUENTA http://paypal.me/lolorincon[/COLOR][/B]</title>
