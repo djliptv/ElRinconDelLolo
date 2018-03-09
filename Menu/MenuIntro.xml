@@ -30,7 +30,7 @@
 		<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/fanart.jpg?raw=true</fanart>
 		<externallink>http://bit.ly/INSOMNIAADDON</externallink>
 	</item>
-<!---	
+	
 	<item>
 		<title>[B][COLOR dodgerblue]Grupo Telegram[/COLOR][COLOR white]:[/COLOR][/B] [COLOR skyblue]@GrupoLolo[/COLOR]</title>
 		<link>http://ignorame</link>
@@ -102,7 +102,7 @@
 <fanart>https://github.com/djliptv/INSOMNIA/blob/master/Pics/InsomniaFanart.jpg?raw=true</fanart>
 <thumbnail>https://github.com/djliptv/INSOMNIA/blob/master/Pics/InsomniaThumbnail.png?raw=true</thumbnail>
 </item>
-
+--->
 	<item>
 		<title>[B][COLOR white]+[/COLOR] [COLOR deepskyblue]EL RINCON DEL LOLO[/COLOR] [COLOR white]LOS ORIGENES[/COLOR][/B]</title>
 		<link>http://ignorame</link>
@@ -124,9 +124,9 @@
 		<link>http://ignorame</link>
 		<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/DJLIPTVLogo.jpg?raw=true</thumbnail>
 		<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/DJLIPTVCHLogo.jpg?raw=true</fanart>
-		<externallink>http://bit.ly/DJLIPTVP</externallink><!--- http://bit.ly/DJLIPTVP  - https://djliptv.000webhostapp.com/index.html ---
+		<externallink>http://bit.ly/DJLIPTVP</externallink><!--- http://bit.ly/DJLIPTVP  - https://djliptv.000webhostapp.com/index.html --->
 	</item>
-
+<!---
 	<item>
 		<title>[B][COLOR white]+[/COLOR] [COLOR grey]INSOMNIA[/COLOR][/B]</title>
 		<link>http://ignorame</link>
@@ -134,7 +134,7 @@
 		<thumbnail>https://github.com/djliptv/INSOMNIA/blob/master/Pics/InsomniaThumbnail.png?raw=true</thumbnail>
 		<jsonrpc>plugin://plugin.video.INSOMNIA/</jsonrpc>
 	</item>
-	
+--->	
 	<item>
 		<title>[B][COLOR white]+[/COLOR] [COLOR blue]NEXT[/COLOR][/B]</title>
 		<link>http://Ignoreme</link>
@@ -150,7 +150,7 @@
 		<thumbnail>https://github.com/djliptv/ElRinconDelTerror/blob/master/Pics/icon.png?raw=true</thumbnail>
 		<fanart>https://github.com/djliptv/ElRinconDelTerror/blob/master/Pics/Fanart.jpg?raw=true</fanart>
 	</item>
-
+<!---
 	<item>
 		<title>[B][COLOR white]+[/COLOR] [COLOR skyblue]MUNDO DRAGON BALL - BY POLO Y DANI[/COLOR][/B]</title>
 		<link>http://ignorame</link>
@@ -158,7 +158,7 @@
 		<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/DragonBallMundoFanart.jpg?raw=true</fanart>
 		<externallink>https://raw.githubusercontent.com/djliptv/DragonBallAddon/master/Base.xml</externallink><!--- https://raw.githubusercontent.com/djliptv/ElRinconDelLolo/master/Menu/Anime_Comics/MundoDragonBall.xml ---
 	</item>
-	
+--->	
 	<item>
 		<title>[B][COLOR white]+[/COLOR] [COLOR lime]XMAS[/COLOR][/B]</title>
 		<link>http://Ignoreme</link>
@@ -174,7 +174,7 @@
 		<thumbnail>https://github.com/djliptv/MundoCine/blob/master/Pics/icon.png?raw=true</thumbnail>
 		<fanart>https://github.com/djliptv/MundoCine/blob/master/Pics/fanart.jpg?raw=true</fanart>
 	</item>
-
+<!---
 	<item>
 		<title>[COLOR white]INGRESAR A[/COLOR] [B][COLOR pink]ROBIN HOOD[/COLOR][/B]</title>
 		<link>http://ignorame</link>
@@ -182,7 +182,7 @@
 		<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/fanart.jpg?raw=true</fanart>
 		<externallink>http://bit.ly/2jZsWs9</externallink> <!--- http://bit.ly/RHERDLJHG ---
 	</item>
-	
+--->	
 	
 	
 	<item>
@@ -192,7 +192,7 @@
 		<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/TheBest9kMoviesThumbnail.jpg?raw=true</thumbnail>
 		<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/TheBest9kMoviesFanart.jpg?raw=true</fanart>
 	</item>
-	
+<!---	
 	<item>
 		<title>[B][COLOR pink]ZEUS[/COLOR] [COLOR white]LA CLAVE?, SE LA QUITAMOS DISFRUTALO[/COLOR][/B]</title>
 		<link>http://ignorame</link>
@@ -240,7 +240,7 @@
 		<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/fanart.jpg?raw=true</fanart>
 		<externallink>http://bit.ly/2AXMis3</externallink>
 	</item>
-	
+--->	
 	<item>
 		<title>[B][COLOR red]____________________[/COLOR][COLOR yellow]____________[/COLOR][COLOR red]____________________[/COLOR][/B]</title>
 		<link>http://ignorame</link>
