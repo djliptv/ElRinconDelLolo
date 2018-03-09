@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet href="hide-it.xsl" type="text/xsl"?>
+
+<item>
+	<title>[COLOR white][B]+[/B][/COLOR] [COLOR dodgerblue]ZONA[/COLOR] [COLOR skyblue]DOCUMENTALES[/COLOR] [COLOR grey]PACK 1[/COLOR]</title>
+	<link>$doregex[makelist]</link>
+	<regex>
+		<name>makelist</name>
+		<listrepeat><![CDATA[
+		<title>[makelist.param3]</title>
+		<link>$doregex[getUrl]</link>
+		<thumbnail>https://lh6.googleusercontent.com/-cvxqHlQoHHg/AAAAAAAAAAI/AAAAAAAAADE/LkJid3G-wrA/photo.jpg</thumbnail>
+		<fanart>https://lh6.googleusercontent.com/-cvxqHlQoHHg/AAAAAAAAAAI/AAAAAAAAADE/LkJid3G-wrA/photo.jpg</fanart>
+		]]></listrepeat>
+		<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+		<page>http://diskokosmiko.mx/VinXeluS/documentales-74016/list,1,100</page>
+		<cookieJar></cookieJar>
+	</regex>
+	<regex>
+		<name>getUrl</name>
+		<expres>DownloadUrl":"([^"]+)<expres>
+		<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+		<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+		<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+		<connection>keep-alive</connection>
+		<accept>*/*</accept>
+		<X-Req>XMLHttpRequest</X-Req>
+		<cookieJar></cookieJar>
+	</regex>
+	<regex>
+		<name>tok</name>
+		<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+		<page>http://diskokosmiko.mx/[makelist.param2]</page>
+		<referer>http://diskokosmiko.mx/VinXeluS/documentales-74016/list,1,100</referer>
+		<connection>keep-alive</connection>
+		<cookieJar></cookieJar>
+	</regex>
+	<thumbnail>https://lh6.googleusercontent.com/-cvxqHlQoHHg/AAAAAAAAAAI/AAAAAAAAADE/LkJid3G-wrA/photo.jpg</thumbnail>
+	<fanart>https://lh6.googleusercontent.com/-cvxqHlQoHHg/AAAAAAAAAAI/AAAAAAAAADE/LkJid3G-wrA/photo.jpg</fanart>
+</item>
+
+<item>
+	<title>[COLOR white][B]+[/B][/COLOR] [COLOR dodgerblue]ZONA[/COLOR] [COLOR skyblue]DOCUMENTALES[/COLOR] [COLOR grey]PACK 2[/COLOR]</title>
+	<link>http://ignorame</link>
+	<thumbnail></thumbnail>
+	<fanart></fanart>
+	<externallink>https://pastebin.com/raw/bTcfU43X</externallink>
+</item>
+
+<item>
+<title>[COLOR white][B]+[/B][/COLOR] [COLOR dodgerblue]ZONA[/COLOR] [COLOR skyblue]DOCUMENTALES[/COLOR] [COLOR grey]PACK 3[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/DocumentalesTumbnail.jpg?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/DocumentalesFanart.jpg?raw=true</fanart>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <fanart></fanart>
+						<thumbnail></thumbnail>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/playlist?list=PLx0vnGSnI7BCquY0k_g0pn5PoRy_bxItG</page>
+             <cookieJar></cookieJar>
+</regex>
+</item>
+
+<item>
+<title>[COLOR white][B]+[/B][/COLOR] [COLOR dodgerblue]ZONA[/COLOR] [COLOR skyblue]DOCUMENTALES[/COLOR] [COLOR grey]PACK 4[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/DocumentalesTumbnail.jpg?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/DocumentalesFanart.jpg?raw=true</fanart>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <fanart></fanart>
+						<thumbnail></thumbnail>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/playlist?list=PL_WVY3qbZnSYHFZF7y82zIDdWAJovfqNC</page>
+             <cookieJar></cookieJar>
+</regex>
+</item>
+
+<item>
+<title>[COLOR white][B]+[/B][/COLOR] [COLOR dodgerblue]ZONA[/COLOR] [COLOR skyblue]DOCUMENTALES[/COLOR] [COLOR grey]PACK 5[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/DocumentalesTumbnail.jpg?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/DocumentalesFanart.jpg?raw=true</fanart>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <fanart></fanart>
+						<thumbnail></thumbnail>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/playlist?list=PLBC5gopONiv-eHbl11e_yadgKFh1xcVzm</page>
+             <cookieJar></cookieJar>
+</regex>
+</item>
+
+<item>
+<title>[COLOR white][B]+[/B][/COLOR] [COLOR dodgerblue]ZONA[/COLOR] [COLOR skyblue]DOCUMENTALES[/COLOR] [COLOR grey]PACK 6[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/DocumentalesTumbnail.jpg?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/DocumentalesFanart.jpg?raw=true</fanart>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <fanart></fanart>
+						<thumbnail></thumbnail>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/playlist?list=PL1882F7741017B9AD</page>
+             <cookieJar></cookieJar>
+</regex>
+</item>
+
+<item>
+<title>[COLOR white][B]+[/B][/COLOR] [COLOR dodgerblue]ZONA[/COLOR] [COLOR skyblue]DOCUMENTALES[/COLOR] [COLOR grey]PACK 7[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/DocumentalesTumbnail.jpg?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/DocumentalesFanart.jpg?raw=true</fanart>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <fanart></fanart>
+						<thumbnail></thumbnail>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/playlist?list=PLnAYV-HOdPJSeTcSmQjEgB2rJrFcpbmJs</page>
+             <cookieJar></cookieJar>
+</regex>
+</item>
+
+<item>
+	<title>[COLOR white][B]+[/B][/COLOR] [COLOR dodgerblue]ZONA[/COLOR] [COLOR skyblue]DOCUMENTALES[/COLOR] [COLOR grey]PACK 8[/COLOR]</title>
+	<link>http://ignorame</link>
+	<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/DocumentalesTumbnail.jpg?raw=true</thumbnail>
+	<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/DocumentalesFanart.jpg?raw=true</fanart>
+	<externallink>https://raw.githubusercontent.com/djliptv/ElRinconDelLolo/master/Menu/Documentales/DocumentalesAdryan.xml</externallink>
+</item>

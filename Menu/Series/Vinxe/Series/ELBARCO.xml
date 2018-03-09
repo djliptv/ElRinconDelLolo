@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+
+
+
+<item>
+<title>[COLOR  yellow]*EL BARCO T1  [/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://es.web.img1.acsta.net/medias/nmedia/18/82/43/74/20314258.jpg</thumbnail>
+		<fanart>http://fotografias.antena3.com/clipping/cmsimages02/2012/10/15/56FE6F1B-70E0-43DC-BF88-C125C6122574/57.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/gemma-valencia/el-barco-t1-castellano-52415</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/gemma-valencia/el-barco-t1-castellano-52415</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+</item>
+<thumbnail>http://es.web.img1.acsta.net/medias/nmedia/18/82/43/74/20314258.jpg</thumbnail>
+		<fanart>http://fotografias.antena3.com/clipping/cmsimages02/2012/10/15/56FE6F1B-70E0-43DC-BF88-C125C6122574/57.jpg</fanart>
+
+
+
+
+<item>
+<title>[COLOR  yellow]*EL BARCO T2  [/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://es.web.img1.acsta.net/medias/nmedia/18/82/43/74/20314258.jpg</thumbnail>
+		<fanart>http://fotografias.antena3.com/clipping/cmsimages02/2012/10/15/56FE6F1B-70E0-43DC-BF88-C125C6122574/57.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/gemma-valencia/el-barco-t2-castellano-52559</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/gemma-valencia/el-barco-t2-castellano-52559</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+</item>
+<thumbnail>http://es.web.img1.acsta.net/medias/nmedia/18/82/43/74/20314258.jpg</thumbnail>
+		<fanart>http://fotografias.antena3.com/clipping/cmsimages02/2012/10/15/56FE6F1B-70E0-43DC-BF88-C125C6122574/57.jpg</fanart>
+
+
+
+<item>
+<title>[COLOR  yellow]*EL BARCO T3 [/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://es.web.img1.acsta.net/medias/nmedia/18/82/43/74/20314258.jpg</thumbnail>
+		<fanart>http://fotografias.antena3.com/clipping/cmsimages02/2012/10/15/56FE6F1B-70E0-43DC-BF88-C125C6122574/57.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/gemma-valencia/el-barco-t3-castellano-52609</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/gemma-valencia/el-barco-t3-castellano-52609</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+</item>
+<thumbnail>http://es.web.img1.acsta.net/medias/nmedia/18/82/43/74/20314258.jpg</thumbnail>
+		<fanart>http://fotografias.antena3.com/clipping/cmsimages02/2012/10/15/56FE6F1B-70E0-43DC-BF88-C125C6122574/57.jpg</fanart>
+
+
+		

@@ -1,0 +1,136 @@
+<item>
+<title> [COLOR lime]•[/COLOR]    [COLOR blue][B]Temporada 1[/B] [/COLOR]  </title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://pics.filmaffinity.com/the_last_man_on_earth_tv_series-441704525-large.jpg</thumbnail>
+        <fanart>http://sire-media-foxes.fichub.com/generic/photogallery-photo/0/2248.custom.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/pecoso84/0072-39610</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/pecoso84/0072-39610</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://pics.filmaffinity.com/the_last_man_on_earth_tv_series-441704525-large.jpg</thumbnail>
+<fanart>http://sire-media-foxes.fichub.com/generic/photogallery-photo/0/2248.custom.jpg</fanart>
+<info>Phil Miller era un tío normal que amaba a su familia y odiaba su trabajo en el banco. Ahora, en el año 2022, es la última esperanza de la humanidad. ¿Llegará a encontrar otra persona viva en el planeta? Y esperar que esta persona sea una mujer, ¿será demasiado pedir?  </info>
+</item>
+</items>
+</channel>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+<item>
+<title> [COLOR lime]•[/COLOR]    [COLOR blue][B]Temporada 2[/B] [/COLOR]  </title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://pics.filmaffinity.com/the_last_man_on_earth_tv_series-441704525-large.jpg</thumbnail>
+        <fanart>http://sire-media-foxes.fichub.com/generic/photogallery-photo/0/2248.custom.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/pecoso84/0073-39611</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/pecoso84/0073-39611</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://pics.filmaffinity.com/the_last_man_on_earth_tv_series-441704525-large.jpg</thumbnail>
+<fanart>http://sire-media-foxes.fichub.com/generic/photogallery-photo/0/2248.custom.jpg</fanart>
+<info>Phil Miller era un tío normal que amaba a su familia y odiaba su trabajo en el banco. Ahora, en el año 2022, es la última esperanza de la humanidad. ¿Llegará a encontrar otra persona viva en el planeta? Y esperar que esta persona sea una mujer, ¿será demasiado pedir? </info>
+</item>
+</items>
+</channel>
+
+
+
+
+
+<item>
+<title> [COLOR lime]•[/COLOR]    [COLOR blue][B]Temporada 3[/B] [/COLOR]  </title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://pics.filmaffinity.com/the_last_man_on_earth_tv_series-441704525-large.jpg</thumbnail>
+        <fanart>http://sire-media-foxes.fichub.com/generic/photogallery-photo/0/2248.custom.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/SeriesHD/el-ultimo-hombre-en-la-tierra-dual-t3-61718</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/SeriesHD/el-ultimo-hombre-en-la-tierra-dual-t3-61718</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://pics.filmaffinity.com/the_last_man_on_earth_tv_series-441704525-large.jpg</thumbnail>
+<fanart>http://sire-media-foxes.fichub.com/generic/photogallery-photo/0/2248.custom.jpg</fanart>
+<info>Phil Miller era un tío normal que amaba a su familia y odiaba su trabajo en el banco. Ahora, en el año 2022, es la última esperanza de la humanidad. ¿Llegará a encontrar otra persona viva en el planeta? Y esperar que esta persona sea una mujer, ¿será demasiado pedir?  </info>
+</item>
+</items>
+</channel>

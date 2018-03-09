@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet href="hide-it.xsl" type="text/xsl"?>
+
+
+	<item>
+		<title>[COLOR white][B]+[/B][/COLOR] [COLOR dodgerblue]CINE[/COLOR] [COLOR skyblue]TERROR[/COLOR]</title>
+		<link>$doregex[makelist]</link>
+		<regex>
+			<name>makelist</name>
+			<listrepeat><![CDATA[
+			<title>[makelist.param3]</title>
+			<link>$doregex[getUrl]</link>
+			<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/LouThumbnail.png?raw=true</thumbnail>
+			<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/LouFanart.png?raw=true</fanart>
+			]]></listrepeat>
+			<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+			<page>http://diskokosmiko.mx/Jeviathan/cine-terror-23445/list,1,100</page>
+			<cookieJar></cookieJar>
+		</regex>
+		<regex>
+			<name>getUrl</name>
+			<expres>DownloadUrl":"([^"]+)<expres>
+			<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+			<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+			<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+			<connection>keep-alive</connection>
+			<accept>*/*</accept>
+			<X-Req>XMLHttpRequest</X-Req>
+			<cookieJar></cookieJar>
+		</regex>
+		<regex>
+			<name>tok</name>
+			<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+			<page>http://diskokosmiko.mx/[makelist.param2]</page>
+			<referer>http://diskokosmiko.mx/Jeviathan/cine-terror-23445/list,1,100</referer>
+			<connection>keep-alive</connection>
+			<cookieJar></cookieJar>
+		</regex>
+		<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/LouThumbnail.png?raw=true</thumbnail>
+		<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/LouFanart.png?raw=true</fanart>
+	</item>

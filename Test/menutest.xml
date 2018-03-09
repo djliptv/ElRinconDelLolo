@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet href="hide-it.xsl" type="text/xsl"?>
+
+<channels>
+    	<channels_info>
+		<title>[COLOR red][B]EL RINCON DEL LOLO[/B][/COLOR] [COLOR white]ADDON[/COLOR]</title>
+		<genre>IPTV</genre>
+		<description>Kodi Addon IPTV</description>
+		<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/icon.png?raw=true</thumbnail>
+		<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/fanart.jpg?raw=true</fanart>
+		<date>07.05.2017</date>
+		<credits>In memorial for Manuel</credits>
+    </channels_info>
+
+	<channel>
+		<name>[COLOR dodgerblue]B I E N V E N I D O   A  -  [/COLOR][B][COLOR red]E L   R I N C O N  [COLOR yellow] D E L [/COLOR]  L O L O[/COLOR][/B]</name>
+		<link>http://ignorame</link>
+		<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/icon.png?raw=true</thumbnail>
+		<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/fanart.jpg?raw=true</fanart>
+		<externallink>https://pastebin.com/</externallink>
+	</channel>
+
+	<channel>
+		<name>[COLOR red]____________________[/COLOR] [COLOR yellow][B]ACTUALIZACION: AGOSTO 2017[/B][/COLOR] [COLOR red]____________________[/COLOR]</name>
+		<link>http://ignorame</link>
+		<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/Thumbnail.jpg?raw=true</thumbnail>
+		<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/fanart.jpg?raw=true</fanart>
+		<externallink>https://pastebin.com/raw/vXvhadKq</externallink>
+	</channel>
+
+	<channel>
+		<name>[COLOR white][B]+[/B][/COLOR] [COLOR dodgerblue]ZONA[/COLOR] [COLOR skyblue]LOLO SPORTS[/COLOR]</name>
+		<link>http://ignorame</link>
+		<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/SportsThumbnail.png?raw=true</thumbnail>
+		<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/SportsFanart.jpg?raw=true</fanart>
+		<externallink>https://raw.githubusercontent.com/djliptv/ElRinconDelLolo/master/Menu/Deportes/DeportesMenu.xml</externallink>
+	</channel>
+	
+	<channel>
+		<name>[COLOR white][B]+[/B][/COLOR] [COLOR dodgerblue]ZONA[/COLOR] [COLOR skyblue]DOCUMENTALES[/COLOR]</name>
+		<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/DocumentalesTumbnail.jpg?raw=true</thumbnail>
+		<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/DocumentalesFanart.jpg?raw=true</fanart>
+		<items>                
+			<item>
+				<title>[COLOR white][B]+[/B][/COLOR] [COLOR skyblue]DOCUMENTALES[/COLOR]</title>
+				<link>$doregex[makelist]</link>
+				<regex>
+					<name>makelist</name>
+					<listrepeat><![CDATA[
+					<title>[makelist.param3]</title>
+					<link>$doregex[getUrl]</link>
+					<thumbnail>https://lh6.googleusercontent.com/-cvxqHlQoHHg/AAAAAAAAAAI/AAAAAAAAADE/LkJid3G-wrA/photo.jpg</thumbnail>
+					<fanart>https://lh6.googleusercontent.com/-cvxqHlQoHHg/AAAAAAAAAAI/AAAAAAAAADE/LkJid3G-wrA/photo.jpg</fanart>
+					]]></listrepeat>
+					<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+					<page>http://diskokosmiko.mx/VinXeluS/documentales-74016/list,1,100</page>
+					<cookieJar></cookieJar>
+				</regex>
+				<regex>
+					<name>getUrl</name>
+					<expres>DownloadUrl":"([^"]+)<expres>
+					<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+					<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+					<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+					<connection>keep-alive</connection>
+					<accept>*/*</accept>
+					<X-Req>XMLHttpRequest</X-Req>
+					<cookieJar></cookieJar>
+				</regex>
+				<regex>
+					<name>tok</name>
+					<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+					<page>http://diskokosmiko.mx/[makelist.param2]</page>
+					<referer>http://diskokosmiko.mx/VinXeluS/documentales-74016/list,1,100</referer>
+					<connection>keep-alive</connection>
+					<cookieJar></cookieJar>
+				</regex>
+				<thumbnail>https://lh6.googleusercontent.com/-cvxqHlQoHHg/AAAAAAAAAAI/AAAAAAAAADE/LkJid3G-wrA/photo.jpg</thumbnail>
+				<fanart>https://lh6.googleusercontent.com/-cvxqHlQoHHg/AAAAAAAAAAI/AAAAAAAAADE/LkJid3G-wrA/photo.jpg</fanart>
+			</item>
+		</items>
+	</channel>
+	
+	<channel>
+		<name>[COLOR white][B]+[/B][/COLOR] [COLOR dodgerblue]ZONA[/COLOR] [COLOR skyblue]GAME OF THRONES[/COLOR]</name>
+		<link>http://ignorame</link>
+		<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/GOTThumbnail.png?raw=true</thumbnail>
+		<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/GOTFanart.jpg?raw=true</fanart>
+		<externallink>https://raw.githubusercontent.com/djliptv/ElRinconDelLolo/master/Menu/Series/GOT.xml</externallink>
+	</channel>
+	
+	<channel>
+		<name>[COLOR white][B]+[/B][/COLOR] [COLOR dodgerblue]ZONA[/COLOR] [COLOR skyblue]INFANTIL[/COLOR]</name>
+		<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/KidsThumbnail.png?raw=true</thumbnail>
+		<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/KidsFanart.jpg?raw=true</fanart>
+		<items>
+			<item>
+				<title>[COLOR white][B]+[/B][/COLOR] [COLOR dodgerblue]ZONA[/COLOR] [COLOR skyblue]ANIME[/COLOR]</title>
+				<link>http://ignorame</link>
+				<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/AnimeThumbnail.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/AnimeFanart.jpg?raw=true</fanart>
+				<externallink>https://raw.githubusercontent.com/djliptv/ElRinconDelLolo/master/Menu/Anime_Comics/MenuAnime.xml</externallink>
+			</item>
+	
+			<item>
+				<title>[COLOR white][B]+[/B][/COLOR] [COLOR dodgerblue]ZONA[/COLOR][COLOR skyblue] DIBUJOS ANIMADOS[/COLOR]</title>
+				<link>http://ignorame</link>
+				<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/CINE%20ANIMADO.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/CINE%20ANIMADO.jpg?raw=true</fanart>
+				<externallink>https://raw.githubusercontent.com/djliptv/ElRinconDelLolo/master/Menu/DibujosAnimados/dibujos_animados.m3u</externallink>
+			</item>
+		</items>
+	</channel>
+	
+	<channel>
+		<name>[COLOR white][B]+[/B][/COLOR] [COLOR dodgerblue]ZONA[/COLOR] [COLOR skyblue]MUSICA[/COLOR]</name>
+		<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/MusicaThumbnail.png?raw=true</thumbnail>
+		<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/MusicaFanart.jpg?raw=true</fanart>
+		<items>
+			<item>
+				<title>[COLOR white][B]+[/B][/COLOR] [COLOR dodgerblue]ZONA[/COLOR] [COLOR skyblue]DJ[/COLOR]</title>
+				<link>http://ignorame</link> <!--- PqHU8XcHAS8 --->
+				<thumbnail>https://2.bp.blogspot.com/-gUmVpywWT9g/WHfXbZhDfNI/AAAAAAAAAmo/AxXi3O2wOQ4kiUKBud6J5kPOB2hicv4sgCLcB/w300-h190-c/pack%2Bmusic.jpg</thumbnail>
+				<fanart>https://2.bp.blogspot.com/-gUmVpywWT9g/WHfXbZhDfNI/AAAAAAAAAmo/AxXi3O2wOQ4kiUKBud6J5kPOB2hicv4sgCLcB/w300-h190-c/pack%2Bmusic.jpg</fanart>
+				<externallink>https://raw.githubusercontent.com/djliptv/ElRinconDelLolo/master/Menu/DJ/DJMENU.xml</externallink>
+			</item>
+			
+			<item>
+				<title>[COLOR white][B]+[/B][/COLOR] [COLOR dodgerblue]ZONA[/COLOR] [COLOR skyblue]RADIO[/COLOR] [COLOR red][B]LOLITO[/B][/COLOR]</title>
+				<link>http://ignorame</link>
+				<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/RadiosThumbnail.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/RadiosFanart.jpg?raw=true</fanart>
+				<externallink>https://pastebin.com/raw/PGM9z6LC</externallink><!--- https://www.dropbox.com/s/3vpx52yz8gq9a63/LoloFlixRincon_lolo.m3u?dl=1 --->
+			</item>
+		</items>
+	</channel>
+	
+	<channel>
+		<name>[COLOR white][B]+[/B][/COLOR] [COLOR dodgerblue]ZONA[/COLOR] [COLOR skyblue]CINE[/COLOR]</name>
+		<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/CineThumbnail.png?raw=true</thumbnail>
+		<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/CineFanart.jpg?raw=true</fanart>
+		<items>
+			
+			<item>
+				<title>[COLOR white][B]+[/B][/COLOR] [COLOR dodgerblue]ZONA[/COLOR][COLOR skyblue] ESTRENOS[/COLOR]</title>
+				<link>http://ignorame</link>
+				<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/Estrenos%20de%20cine.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/Estrenos%20de%20cine.png?raw=true</fanart>
+				<externallink>https://raw.githubusercontent.com/djliptv/ElRinconDelLolo/master/Menu/Estrenos/estrenos.m3u</externallink>
+			</item>
+			
+			<item>
+				<title>[COLOR white][B]+[/B][/COLOR] [COLOR dodgerblue]ZONA[/COLOR] [COLOR skyblue]CINE CLASICO[/COLOR]</title>
+				<link>http://ignorame</link>
+				<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/CineClasicoThmbnail.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/CineClasicoFanart.jpg?raw=true</fanart>
+				<externallink>https://raw.githubusercontent.com/djliptv/ElRinconDelLolo/master/Menu/CineClasico/cine_clasico.xml</externallink>
+			</item>
+			
+			<item>
+				<title>[COLOR white][B]+[/B][/COLOR] [COLOR dodgerblue]ZONA[/COLOR] [COLOR skyblue]CINE OPENLOLO[/COLOR] [COLOR gold]N U E V O - EN CONSTRUCCION!!![/COLOR]</title>
+				<link>http://ignorame</link>
+				<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/CineOpenLoloThumbnail.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/CineOpenLoloFanart.png?raw=true</fanart>
+				<externallink>https://pastebin.com/raw/9NxnTkBL</externallink>
+			</item>
+			
+			<item>
+				<title>[COLOR white][B]+[/B][/COLOR] [COLOR dodgerblue]ZONA[/COLOR] [COLOR skyblue]LOLOFLIX[/COLOR] [COLOR blue][B]SD[/B][/COLOR] [COLOR lime][B]HD[/B][/COLOR]</title>
+				<link>http://ignorame</link>
+				<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/Thumbnail.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/Thumbnail.jpg?raw=true</fanart>
+				<externallink>https://pastebin.com/raw/rUCLiiEG</externallink><!--- https://www.dropbox.com/s/3vpx52yz8gq9a63/LoloFlixRincon_lolo.m3u?dl=1 --->
+			</item>
+			
+			<item>
+				<title>[COLOR white][B]+[/B][/COLOR] [COLOR dodgerblue]ZONA[/COLOR] [COLOR skyblue]LOLOFLIX[/COLOR] [COLOR yellow][B]3D[/B][/COLOR]</title>
+				<link>http://ignorame</link>
+				<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/LoloFlix3dThumbnail.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/LoloFlix3dFanart.jpg?raw=true</fanart>
+				<externallink>https://pastebin.com/raw/wyezzQpZ</externallink><!--- https://www.dropbox.com/s/3vpx52yz8gq9a63/LoloFlixRincon_lolo.m3u?dl=1 --->
+			</item>
+			
+			<item>
+				<title>[COLOR white][B]+[/B][/COLOR] [COLOR dodgerblue]ZONA[/COLOR] [COLOR skyblue]SAGAS[/COLOR]</title>
+				<link>http://ignorame</link>
+				<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/SagaSemanaLogos.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/SagaSemanaLogos.jpg?raw=true</fanart>
+				<externallink>https://www.dropbox.com/s/nj03kvh2znhfki6/Sagas%20lolo.xml?dl=1</externallink>
+			</item>
+			
+			<item>
+				<title>[COLOR white][B]+[/B][/COLOR] [COLOR dodgerblue]SAGA[/COLOR] [COLOR skyblue]DE LA SEMANA[/COLOR]</title>
+				<link>http://ignorame</link>
+				<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/SagaSemanaLogos.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/SagaSemanaLogos.jpg?raw=true</fanart>
+				<externallink>https://raw.githubusercontent.com/djliptv/ElRinconDelLolo/master/Menu/SagasLolo.xml</externallink><!--- https://www.dropbox.com/s/nj03kvh2znhfki6/Sagas%20lolo.xml?dl=1 --->
+			</item>
+			
+			<item>
+				<title>[COLOR white][B]+[/B][/COLOR] [COLOR dodgerblue]ZONA[/COLOR] [COLOR skyblue]LOU[/COLOR] [COLOR pink]La Administradora !!![/COLOR]</title>
+				<link>http://ignorame</link>
+				<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/LouThumbnail.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/LouFanart.png?raw=true</fanart>
+				<externallink>https://raw.githubusercontent.com/djliptv/ElRinconDelLolo/master/Menu/CineTerror/ZonaLou.xml</externallink><!--- https://www.dropbox.com/s/nj03kvh2znhfki6/Sagas%20lolo.xml?dl=1 --->
+			</item>
+		</items>
+	</channel>
+	
+	<channel>
+		<name>[COLOR white][B]+[/B][/COLOR] [COLOR dodgerblue]ZONA[/COLOR] [COLOR skyblue]SERIES[/COLOR]</name>
+		<link>http://ignorame</link>
+		<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/SeriesThumbnail.png?raw=true</thumbnail>
+		<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/SeriesFanart.jpg?raw=true</fanart>
+		<externallink>https://raw.githubusercontent.com/djliptv/ElRinconDelLolo/master/Menu/Series/SeriesMenu.xml</externallink><!--- https://www.dropbox.com/s/h64k9c4mmr9bgz1/series.xml?dl=1 --->
+	</channel>
+	
+	<channel>
+		<name>[COLOR white][B]+[/B][/COLOR] [COLOR dodgerblue]ZONA[/COLOR] [COLOR skyblue]TELEVISION[/COLOR]</name>
+		<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/TVThumbnail.jpg?raw=true</thumbnail>
+		<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/TVFanart.jpg?raw=true</fanart>
+		<items>
+		<item>
+		<title>[COLOR white]SOLO POR HOY[/COLOR] [COLOR deepskyblue]MOVISTAR[/COLOR] [COLOR blue]PLUS[/COLOR]</title>
+		<link>http://cdn.opencable.es/hls/live/nationalgeographic/index.m3u8$$lsname=Nat Geographic</link>
+		<link>http://cdn.opencable.es/hls/live/natgeowild/index.m3u8$$lsname=Nat Geo Wild</link>
+		<link>http://cdn.opencable.es/hls/live/viajar/index.m3u8$$lsname=Viajar</link>
+		<link>http://cdn.opencable.es/hls/live/ae/index.m3u8$$lsname=A&E</link>
+		<link>http://cdn.opencable.es/hls/live/discoverymax/index.m3u8$$lsname=DMAX</link>
+		<link>http://cdn.opencable.es/hls/live/disneyxd/index.m3u8$$lsname=Disney XD</link>
+		<link>http://cdn.opencable.es/hls/live/disneyjr/index.m3u8$$lsname=Disney JR</link>
+		<link>http://cdn.opencable.es/hls/live/nickelodeon/index.m3u8$$lsname=Nickelodeon</link>
+		<link>http://cdn.opencable.es/hls/live/nickjr/index.m3u8$$lsname=Nick JR</link>
+		<link>http://cdn.opencable.es/hls/live/tcm/index.m3u8$$lsname=TCM</link>
+		<link>http://cdn.opencable.es/hls/live/dark/index.m3u8$$lsname=Dark</link>
+		<link>http://cdn.opencable.es/hls/live/somos/index.m3u8$$lsname=Somos</link>
+		<link>http://cdn.opencable.es/hls/live/mtvlivehd/index.m3u8$$lsname=MTV Live HD</link>
+		<link>http://cdn.opencable.es/hls/live/mtvhits/index.m3u8$$lsname=MTV Hits</link>
+		<link>http://cdn.opencable.es/hls/live/hittv/index.m3u8$$lsname=Hit TV</link>
+		<link>http://cdn.opencable.es/hls/live/solmusica/index.m3u8$$lsname=Sol Musica</link>
+		<link>http://cdn.opencable.es/hls/live/vh1/index.m3u8$$lsname=VH1</link>
+		
+		<link>http://hlsackdn_gl7-lh.akamaihd.net/i/hlslive_1@439316/index_1500_av-b.m3u8?sd=10&rebase=on$$lsname=LA 1 HD</link>
+		<link>http://rtve-live.hds.adaptive.level3.net/hls-live/rtvegl0-la2lv3aomgl0/_definst_/live/stream2.m3u8$$lsname=LA2 SD</link>
+		<link>http://a3live-lh.akamaihd.net/i/antena3_1@35248/master.m3u8$$lsname=Antena 3 [HD]</link>
+		<link>http://a3live-lh.akamaihd.net/i/antena3_1@35248/index_4_av-b.m3u8$$lsname=Antena 3 HD</link>
+		<link>http://hlslive.lcdn.une.net.co/v1/AUTH_HLSLIVE/ANT3/tu1_1.m3u8$$lsname=Antena 3 Internacional</link>
+		<link>http://a3live-lh.akamaihd.net/i/a3shds/geoa3series_1@122775/master.m3u8$$lsname=Antena 3 Series [HD]</link>
+		<link>plugin://plugin.video.f4mTester/?url=http://sansat.net:25461/live/82002324912369/82002324912369/5769.ts&amp;streamtype=TSDOWNLOADER&amp;name=Cuatro$$lsname=CUATRO HD</link>
+		<link>plugin://plugin.video.f4mTester/?url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/10008.ts&amp;streamtype=TSDOWNLOADER&amp;name=TELECINCO HD$$lsname=TELECINCO  [HD]</link>
+		<link>http://a3live-lh.akamaihd.net/i/lasexta_1@35272/master.m3u8$$lsname=La Sexta [HD]</link>
+		<link>plugin://plugin.video.f4mTester/?url=http://145.239.108.17:6500/live/neamtalin/neamtalin/7713.ts&amp;streamtype=TSDOWNLOADER&amp;name=Mega Tv HD$$lsname=Mega España [HD]</link>
+		<link>http://a3live-lh.akamaihd.net/i/nxhds/geoneox_1@35261/master.m3u8$$lsname=Neox [HD]</link>
+		<link>http://streaming.enetres.net/091DB7AFBD77442B9BA2F141DCC182F5021/mobile/.m3u8$$lsname=Canal 13 TV</link>
+		<link>http://20423.live.streamtheworld.com/LOS40_SC$$lsname=Sevilla FC</link>
+		<link>http://a3live-lh.akamaihd.net/i/nvhds/geonova_1@379404/master.m3u8$$lsname=Nova [HD]</link>
+		<link>http://20423.live.streamtheworld.com/LOS40_SC$$lsname=los 40 principales</link>
+		<link>plugin://plugin.video.f4mTester/?url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/7612.ts&amp;streamtype=TSDOWNLOADER&amp;name=TAQUILLA 1$$lsname=Taquilla 1</link>
+		<link>plugin://plugin.video.f4mTester/?url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/7610.ts&amp;streamtype=TSDOWNLOADER&amp;name=TAQUILLA 2$$lsname=Taquilla 2</link>
+		<link>plugin://plugin.video.f4mTester/?url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/7609.ts&amp;streamtype=TSDOWNLOADER&amp;name=TAQUILLA 3$$lsname=Taquilla 3</link>
+		<link>plugin://plugin.video.f4mTester/?url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/7608.ts&amp;streamtype=TSDOWNLOADER&amp;name=TAQUILLA 4$$lsname=Taquilla 4</link>
+		<link>plugin://plugin.video.f4mTester/?url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/7607.ts&amp;streamtype=TSDOWNLOADER&amp;name=TAQUILLA 5$$lsname=Taquilla 5</link>
+		<link>plugin://plugin.video.f4mTester/?url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/7606.ts&amp;streamtype=TSDOWNLOADER&amp;name=TAQUILLA 6$$lsname=Taquilla 6</link>
+		<link>plugin://plugin.video.f4mTester/?url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/7605.ts&amp;streamtype=TSDOWNLOADER&amp;name=TAQUILLA 7$$lsname=Taquilla 7</link>
+		<link>plugin://plugin.video.f4mTester/?url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/7604.ts&amp;streamtype=TSDOWNLOADER&amp;name=TAQUILLA 8$$lsname=Taquilla 8</link>
+		<link>plugin://plugin.video.f4mTester/?url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/7603.ts&amp;streamtype=TSDOWNLOADER&amp;name=TAQUILLA 9$$lsname=Taquilla 9</link>
+		<link>plugin://plugin.video.f4mTester/?url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/7611.ts&amp;streamtype=TSDOWNLOADER&amp;name=TAQUILLA 10$$lsname=Taquilla 10</link>
+		<link>plugin://plugin.video.f4mTester/?url=http://145.239.108.17:6500/live/neamtalin/neamtalin/12532.ts&amp;streamtype=TSDOWNLOADER&amp;name=#0 HD$$lsname=#0 HD</link>
+		<link>plugin://plugin.video.f4mTester/?url=http://145.239.108.17:6500/live/neamtalin/neamtalin/13003.ts&amp;streamtype=TSDOWNLOADER&amp;name=24 Horas$$lsname=C 24 Horas</link>
+		<link>http://edge4.telesport.pw/live/amc/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36$$lsname=AMC</link>
+		<link>http://edge5.telesport.pw/live/cazaypesca/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36$$lsname=CAZA Y PESCA</link>
+		<link>http://edge2.telesport.pw/live/fox/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36$$lsname=FOX</link>
+		<link>http://edge3.telesport.pw/live/nationalgeo/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36$$lsname=NATIONAL GEOGRAPHICS</link>
+		<link>http://edge2.telesport.pw/live/nationalwild/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36$$lsname=NATGEO WILD</link>
+		<link>plugin://plugin.video.f4mTester/?url=http://portalipt.ddns.net:12000/live/ngogRwm7kH/lmuvhbmD6r/18359.ts&amp;streamtype=TSDOWNLOADER&amp;name=Viajar$$lsname=C Viajar</link>
+		<link>plugin://plugin.video.f4mTester/?url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/7690.ts&amp;streamtype=TSDOWNLOADER&amp;name=SERIES XTRA$$lsname=SERIES XTRA</link>
+		<link>plugin://plugin.video.f4mTester/?url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/15420.ts&amp;streamtype=TSDOWNLOADER&amp;name=SERIES XTRA FHD$$lsname=SERIES XTRA FHD</link>
+		<thumbnail>http://www.blaguemultimedia.com/wp-content/uploads/2015/07/movistar-plus-730x410.png</thumbnail>
+		<fanart>http://www.culturaencadena.com/images/stories/contenidosummer/movi.jpg</fanart>
+	</item>
+	
+	<item>
+		<title>[COLOR white][B]+[/B][/COLOR] [COLOR dodgerblue]MEGA WEEKEND[/COLOR] [COLOR white]EL RINCON DEL LOLO[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/MegaWknd.jpg?raw=true</thumbnail>
+		<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/MegaWknd.jpg?raw=true</fanart>
+		<externallink>https://pastebin.com/raw/cUrxthqq</externallink><!--- https://www.dropbox.com/s/nj03kvh2znhfki6/Sagas%20lolo.xml?dl=1 --->
+	</item>
+	
+	<item>
+		<title>[COLOR white][B]+[/B][/COLOR] [COLOR dodgerblue]ZONA[/COLOR] [COLOR skyblue]TV PREMIUM[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/TVThumbnail.jpg?raw=true</thumbnail>
+		<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/TVFanart.jpg?raw=true</fanart>
+		<externallink>https://raw.githubusercontent.com/djliptv/ElRinconDelLolo/master/Menu/TV/TVMenu.xml</externallink>
+	</item>
+	
+	<item>
+		<title>[COLOR white][B]+[/B][/COLOR] [COLOR dodgerblue]ZONA[/COLOR] [COLOR skyblue]TV ON DEMAND[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/TVThumbnail.jpg?raw=true</thumbnail>
+		<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/TVFanart.jpg?raw=true</fanart>
+		<externallink>https://pastebin.com/raw/i81HgSiT</externallink>
+	</item>
+	</items>
+	</channel>
+	
+	<channel>
+		<name>[COLOR white][B]+[/B][/COLOR] [COLOR dodgerblue]COLABORACIONES[/COLOR]</name>
+		<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/TVThumbnail.jpg?raw=true</thumbnail>
+		<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/TVFanart.jpg?raw=true</fanart>
+		<items>
+			<item>
+			<title>[COLOR white][B]+[/B][/COLOR] [COLOR dodgerblue]ZONA[/COLOR] [COLOR skyblue]LATINA Y MAS[/COLOR]</title>
+			<link>http://ignorame</link>
+			<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/LatinaThumbnail.png?raw=true</thumbnail>
+			<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/LatinaFanart.jpg?raw=true</fanart>
+			<externallink>https://raw.githubusercontent.com/djliptv/ElRinconDelLolo/master/Menu/LatinaYMas/MoviesYSeries.xml</externallink>
+			</item>
+	
+		<item>
+			<title>[COLOR white][B]+[/B][/COLOR] [COLOR dodgerblue]ZONA[/COLOR] [COLOR skyblue]FREEWORLDMEDIA[/COLOR]</title>
+			<link>http://ignorame</link>
+			<thumbnail>https://i.ytimg.com/vi/tvhgGXCU0Gw/maxresdefault.jpg</thumbnail>
+			<fanart>https://i.ytimg.com/vi/tvhgGXCU0Gw/maxresdefault.jpg</fanart>
+			<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Freeworld/files4addon/freeworldNA.xml</externallink>
+		</item>
+	</channel>
+	
+</channels>

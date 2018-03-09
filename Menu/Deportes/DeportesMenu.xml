@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+	<item>
+		<title>[COLOR white][B]+[/B][/COLOR] [COLOR dodgerblue]ZONA[/COLOR] [COLOR skyblue]CANALES DEPORTIVOS[/COLOR] [COLOR orange]N U E V O ! ! ![/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/SportsThumbnail.png?raw=true</thumbnail>
+		<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/SportsFanart.jpg?raw=true</fanart>
+		<externallink>https://pastebin.com/raw/rk0Gph38</externallink>
+	</item>
+
+<item>
+<title>[COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] DEPORTES A LA CARTA[/COLOR][COLOR blue][I] Addon Deportes a la carta Necesario[/I][/COLOR]</title>
+<link>http://Ignoreme</link>
+<jsonrpc>plugin://plugin.video.deportesalacarta/</jsonrpc>
+<thumbnail>http://i.imgur.com/QXtE7xr.jpg</thumbnail>
+<fanart>http://i.imgur.com/QXtE7xr.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] ARENAVISION EZY[/COLOR][COLOR blue][I] Addon ArenaVision EZY Necesario[/I][/COLOR]</title>
+<link>http://Ignoreme</link>
+<jsonrpc>plugin://plugin.video.arenavisionezy/</jsonrpc>
+<thumbnail>https://static.giga.de/wp-content/uploads/2014/10/acestream-download.png</thumbnail>
+<fanart>http://www.myfootballfacts.com/7514.JPG</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]+[/COLOR][COLOR blue][COLOR deepskyblue] CANALES ELGOLES[/COLOR] [COLOR blue] [I]Addon PLEXUS • Acestream Necesarios[/I][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<item>
+<title>[B]Canal [/B] [COLOR gold][makelist.param1][/COLOR]</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Catoal[makelist.param1]</link>
+			<regex>
+			<name>hash</name> 
+			<expres>this.loadPlayer\("(.*?)"</expres>
+			<page>http://elgoles.ru/canal-[makelist.param1]/</page>
+			<referer>http://elgoles.ru/</referer>
+			<Agent>Mozilla</Agent>
+<referer>http://www.arenavision.in</referer>
+<setcookie>beget=begetok</setcookie>
+			</regex>
+			<thumbnail></thumbnail>
+</item>	
+]]></listrepeat>
+<expres>elgoles.ru/canal-(.*?)\/"</expres>
+<page>http://elgoles.ru/</page>
+<Agent>Mozilla</Agent>
+<referer>http://www.arenavision.ru</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[COLOR gold]+[/COLOR][COLOR blue][COLOR deepskyblue] CANALES ARENAVISION.RU[/COLOR] [COLOR blue] [I]Addon PLEXUS • Acestream Necesarios[/I][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<item><title> [COLOR skyblue] [makelist.param2][/COLOR]</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Adryanlist + [makelist.param2]</link>
+			<regex>
+			<name>hash</name> 
+			<expres>this.loadPlayer\("(.*?)"</expres>
+			<page>http://www.arenavision.ru/[makelist.param1]</page>
+			<referer>http://www.arenavision.ru</referer>
+			<setcookie>beget=begetok</setcookie>
+			</regex>
+			<thumbnail>https://static.giga.de/wp-content/uploads/2014/10/acestream-download.png</thumbnail>
+</item>	
+]]></listrepeat>
+<expres><![CDATA[href="\/(a.*?)">(.*?)<]]></expres>
+<page>http://arenavision.ru/</page>
+<Agent>Mozilla</Agent>
+<referer>http://www.arenavision.ru</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+ <thumbnail>https://static.giga.de/wp-content/uploads/2014/10/acestream-download.png</thumbnail>
+</item>
+
+<item>
+<title>[COLOR gold]+[/COLOR][COLOR blue][COLOR deepskyblue] CANALES ARENAVISION.IN[/COLOR] [COLOR blue] [I]Addon PLEXUS • Acestream Necesarios[/I][/COLOR]</title>
+<link>$doregex[makelistA]</link>
+<thumbnail>https://static.giga.de/wp-content/uploads/2014/10/acestream-download.png</thumbnail>     
+
+<regex>                           
+<name>makelistA</name>
+<listrepeat><![CDATA[
+    <title>[COLOR skyblue]Arenavision [makelistA.param1][/COLOR]</title>           
+    <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=</link>
+    <thumbnail>https://static.giga.de/wp-content/uploads/2014/10/acestream-download.png</thumbnail>
+   <regex>
+   <name>hash</name> 
+   <expres>this.loadPlayer\("([^"]*)</expres>
+   <page>http://www.arenavision.in/av[makelistA.param1]</page>
+   <referer>http://www.arenavision.in</referer>
+   <setcookie>beget=begetok</setcookie>
+   </regex>
+]]></listrepeat>
+<expres> (.*?),</expres>
+<page>$doregex[get-list-page]</page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>                        
+<name>get-list-page</name>                                           
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+ liste = list(range(32))
+ return liste
+]]></expres>
+<page></page>
+</regex>
+
+</item>
+
+<item>
+	<title>[COLOR gold]+[/COLOR][COLOR blue][COLOR deepskyblue] CANALES ARENAVISION | ARENAVISION2017[/COLOR] [COLOR blue] [I]Addon PLEXUS • Acestream Necesarios[/I][/COLOR]</title>
+	<thumbnail>https://static.giga.de/wp-content/uploads/2014/10/acestream-download.png</thumbnail>
+	<fanart>http://www.myfootballfacts.com/7514.JPG</fanart>
+	<link>ignoreme.me</link>
+	<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Deportes/Arenavision_all_menu.xml</externallink>
+</item>
+
+<item>
+<title>[COLOR gold]+[/COLOR][COLOR blue][COLOR deepskyblue] CANALES ARENAVISION[/COLOR] [COLOR white][OPCION 2][/COLOR] [COLOR blue] [I]Addon PLEXUS • Acestream Necesarios[/I][/COLOR]</title>
+<thumbnail>https://static.giga.de/wp-content/uploads/2014/10/acestream-download.png</thumbnail>
+<fanart>http://www.myfootballfacts.com/7514.JPG</fanart>
+<link>ignoreme.me</link>
+<externallink>https://raw.githubusercontent.com/djliptv/ElRinconDelLolo/master/Menu/Deportes/Acestreams.xml</externallink>
+</item>

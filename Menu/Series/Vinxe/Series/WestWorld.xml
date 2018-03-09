@@ -1,0 +1,38 @@
+<item>
+<title>Temporada 1</title>
+<link>$doregex[makelist]</link>
+ 
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR white][makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://cv.pfd.sfr.net/wcsstore/SFRStore/images/catalog/0/1/_/P_WARNER_20161125_10_majaq.jpg</thumbnail> <!-- aqui va la portada -->
+        <fanart>http://cv.pfd.sfr.net/wcsstore/SFRStore/images/catalog/0/1/_/P_WARNER_20161125_10_majaq.jpg</fanart> <!-- aqui va el fondo -->
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/SeriesHD/westworld-dual-t1-44483</page> <!-- cambial este link por el de la pagina donde estan las peliculas o series si son varias paginas ir hasta el final y copiar el link completeo termina con list, 1,x --->
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/SeriesHD/westworld-dual-t1-44483</referer> <!-- cambial este link por el de la pagina donde estan las peliculas o series si son varias paginas ir hasta el final y copiar el link completeo termina con list, 1,x --->
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://cv.pfd.sfr.net/wcsstore/SFRStore/images/catalog/0/1/_/P_WARNER_20161125_10_majaq.jpg</thumbnail> <!-- aqui va la portada -->
+<fanart>http://cv.pfd.sfr.net/wcsstore/SFRStore/images/catalog/0/1/_/P_WARNER_20161125_10_majaq.jpg</fanart> <!-- aqui va el fondo -->
+</item>

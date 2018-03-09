@@ -1,0 +1,265 @@
+<item>
+<title> [COLOR lime]•[/COLOR]    [COLOR blue][B]Temporada 1[/B] [/COLOR]  </title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://es.web.img1.acsta.net/medias/nmedia/18/72/24/99/19157609.jpg</thumbnail>
+        <fanart>http://2.bp.blogspot.com/-nvRfP0Xop_A/U_cjlyDWK_I/AAAAAAAAIP8/a8qm101Kxfw/s1600/soa-frikarte2.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/Cuspide/sons-of-anarchy-t1-34589</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/Cuspide/sons-of-anarchy-t1-34589</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://es.web.img1.acsta.net/medias/nmedia/18/72/24/99/19157609.jpg</thumbnail>
+<fanart>http://2.bp.blogspot.com/-nvRfP0Xop_A/U_cjlyDWK_I/AAAAAAAAIP8/a8qm101Kxfw/s1600/soa-frikarte2.jpg</fanart>
+<info>Creada por Kurt Sutter, responsable también de “The Shield”, “Sons of Anarchy” está ambientada en la localidad ficticia de Charming, situada en el Norte de California. Su protagonista es Jackson “Jax” Teller(Chalie Hunnam – “Hijos de los hombres”, “Cold Mountain”), un treintañero que, como el resto de su familia, pertenece a la banda de moteros Sons of Anarchy Motorcycle Club Redwood Original (SAMCRO en su acrónimo), un clan formado por antiguos veteranos de la guerra de Vietnam que se dedican a trapichear con todo, especialmente con armas que venden a bandas rivales. </info>
+</item>
+</items>
+</channel>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+<item>
+<title> [COLOR lime]•[/COLOR]    [COLOR blue][B]Temporada 2[/B] [/COLOR]  </title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://es.web.img1.acsta.net/medias/nmedia/18/72/24/99/19157609.jpg</thumbnail>
+        <fanart>http://2.bp.blogspot.com/-nvRfP0Xop_A/U_cjlyDWK_I/AAAAAAAAIP8/a8qm101Kxfw/s1600/soa-frikarte2.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/Cuspide/sons-of-anarchy-t2-34593</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/Cuspide/sons-of-anarchy-t2-34593</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://es.web.img1.acsta.net/medias/nmedia/18/72/24/99/19157609.jpg</thumbnail>
+<fanart>http://2.bp.blogspot.com/-nvRfP0Xop_A/U_cjlyDWK_I/AAAAAAAAIP8/a8qm101Kxfw/s1600/soa-frikarte2.jpg</fanart>
+<info>Creada por Kurt Sutter, responsable también de “The Shield”, “Sons of Anarchy” está ambientada en la localidad ficticia de Charming, situada en el Norte de California. Su protagonista es Jackson “Jax” Teller(Chalie Hunnam – “Hijos de los hombres”, “Cold Mountain”), un treintañero que, como el resto de su familia, pertenece a la banda de moteros Sons of Anarchy Motorcycle Club Redwood Original (SAMCRO en su acrónimo), un clan formado por antiguos veteranos de la guerra de Vietnam que se dedican a trapichear con todo, especialmente con armas que venden a bandas rivales.  </info>
+</item>
+</items>
+</channel>
+
+
+
+
+
+<item>
+<title> [COLOR lime]•[/COLOR]    [COLOR blue][B]Temporada 3[/B] [/COLOR]  </title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://es.web.img1.acsta.net/medias/nmedia/18/72/24/99/19157609.jpg</thumbnail>
+        <fanart>http://2.bp.blogspot.com/-nvRfP0Xop_A/U_cjlyDWK_I/AAAAAAAAIP8/a8qm101Kxfw/s1600/soa-frikarte2.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/Cuspide/sons-of-anarchy-t3-34604</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/Cuspide/sons-of-anarchy-t3-34604</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://es.web.img1.acsta.net/medias/nmedia/18/72/24/99/19157609.jpg</thumbnail>
+<fanart>http://2.bp.blogspot.com/-nvRfP0Xop_A/U_cjlyDWK_I/AAAAAAAAIP8/a8qm101Kxfw/s1600/soa-frikarte2.jpg</fanart>
+<info>Creada por Kurt Sutter, responsable también de “The Shield”, “Sons of Anarchy” está ambientada en la localidad ficticia de Charming, situada en el Norte de California. Su protagonista es Jackson “Jax” Teller(Chalie Hunnam – “Hijos de los hombres”, “Cold Mountain”), un treintañero que, como el resto de su familia, pertenece a la banda de moteros Sons of Anarchy Motorcycle Club Redwood Original (SAMCRO en su acrónimo), un clan formado por antiguos veteranos de la guerra de Vietnam que se dedican a trapichear con todo, especialmente con armas que venden a bandas rivales. </info>
+</item>
+</items>
+</channel>
+
+
+
+<item>
+<title> [COLOR lime]•[/COLOR]    [COLOR blue][B]Temporada 4[/B] [/COLOR]  </title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://es.web.img1.acsta.net/medias/nmedia/18/72/24/99/19157609.jpg</thumbnail>
+        <fanart>http://2.bp.blogspot.com/-nvRfP0Xop_A/U_cjlyDWK_I/AAAAAAAAIP8/a8qm101Kxfw/s1600/soa-frikarte2.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/Cuspide/sons-of-anarchy-t4-34686</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/Cuspide/sons-of-anarchy-t4-34686</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://es.web.img1.acsta.net/medias/nmedia/18/72/24/99/19157609.jpg</thumbnail>
+<fanart>http://2.bp.blogspot.com/-nvRfP0Xop_A/U_cjlyDWK_I/AAAAAAAAIP8/a8qm101Kxfw/s1600/soa-frikarte2.jpg</fanart>
+<info>Creada por Kurt Sutter, responsable también de “The Shield”, “Sons of Anarchy” está ambientada en la localidad ficticia de Charming, situada en el Norte de California. Su protagonista es Jackson “Jax” Teller(Chalie Hunnam – “Hijos de los hombres”, “Cold Mountain”), un treintañero que, como el resto de su familia, pertenece a la banda de moteros Sons of Anarchy Motorcycle Club Redwood Original (SAMCRO en su acrónimo), un clan formado por antiguos veteranos de la guerra de Vietnam que se dedican a trapichear con todo, especialmente con armas que venden a bandas rivales. </info>
+</item>
+</items>
+</channel>
+
+
+
+<item>
+<title> [COLOR lime]•[/COLOR]    [COLOR blue][B]Temporada 5[/B] [/COLOR]  </title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://es.web.img1.acsta.net/medias/nmedia/18/72/24/99/19157609.jpg</thumbnail>
+        <fanart>http://2.bp.blogspot.com/-nvRfP0Xop_A/U_cjlyDWK_I/AAAAAAAAIP8/a8qm101Kxfw/s1600/soa-frikarte2.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/Cuspide/sons-of-anarchy-t5-34759</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/Cuspide/sons-of-anarchy-t5-34759</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://es.web.img1.acsta.net/medias/nmedia/18/72/24/99/19157609.jpg</thumbnail>
+<fanart>http://2.bp.blogspot.com/-nvRfP0Xop_A/U_cjlyDWK_I/AAAAAAAAIP8/a8qm101Kxfw/s1600/soa-frikarte2.jpg</fanart>
+<info>Creada por Kurt Sutter, responsable también de “The Shield”, “Sons of Anarchy” está ambientada en la localidad ficticia de Charming, situada en el Norte de California. Su protagonista es Jackson “Jax” Teller(Chalie Hunnam – “Hijos de los hombres”, “Cold Mountain”), un treintañero que, como el resto de su familia, pertenece a la banda de moteros Sons of Anarchy Motorcycle Club Redwood Original (SAMCRO en su acrónimo), un clan formado por antiguos veteranos de la guerra de Vietnam que se dedican a trapichear con todo, especialmente con armas que venden a bandas rivales. </info>
+</item>
+</items>
+</channel>
+
+
+
+<item>
+<title> [COLOR lime]•[/COLOR]    [COLOR blue][B]Temporada 6[/B] [/COLOR]  </title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://es.web.img1.acsta.net/medias/nmedia/18/72/24/99/19157609.jpg</thumbnail>
+        <fanart>http://2.bp.blogspot.com/-nvRfP0Xop_A/U_cjlyDWK_I/AAAAAAAAIP8/a8qm101Kxfw/s1600/soa-frikarte2.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/Cuspide/sons-of-anarchy-t6-34775</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/Cuspide/sons-of-anarchy-t6-34775</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://es.web.img1.acsta.net/medias/nmedia/18/72/24/99/19157609.jpg</thumbnail>
+<fanart>http://2.bp.blogspot.com/-nvRfP0Xop_A/U_cjlyDWK_I/AAAAAAAAIP8/a8qm101Kxfw/s1600/soa-frikarte2.jpg</fanart>
+<info>Creada por Kurt Sutter, responsable también de “The Shield”, “Sons of Anarchy” está ambientada en la localidad ficticia de Charming, situada en el Norte de California. Su protagonista es Jackson “Jax” Teller(Chalie Hunnam – “Hijos de los hombres”, “Cold Mountain”), un treintañero que, como el resto de su familia, pertenece a la banda de moteros Sons of Anarchy Motorcycle Club Redwood Original (SAMCRO en su acrónimo), un clan formado por antiguos veteranos de la guerra de Vietnam que se dedican a trapichear con todo, especialmente con armas que venden a bandas rivales. </info>
+</item>
+</items>
+</channel>

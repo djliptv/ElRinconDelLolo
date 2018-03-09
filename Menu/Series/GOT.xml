@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet href="hide-it.xsl" type="text/xsl"?>
+
+<item>
+<title>[B][COLOR deepskyblue]HBO[/COLOR] [COLOR white]LATINO[/COLOR][/B]</title>
+<link>http://$doregex[ip]$doregex[m3u8]$doregex[hls]</link>
+<regex>
+<name>ip</name>
+<expres>redirect=(.*)</expres>
+<page>http://www.publish247.xyz:1935/loadbalancer?17089</page>
+</regex>
+<regex>
+<name>m3u8</name>
+<expres>ea \+ "(.*?)"</expres>
+<page>http://www.247bay.tv/membedplayer/$doregex[canal]/2/680/380</page>
+<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
+<referer>http://www.247bay.tv</referer>
+</regex>
+<regex>
+<name>hls</name>
+<expres>hlsUrl \+ \(\"(.*?)"</expres>
+<page>http://www.247bay.tv/membedplayer/$doregex[canal]/2/680/380</page>
+<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
+<referer>http://www.mipsplayer.net</referer>
+</regex>
+<regex>
+<name>canal</name>
+<expres>channel='(.*?)'</expres>
+<page>http://www.chusmalandia.com/p/hbo-por-internet.html</page>
+</regex>
+
+<thumbnail>http://z.cdn.entutele.com/media/channels/medium/hbo-w.gif</thumbnail>
+<fanart>http://z.cdn.entutele.com/media/channels/medium/hbo-w.gif</fanart>
+</item>
+
+	<item>
+		<title>[COLOR white][B]+[/B][/COLOR] [COLOR dodgerblue]ZONA[/COLOR] [COLOR skyblue]GAME OF THRONES[/COLOR] [COLOR gold]Capitulo 4 (V.O.S.E. SD)[/COLOR]</title>
+		<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/GOTThumbnail.png?raw=true</thumbnail>
+		<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/GOTFanart.jpg?raw=true</fanart>
+		<link>https://archive.org/download/S-GOT/R29ULlMwN0UwNC5oZHR2LlZvc2Ux.mp4</link>
+	</item>
+
+	<item>
+		<title>[COLOR white][B]+[/B][/COLOR] [COLOR dodgerblue]ZONA[/COLOR] [COLOR skyblue]GAME OF THRONES[/COLOR] [COLOR gold]Capitulo 6 (V.O.S.E. 1080P)[/COLOR]</title>
+		<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/GOTThumbnail.png?raw=true</thumbnail>
+		<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/GOTFanart.jpg?raw=true</fanart>
+		<link>https://archive.org/download/S-GOT/R29UVCBTMDdFMDYubTEwODBwLlZvc2UubWt2.mp4</link>
+	</item>
+	
+	<item>
+		<title>[COLOR white][B]+[/B][/COLOR] [COLOR dodgerblue]ZONA[/COLOR] [COLOR skyblue]GAME OF THRONES[/COLOR]</title>
+		<link>$doregex[makelist]</link>
+		<regex>
+			<name>makelist</name>
+			<listrepeat><![CDATA[
+			<title>[makelist.param3]</title>
+			<link>$doregex[getUrl]</link>
+			<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/GOTThumbnail.png?raw=true</thumbnail>
+			<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/GOTFanart.jpg?raw=true</fanart>
+			]]></listrepeat>
+			<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+			<page>http://diskokosmiko.mx/SHIRKAM/juego-de-tronos-completa-49718/list,1,100</page>
+			<cookieJar></cookieJar>
+		</regex>
+		<regex>
+			<name>getUrl</name>
+			<expres>DownloadUrl":"([^"]+)<expres>
+			<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+			<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+			<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+			<connection>keep-alive</connection>
+			<accept>*/*</accept>
+			<X-Req>XMLHttpRequest</X-Req>
+			<cookieJar></cookieJar>
+		</regex>
+		<regex>
+			<name>tok</name>
+			<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+			<page>http://diskokosmiko.mx/[makelist.param2]</page>
+			<referer>http://diskokosmiko.mx/SHIRKAM/juego-de-tronos-completa-49718/list,1,100</referer>
+			<connection>keep-alive</connection>
+			<cookieJar></cookieJar>
+		</regex>
+		<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/GOTThumbnail.png?raw=true</thumbnail>
+		<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/GOTFanart.jpg?raw=true</fanart>
+	</item>

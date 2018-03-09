@@ -1,0 +1,204 @@
+<item>
+<title>[COLOR Yellow][COLOR lime]•[/COLOR]    [COLOR red][B]TEMPORADA 1[/B] [/COLOR][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://i.imgur.com/rRjRAkn.jpg</thumbnail>
+        <fanart>http://cdn.socialab.com/uploads/Idea/f61e41_maxresdefault.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/gemma-valencia/dora-la-exploradora-t1-castellano-44536</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/gemma-valencia/dora-la-exploradora-t1-castellano-44536</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://i.imgur.com/rRjRAkn.jpg</thumbnail>
+<fanart>http://cdn.socialab.com/uploads/Idea/f61e41_maxresdefault.jpg</fanart>
+<info>Dora, la exploradora es una serie educativa de dibujos animados estadounidense para niños en edad preescolar de la empresa Mattel, creada por Chris Gifford, Valerie Walsh Valdes y Erik Weiner, transmitida por Nickelodeon y Nick Jr.</info>
+</item>
+</items>
+</channel>
+
+<item>
+<title>[COLOR Yellow][COLOR lime]•[/COLOR]    [COLOR red][B]TEMPORADA 2[/B] [/COLOR][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://i.imgur.com/rRjRAkn.jpg</thumbnail>
+        <fanart>http://cdn.socialab.com/uploads/Idea/f61e41_maxresdefault.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/gemma-valencia/dora-la-explroradora-t2-castellano-44627</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/gemma-valencia/dora-la-explroradora-t2-castellano-44627</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://i.imgur.com/rRjRAkn.jpg</thumbnail>
+<fanart>http://cdn.socialab.com/uploads/Idea/f61e41_maxresdefault.jpg</fanart>
+<info>Dora, la exploradora es una serie educativa de dibujos animados estadounidense para niños en edad preescolar de la empresa Mattel, creada por Chris Gifford, Valerie Walsh Valdes y Erik Weiner, transmitida por Nickelodeon y Nick Jr.</info>
+</item>
+</items>
+</channel>
+
+<item>
+<title>[COLOR Yellow][COLOR lime]•[/COLOR]    [COLOR red][B]TEMPORADA 3[/B] [/COLOR][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://i.imgur.com/rRjRAkn.jpg</thumbnail>
+        <fanart>http://cdn.socialab.com/uploads/Idea/f61e41_maxresdefault.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/gemma-valencia/dora-la-exploradora-t3-castellano-44721</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/gemma-valencia/dora-la-exploradora-t3-castellano-44721</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://i.imgur.com/rRjRAkn.jpg</thumbnail>
+<fanart>http://cdn.socialab.com/uploads/Idea/f61e41_maxresdefault.jpg</fanart>
+<info>Dora, la exploradora es una serie educativa de dibujos animados estadounidense para niños en edad preescolar de la empresa Mattel, creada por Chris Gifford, Valerie Walsh Valdes y Erik Weiner, transmitida por Nickelodeon y Nick Jr.</info>
+</item>
+</items>
+</channel>
+
+<item>
+<title>[COLOR Yellow][COLOR lime]•[/COLOR]    [COLOR red][B]TEMPORADA 4[/B] [/COLOR][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://i.imgur.com/rRjRAkn.jpg</thumbnail>
+        <fanart>http://cdn.socialab.com/uploads/Idea/f61e41_maxresdefault.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/gemma-valencia/dora-la-exploradora-t4-castellano-44766</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/gemma-valencia/dora-la-exploradora-t4-castellano-44766</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://i.imgur.com/rRjRAkn.jpg</thumbnail>
+<fanart>http://cdn.socialab.com/uploads/Idea/f61e41_maxresdefault.jpg</fanart>
+<info>Dora, la exploradora es una serie educativa de dibujos animados estadounidense para niños en edad preescolar de la empresa Mattel, creada por Chris Gifford, Valerie Walsh Valdes y Erik Weiner, transmitida por Nickelodeon y Nick Jr.</info>
+</item>
+</items>
+</channel>
+
+<item>
+<title>[COLOR Yellow][COLOR lime]•[/COLOR]    [COLOR red][B]TEMPORADA 5[/B] [/COLOR][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://i.imgur.com/rRjRAkn.jpg</thumbnail>
+        <fanart>http://cdn.socialab.com/uploads/Idea/f61e41_maxresdefault.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/gemma-valencia/dora-la-exploradora-t5-castellano-44774</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/gemma-valencia/dora-la-exploradora-t5-castellano-44774</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://i.imgur.com/rRjRAkn.jpg</thumbnail>
+<fanart>http://cdn.socialab.com/uploads/Idea/f61e41_maxresdefault.jpg</fanart>
+<info>Dora, la exploradora es una serie educativa de dibujos animados estadounidense para niños en edad preescolar de la empresa Mattel, creada por Chris Gifford, Valerie Walsh Valdes y Erik Weiner, transmitida por Nickelodeon y Nick Jr.</info>
+</item>
+</items>
+</channel>

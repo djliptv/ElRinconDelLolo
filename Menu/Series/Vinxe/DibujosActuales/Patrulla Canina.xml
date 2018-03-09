@@ -1,0 +1,80 @@
+<item>
+<title> [COLOR lime]•[/COLOR]    [COLOR blue][B]Temporada 1 Y 2[/B] [/COLOR]  </title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://st.gonzoo.es/img/2016/02/17919_967_544.jpg?1454665201</thumbnail>
+        <fanart>https://st.gonzoo.es/img/2016/02/17919_967_544.jpg?1454665201</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/catoal/la-patrulla-canina-30763/list,1,3</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/catoal/la-patrulla-canina-30763/list,1,3</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://st.gonzoo.es/img/2016/02/17919_967_544.jpg?1454665201</thumbnail>
+<fanart>https://st.gonzoo.es/img/2016/02/17919_967_544.jpg?1454665201</fanart>
+<info></info>
+</item>
+</items>
+
+
+<item>
+<title> [COLOR lime]•[/COLOR]    [COLOR blue][B]Temporada 3[/B] [/COLOR]  </title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://st.gonzoo.es/img/2016/02/17919_967_544.jpg?1454665201</thumbnail>
+        <fanart>https://st.gonzoo.es/img/2016/02/17919_967_544.jpg?1454665201</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/SeriesHD/patrulla-canina-t3-43450</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/SeriesHD/patrulla-canina-t3-43450</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://st.gonzoo.es/img/2016/02/17919_967_544.jpg?1454665201</thumbnail>
+<fanart>https://st.gonzoo.es/img/2016/02/17919_967_544.jpg?1454665201</fanart>
+<info></info>
+</item>
+</items>

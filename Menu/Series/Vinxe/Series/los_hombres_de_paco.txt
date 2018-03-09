@@ -1,0 +1,368 @@
+<item>
+<title> [COLOR lime]•[/COLOR]    [COLOR blue][B]Temporada 1[/B] [/COLOR]  </title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://dtv.tbxstatic.com/thumbs/azsfpx-1-0x290-los_hombres_de_paco-4532c24b82f2ed7bb6ce235c4db4ec95.png</thumbnail>
+        <fanart>https://filesedc.com/uploads/18/img/2016/11/1200/los-protagonistas-de-los-hombres-de-paco-se-reunen-seis-anos-despues-del-final-de-la-serie.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/Cuspide/los-hombres-de-paco-t1-44809</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/Cuspide/los-hombres-de-paco-t1-44809</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://dtv.tbxstatic.com/thumbs/azsfpx-1-0x290-los_hombres_de_paco-4532c24b82f2ed7bb6ce235c4db4ec95.png</thumbnail>
+<fanart>https://filesedc.com/uploads/18/img/2016/11/1200/los-protagonistas-de-los-hombres-de-paco-se-reunen-seis-anos-despues-del-final-de-la-serie.jpg</fanart>
+<info>Serie de TV (2005-2010). 9 temporadas. 117 episodios. Narra en tono de humor negro las peripecias profesionales y personales de un grupo de policías de barrio de una gran ciudad. Paco Miranda (Paco Tous), un inspector bonachón e incapaz de enfrentarse a situaciones críticas, tiene dos hombres de confianza: Mariano (Pepón Nieto) y Lucas (Hugo Silva). Son tres perdedores que viven toda clase de situaciones disparatadas. El jefe de Paco es su suegro, Don Lorenzo (Juan Diego), un hombre de honor, estricto, cascarrabias y maniático. Tanto Paco como su equipo, se esmeran por hacer méritos para que el comisario reconozca su trabajo. </info>
+</item>
+</items>
+</channel>
+
+<item>
+<title> [COLOR lime]•[/COLOR]    [COLOR blue][B]Temporada 2[/B] [/COLOR]  </title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://dtv.tbxstatic.com/thumbs/azsfpx-1-0x290-los_hombres_de_paco-4532c24b82f2ed7bb6ce235c4db4ec95.png</thumbnail>
+        <fanart>https://filesedc.com/uploads/18/img/2016/11/1200/los-protagonistas-de-los-hombres-de-paco-se-reunen-seis-anos-despues-del-final-de-la-serie.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/Cuspide/los-hombres-de-paco-t2-44816</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/Cuspide/los-hombres-de-paco-t2-44816</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://dtv.tbxstatic.com/thumbs/azsfpx-1-0x290-los_hombres_de_paco-4532c24b82f2ed7bb6ce235c4db4ec95.png</thumbnail>
+<fanart>https://filesedc.com/uploads/18/img/2016/11/1200/los-protagonistas-de-los-hombres-de-paco-se-reunen-seis-anos-despues-del-final-de-la-serie.jpg</fanart>
+<info>Serie de TV (2005-2010). 9 temporadas. 117 episodios. Narra en tono de humor negro las peripecias profesionales y personales de un grupo de policías de barrio de una gran ciudad. Paco Miranda (Paco Tous), un inspector bonachón e incapaz de enfrentarse a situaciones críticas, tiene dos hombres de confianza: Mariano (Pepón Nieto) y Lucas (Hugo Silva). Son tres perdedores que viven toda clase de situaciones disparatadas. El jefe de Paco es su suegro, Don Lorenzo (Juan Diego), un hombre de honor, estricto, cascarrabias y maniático. Tanto Paco como su equipo, se esmeran por hacer méritos para que el comisario reconozca su trabajo. </info>
+</item>
+</items>
+</channel>
+
+<item>
+<title> [COLOR lime]•[/COLOR]    [COLOR blue][B]Temporada 3[/B] [/COLOR]  </title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://dtv.tbxstatic.com/thumbs/azsfpx-1-0x290-los_hombres_de_paco-4532c24b82f2ed7bb6ce235c4db4ec95.png</thumbnail>
+        <fanart>https://filesedc.com/uploads/18/img/2016/11/1200/los-protagonistas-de-los-hombres-de-paco-se-reunen-seis-anos-despues-del-final-de-la-serie.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/Cuspide/los-hombres-de-paco-t3-44851</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/Cuspide/los-hombres-de-paco-t3-44851referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://dtv.tbxstatic.com/thumbs/azsfpx-1-0x290-los_hombres_de_paco-4532c24b82f2ed7bb6ce235c4db4ec95.png</thumbnail>
+<fanart>https://filesedc.com/uploads/18/img/2016/11/1200/los-protagonistas-de-los-hombres-de-paco-se-reunen-seis-anos-despues-del-final-de-la-serie.jpg</fanart>
+<info>Serie de TV (2005-2010). 9 temporadas. 117 episodios. Narra en tono de humor negro las peripecias profesionales y personales de un grupo de policías de barrio de una gran ciudad. Paco Miranda (Paco Tous), un inspector bonachón e incapaz de enfrentarse a situaciones críticas, tiene dos hombres de confianza: Mariano (Pepón Nieto) y Lucas (Hugo Silva). Son tres perdedores que viven toda clase de situaciones disparatadas. El jefe de Paco es su suegro, Don Lorenzo (Juan Diego), un hombre de honor, estricto, cascarrabias y maniático. Tanto Paco como su equipo, se esmeran por hacer méritos para que el comisario reconozca su trabajo. </info>
+</item>
+</items>
+</channel>
+
+<item>
+<title> [COLOR lime]•[/COLOR]    [COLOR blue][B]Temporada 4[/B] [/COLOR]  </title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://dtv.tbxstatic.com/thumbs/azsfpx-1-0x290-los_hombres_de_paco-4532c24b82f2ed7bb6ce235c4db4ec95.png</thumbnail>
+        <fanart>https://filesedc.com/uploads/18/img/2016/11/1200/los-protagonistas-de-los-hombres-de-paco-se-reunen-seis-anos-despues-del-final-de-la-serie.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/Cuspide/los-hombres-de-paco-t4-44853</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/Cuspide/los-hombres-de-paco-t4-44853</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://dtv.tbxstatic.com/thumbs/azsfpx-1-0x290-los_hombres_de_paco-4532c24b82f2ed7bb6ce235c4db4ec95.png</thumbnail>
+<fanart>https://filesedc.com/uploads/18/img/2016/11/1200/los-protagonistas-de-los-hombres-de-paco-se-reunen-seis-anos-despues-del-final-de-la-serie.jpg</fanart>
+<info>Serie de TV (2005-2010). 9 temporadas. 117 episodios. Narra en tono de humor negro las peripecias profesionales y personales de un grupo de policías de barrio de una gran ciudad. Paco Miranda (Paco Tous), un inspector bonachón e incapaz de enfrentarse a situaciones críticas, tiene dos hombres de confianza: Mariano (Pepón Nieto) y Lucas (Hugo Silva). Son tres perdedores que viven toda clase de situaciones disparatadas. El jefe de Paco es su suegro, Don Lorenzo (Juan Diego), un hombre de honor, estricto, cascarrabias y maniático. Tanto Paco como su equipo, se esmeran por hacer méritos para que el comisario reconozca su trabajo. </info>
+</item>
+</items>
+</channel>
+
+<item>
+<title> [COLOR lime]•[/COLOR]    [COLOR blue][B]Temporada 5[/B] [/COLOR]  </title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://dtv.tbxstatic.com/thumbs/azsfpx-1-0x290-los_hombres_de_paco-4532c24b82f2ed7bb6ce235c4db4ec95.png</thumbnail>
+        <fanart>https://filesedc.com/uploads/18/img/2016/11/1200/los-protagonistas-de-los-hombres-de-paco-se-reunen-seis-anos-despues-del-final-de-la-serie.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/Cuspide/los-hombres-de-paco-t5-44855</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/Cuspide/los-hombres-de-paco-t5-44855</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://dtv.tbxstatic.com/thumbs/azsfpx-1-0x290-los_hombres_de_paco-4532c24b82f2ed7bb6ce235c4db4ec95.png</thumbnail>
+<fanart>https://filesedc.com/uploads/18/img/2016/11/1200/los-protagonistas-de-los-hombres-de-paco-se-reunen-seis-anos-despues-del-final-de-la-serie.jpg</fanart>
+<info>Serie de TV (2005-2010). 9 temporadas. 117 episodios. Narra en tono de humor negro las peripecias profesionales y personales de un grupo de policías de barrio de una gran ciudad. Paco Miranda (Paco Tous), un inspector bonachón e incapaz de enfrentarse a situaciones críticas, tiene dos hombres de confianza: Mariano (Pepón Nieto) y Lucas (Hugo Silva). Son tres perdedores que viven toda clase de situaciones disparatadas. El jefe de Paco es su suegro, Don Lorenzo (Juan Diego), un hombre de honor, estricto, cascarrabias y maniático. Tanto Paco como su equipo, se esmeran por hacer méritos para que el comisario reconozca su trabajo. </info>
+</item>
+</items>
+</channel>
+
+<item>
+<title> [COLOR lime]•[/COLOR]    [COLOR blue][B]Temporada 6[/B] [/COLOR]  </title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://dtv.tbxstatic.com/thumbs/azsfpx-1-0x290-los_hombres_de_paco-4532c24b82f2ed7bb6ce235c4db4ec95.png</thumbnail>
+        <fanart>https://filesedc.com/uploads/18/img/2016/11/1200/los-protagonistas-de-los-hombres-de-paco-se-reunen-seis-anos-despues-del-final-de-la-serie.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/Cuspide/los-hombres-de-paco-t6-44856</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/Cuspide/los-hombres-de-paco-t6-44856</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://dtv.tbxstatic.com/thumbs/azsfpx-1-0x290-los_hombres_de_paco-4532c24b82f2ed7bb6ce235c4db4ec95.png</thumbnail>
+<fanart>https://filesedc.com/uploads/18/img/2016/11/1200/los-protagonistas-de-los-hombres-de-paco-se-reunen-seis-anos-despues-del-final-de-la-serie.jpg</fanart>
+<info>Serie de TV (2005-2010). 9 temporadas. 117 episodios. Narra en tono de humor negro las peripecias profesionales y personales de un grupo de policías de barrio de una gran ciudad. Paco Miranda (Paco Tous), un inspector bonachón e incapaz de enfrentarse a situaciones críticas, tiene dos hombres de confianza: Mariano (Pepón Nieto) y Lucas (Hugo Silva). Son tres perdedores que viven toda clase de situaciones disparatadas. El jefe de Paco es su suegro, Don Lorenzo (Juan Diego), un hombre de honor, estricto, cascarrabias y maniático. Tanto Paco como su equipo, se esmeran por hacer méritos para que el comisario reconozca su trabajo. </info>
+</item>
+</items>
+</channel>
+
+<item>
+<title> [COLOR lime]•[/COLOR]    [COLOR blue][B]Temporada 7[/B] [/COLOR]  </title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://dtv.tbxstatic.com/thumbs/azsfpx-1-0x290-los_hombres_de_paco-4532c24b82f2ed7bb6ce235c4db4ec95.png</thumbnail>
+        <fanart>https://filesedc.com/uploads/18/img/2016/11/1200/los-protagonistas-de-los-hombres-de-paco-se-reunen-seis-anos-despues-del-final-de-la-serie.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/Cuspide/los-hombres-de-paco-t7-44857</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/Cuspide/los-hombres-de-paco-t7-44857</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://dtv.tbxstatic.com/thumbs/azsfpx-1-0x290-los_hombres_de_paco-4532c24b82f2ed7bb6ce235c4db4ec95.png</thumbnail>
+<fanart>https://filesedc.com/uploads/18/img/2016/11/1200/los-protagonistas-de-los-hombres-de-paco-se-reunen-seis-anos-despues-del-final-de-la-serie.jpg</fanart>
+<info>Serie de TV (2005-2010). 9 temporadas. 117 episodios. Narra en tono de humor negro las peripecias profesionales y personales de un grupo de policías de barrio de una gran ciudad. Paco Miranda (Paco Tous), un inspector bonachón e incapaz de enfrentarse a situaciones críticas, tiene dos hombres de confianza: Mariano (Pepón Nieto) y Lucas (Hugo Silva). Son tres perdedores que viven toda clase de situaciones disparatadas. El jefe de Paco es su suegro, Don Lorenzo (Juan Diego), un hombre de honor, estricto, cascarrabias y maniático. Tanto Paco como su equipo, se esmeran por hacer méritos para que el comisario reconozca su trabajo. </info>
+</item>
+</items>
+</channel>
+
+<item>
+<title> [COLOR lime]•[/COLOR]    [COLOR blue][B]Temporada 8[/B] [/COLOR]  </title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://dtv.tbxstatic.com/thumbs/azsfpx-1-0x290-los_hombres_de_paco-4532c24b82f2ed7bb6ce235c4db4ec95.png</thumbnail>
+        <fanart>https://filesedc.com/uploads/18/img/2016/11/1200/los-protagonistas-de-los-hombres-de-paco-se-reunen-seis-anos-despues-del-final-de-la-serie.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/Cuspide/los-hombres-de-paco-t8-44862</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/Cuspide/los-hombres-de-paco-t8-44862</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://dtv.tbxstatic.com/thumbs/azsfpx-1-0x290-los_hombres_de_paco-4532c24b82f2ed7bb6ce235c4db4ec95.png</thumbnail>
+<fanart>https://filesedc.com/uploads/18/img/2016/11/1200/los-protagonistas-de-los-hombres-de-paco-se-reunen-seis-anos-despues-del-final-de-la-serie.jpg</fanart>
+<info>Serie de TV (2005-2010). 9 temporadas. 117 episodios. Narra en tono de humor negro las peripecias profesionales y personales de un grupo de policías de barrio de una gran ciudad. Paco Miranda (Paco Tous), un inspector bonachón e incapaz de enfrentarse a situaciones críticas, tiene dos hombres de confianza: Mariano (Pepón Nieto) y Lucas (Hugo Silva). Son tres perdedores que viven toda clase de situaciones disparatadas. El jefe de Paco es su suegro, Don Lorenzo (Juan Diego), un hombre de honor, estricto, cascarrabias y maniático. Tanto Paco como su equipo, se esmeran por hacer méritos para que el comisario reconozca su trabajo. </info>
+</item>
+</items>
+</channel>
+
+<item>
+<title> [COLOR lime]•[/COLOR]    [COLOR blue][B]Temporada 9[/B] [/COLOR]  </title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://dtv.tbxstatic.com/thumbs/azsfpx-1-0x290-los_hombres_de_paco-4532c24b82f2ed7bb6ce235c4db4ec95.png</thumbnail>
+        <fanart>https://filesedc.com/uploads/18/img/2016/11/1200/los-protagonistas-de-los-hombres-de-paco-se-reunen-seis-anos-despues-del-final-de-la-serie.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/Cuspide/los-hombres-de-paco-t9-44866</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/Cuspide/los-hombres-de-paco-t9-44866</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://dtv.tbxstatic.com/thumbs/azsfpx-1-0x290-los_hombres_de_paco-4532c24b82f2ed7bb6ce235c4db4ec95.png</thumbnail>
+<fanart>https://filesedc.com/uploads/18/img/2016/11/1200/los-protagonistas-de-los-hombres-de-paco-se-reunen-seis-anos-despues-del-final-de-la-serie.jpg</fanart>
+<info>Serie de TV (2005-2010). 9 temporadas. 117 episodios. Narra en tono de humor negro las peripecias profesionales y personales de un grupo de policías de barrio de una gran ciudad. Paco Miranda (Paco Tous), un inspector bonachón e incapaz de enfrentarse a situaciones críticas, tiene dos hombres de confianza: Mariano (Pepón Nieto) y Lucas (Hugo Silva). Son tres perdedores que viven toda clase de situaciones disparatadas. El jefe de Paco es su suegro, Don Lorenzo (Juan Diego), un hombre de honor, estricto, cascarrabias y maniático. Tanto Paco como su equipo, se esmeran por hacer méritos para que el comisario reconozca su trabajo. </info>
+</item>
+</items>
+</channel>

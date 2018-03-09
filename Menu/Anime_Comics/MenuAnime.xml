@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet href="hide-it.xsl" type="text/xsl"?> 
+
+<item>
+	<title>                         [B][COLOR white] :::| [/COLOR][COLOR dodgerblue]ZONA[/COLOR] [COLOR skyblue]ANIME[/COLOR][COLOR white] |::: [/COLOR][/B]</title>
+	<link>http://ignorame</link>
+	<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/AnimeThumbnail.png?raw=true</thumbnail>
+	<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/AnimeFanart.jpg?raw=true</fanart>
+	<externallink>https://pastebin.com/</externallink>
+</item>
+
+<item>
+	<title>[COLOR red]____________________[/COLOR] [COLOR yellow][B]__________[/B][/COLOR] [COLOR red]____________________[/COLOR]</title>
+	<link>http://ignorame</link>
+	<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/Thumbnail.jpg?raw=true</thumbnail>
+		<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/fanart.jpg?raw=true</fanart>
+	<externallink>https://pastebin.com/</externallink>
+</item>
+<!---
+<item>
+	<title>[COLOR white][B]+[/B][/COLOR] [COLOR dodgerblue]ZONA[/COLOR] [COLOR skyblue]MUNDO DRAGON BALL - BY POLO Y DANI[/COLOR]</title>
+	<link>$doregex[makelist3]</link>
+	<regex>
+		<name>makelist3</name>
+		<listrepeat><![CDATA[
+			<title>[COLOR skyblue][makelist3.param2][/COLOR]</title>
+			<link>$doregex[makelist2]</link>
+			<thumbnail>https://www.dropbox.com/s/iaw9ig1rx0acb6e/DragonBallThumbnail.png?dl=1</thumbnail>
+			<fanart>https://www.dropbox.com/s/5iint7g35ghcwfy/DragonBallFanart.jpg?dl=1</fanart>
+		]]></listrepeat>
+		<expres>playlist:"(.*?)" name:"(.*?)";</expres> <!--- playlist:"(.*?)" name:"(.*?)" info:"(.*?)"; ---> <!---
+		<page>playlist:"http://diskokosmiko.mx/retrogames33" name:"[COLOR white][B]+[/B][/COLOR] [COLOR skyblue]MUNDO[/COLOR] [COLOR yellow]DRAG[/COLOR][COLOR orange]O[/COLOR][COLOR yellow]N[/COLOR] [COLOR red]BALL[/COLOR] [COLOR white]- BY POLO Y DANI[/COLOR]";</page>
+		<cookieJar></cookieJar>
+	</regex>
+
+	<regex>
+		<name>makelist2</name>
+		<listrepeat><![CDATA[
+			<title>[COLOR skyblue][makelist2.param2][/COLOR]</title>
+			<link>$doregex[makelist]</link>
+			<thumbnail>https://www.dropbox.com/s/iaw9ig1rx0acb6e/DragonBallThumbnail.png?dl=1</thumbnail>
+			<fanart>https://www.dropbox.com/s/5iint7g35ghcwfy/DragonBallFanart.jpg?dl=1</fanart>
+		]]></listrepeat>
+		<expres>class="name" href="(.*?)">(.*?)<[\w\W\s]{0,190}src="(.*?)"</expres>
+		<page>[makelist3.param1]</page>
+		<cookieJar></cookieJar>
+	</regex>
+
+	<regex>
+		<name>makelist</name>
+		<listrepeat><![CDATA[
+			<title> [makelist.param3]</title>
+			<link>$doregex[getUrl]</link>
+			<thumbnail>https://www.dropbox.com/s/iaw9ig1rx0acb6e/DragonBallThumbnail.png?dl=1</thumbnail>
+			<fanart>https://www.dropbox.com/s/5iint7g35ghcwfy/DragonBallFanart.jpg?dl=1</fanart>
+		]]></listrepeat>
+		<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+		<page>http://diskokosmiko.mx[makelist2.param1]/list,1,100</page>
+		<cookieJar></cookieJar>
+	</regex>
+	
+	<regex>
+		<name>getUrl</name>
+		<expres>DownloadUrl":"([^"]+)<expres>
+		<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+		<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+		<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+		<connection>keep-alive</connection>
+		<accept>*/*</accept>
+		<X-Req>XMLHttpRequest</X-Req>
+		<cookieJar></cookieJar>
+	</regex>
+		
+	<regex>
+		<name>tok</name>
+		<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+		<page>http://diskokosmiko.mx/[makelist.param2]</page>
+		<referer>http://diskokosmiko.mx[makelist2.param1]/list,1,100</referer>
+		<connection>keep-alive</connection>
+		<cookieJar></cookieJar>
+	</regex>
+	
+	<thumbnail>https://www.dropbox.com/s/iaw9ig1rx0acb6e/DragonBallThumbnail.png?dl=1</thumbnail>
+	<fanart>https://www.dropbox.com/s/5iint7g35ghcwfy/DragonBallFanart.jpg?dl=1</fanart>
+</item>
+--->
+<item>
+	<title>[COLOR white][B]+[/B][/COLOR] [COLOR dodgerblue]ZONA[/COLOR] [COLOR skyblue]COMANDO G[/COLOR]</title>
+	<link>$doregex[makelist]</link>
+	<regex>
+		<name>makelist</name>
+		<listrepeat><![CDATA[
+			<title> [makelist.param3]</title>
+			<link>$doregex[getUrl]</link>
+			<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/ComandogThumbnail.png?raw=true</thumbnail>
+			<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/ComandogFanart.jpg?raw=true</fanart>
+		]]></listrepeat>
+		<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+		<page>http://diskokosmiko.mx/jml/comando-g-dvdrip-47445/list,1,1</page>
+		<cookieJar></cookieJar>
+	</regex>
+
+	<regex>
+		<name>getUrl</name>
+		<expres>DownloadUrl":"([^"]+)<expres>
+		<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+		<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+		<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+		<connection>keep-alive</connection>
+		<accept>*/*</accept>
+		<X-Req>XMLHttpRequest</X-Req>
+		<cookieJar></cookieJar>
+	</regex>
+
+	<regex>
+		<name>tok</name>
+		<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+		<page>http://diskokosmiko.mx/[makelist.param2]</page>
+		<referer>http://diskokosmiko.mx/jml/comando-g-dvdrip-47445/list,1,1</referer>
+		<connection>keep-alive</connection>
+		<cookieJar></cookieJar>
+	</regex>
+
+	<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/ComandogThumbnail.png?raw=true</thumbnail>
+	<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/ComandogFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>[COLOR white][B]+[/B][/COLOR] [COLOR dodgerblue]ZONA[/COLOR] [COLOR skyblue]MUNDO DRAGON BALL - BY POLO Y DANI[/COLOR]</title>
+	<link>http://ignorame</link>
+	<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/DragonBallMundoThumnail.jpg?raw=true</thumbnail>
+	<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/DragonBallMundoFanart.jpg?raw=true</fanart>
+	<externallink>https://raw.githubusercontent.com/djliptv/DragonBallAddon/master/Base.xml</externallink><!--- https://raw.githubusercontent.com/djliptv/ElRinconDelLolo/master/Menu/Anime_Comics/MundoDragonBall.xml --->
+</item>
+<!---
+<item>
+	<title>[COLOR white][B]+[/B][/COLOR] [COLOR dodgerblue]ZONA[/COLOR] [COLOR skyblue]MUNDO DRAGON BALL - BY POLO Y DANI[/COLOR]</title>
+	<link>$doregex[makelist2]</link>
+	<regex>
+		<name>makelist2</name>
+		<listrepeat><![CDATA[
+			<title>[makelist2.param1]</title>
+			<link>$doregex[makelist]</link>
+			<thumbnail>[makelist2.param3]</thumbnail>
+			<fanart>[makelist2.param4]</fanart>
+		]]></listrepeat>
+		<expres>SDKDB:"(.*?)" url:"(.*?)" thu:"(.*?)" fan:"(.*?)"; server:"(.*?)"</expres>
+		<page>https://raw.githubusercontent.com/djliptv/ElRinconDelLolo/master/Menu/DB/DBLolo.xml</page>
+		<cookieJar></cookieJar>
+	</regex>
+	
+	<regex>
+		<name>makelist</name>
+		<listrepeat><![CDATA[
+			<title>$pyFunction:('[makelist.param3]').replace('Espa&#241;ol','')</title>
+			<link>$doregex[getUrl]</link>
+			<thumbnail>[makelist2.param3]</thumbnail>
+			<fanart>[makelist2.param4]</fanart>
+		]]></listrepeat>
+		<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+		<page>[makelist2.param2]/list,1,100</page>
+		<cookieJar></cookieJar>
+	</regex>
+	
+	<regex>
+		<name>getUrl</name>
+		<expres>DownloadUrl":"([^"]+)<expres>
+		<page>[makelist2.param5]/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+		<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+		<referer>[makelist2.param5]/[makelist.param2]</referer>
+		<connection>keep-alive</connection>
+		<accept>*/*</accept>
+		<X-Req>XMLHttpRequest</X-Req>
+		<cookieJar></cookieJar>
+	</regex>
+	
+	<regex>
+		<name>tok</name>
+		<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+		<page>[makelist2.param5]/[makelist.param2]</page>
+		<referer>[makelist2.param5]</referer>
+		<connection>keep-alive</connection>
+		<cookieJar></cookieJar>
+	</regex>
+	<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/DragonBallMundoThumnail.jpg?raw=true</thumbnail>
+	<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/DragonBallMundoFanart.jpg?raw=true</fanart>
+	</item>
+--->
+<item>
+	<title>[COLOR white][B]+[/B][/COLOR] [COLOR dodgerblue]ZONA[/COLOR] [COLOR skyblue]COLECCION MAZINGER Z[/COLOR]</title>
+	<link>$doregex[makelist]</link>
+
+	<regex>
+		<name>makelist</name>
+		<listrepeat><![CDATA[
+			<title>[makelist.param3]</title>
+			<link>$doregex[getUrl]</link>
+			<thumbnail>https://http2.mlstatic.com/dvd-paquete-anime-mazinger-z-serie-completa-latino-tampico-D_NQ_NP_23185-MLM20242623950_022015-F.jpg</thumbnail>
+			<fanart>https://http2.mlstatic.com/dvd-paquete-anime-mazinger-z-serie-completa-latino-tampico-D_NQ_NP_23185-MLM20242623950_022015-F.jpg</fanart>
+        ]]></listrepeat>
+		<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+		<page>http://diskokosmiko.mx/naredo/coleccion-mazinger-z-32288/list,1,11</page>
+		<cookieJar></cookieJar>
+	</regex>
+
+	<regex>
+		<name>getUrl</name>
+		<expres>DownloadUrl":"([^"]+)<expres>
+		<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+		<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+		<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+		<connection>keep-alive</connection>
+		<accept>*/*</accept>
+		<X-Req>XMLHttpRequest</X-Req>
+		<cookieJar></cookieJar>
+	</regex>
+
+	<regex>
+		<name>tok</name>
+		<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+		<page>http://diskokosmiko.mx/[makelist.param2]</page>
+		<referer>http://diskokosmiko.mx/naredo/coleccion-mazinger-z-32288/list,1,11</referer>
+		<connection>keep-alive</connection>
+		<cookieJar></cookieJar>
+	</regex>
+	<thumbnail>https://http2.mlstatic.com/dvd-paquete-anime-mazinger-z-serie-completa-latino-tampico-D_NQ_NP_23185-MLM20242623950_022015-F.jpg</thumbnail>
+	<fanart>https://http2.mlstatic.com/dvd-paquete-anime-mazinger-z-serie-completa-latino-tampico-D_NQ_NP_23185-MLM20242623950_022015-F.jpg</fanart>
+</item>
+
+<item>
+	<title>[COLOR white][B]+[/B][/COLOR] [COLOR dodgerblue]ZONA[/COLOR] [COLOR skyblue]NARUTO[/COLOR]</title>
+	<link>$doregex[makelist]</link>
+	<regex>
+		<name>makelist</name>
+		<listrepeat><![CDATA[
+			<title> [makelist.param3]</title>
+			<link>$doregex[getUrl]</link>
+			<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/NarutoThumbnail.png?raw=true</thumbnail>
+			<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/NARUTOFanart.jpg?raw=true</fanart>
+		]]></listrepeat>
+		<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+		<page>http://diskokosmiko.mx/anime/naruto-todas-las-temporadas-100-latino-1212/list,1,100</page>
+		<cookieJar></cookieJar>
+	</regex>
+
+	<regex>
+		<name>getUrl</name>
+		<expres>DownloadUrl":"([^"]+)<expres>
+		<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+		<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+		<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+		<connection>keep-alive</connection>
+		<accept>*/*</accept>
+		<X-Req>XMLHttpRequest</X-Req>
+		<cookieJar></cookieJar>
+	</regex>
+
+	<regex>
+		<name>tok</name>
+		<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+		<page>http://diskokosmiko.mx/[makelist.param2]</page>
+		<referer>http://diskokosmiko.mx/anime/naruto-todas-las-temporadas-100-latino-1212/list,1,100</referer>
+		<connection>keep-alive</connection>
+		<cookieJar></cookieJar>
+	</regex>
+
+	<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/NarutoThumbnail.png?raw=true</thumbnail>
+	<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/NARUTOFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>[COLOR white][B]+[/B][/COLOR] [COLOR dodgerblue]ZONA[/COLOR] [COLOR skyblue]NARUTO SHIPUDEN[/COLOR]</title>
+	<link>$doregex[makelist2]</link>
+	<regex>
+		<name>makelist2</name>
+		<listrepeat><![CDATA[
+			<title>[makelist2.param1]</title>
+			<link>$doregex[makelist]</link>
+			<thumbnail>[makelist2.param3]</thumbnail>
+			<fanart>[makelist2.param4]</fanart>
+		]]></listrepeat>
+		<expres>SDKN:"(.*?)" url:"(.*?)" thu:"(.*?)" fan:"(.*?)"; server:"(.*?)"</expres>
+		<page>https://raw.githubusercontent.com/djliptv/ElRinconDelLolo/master/Menu/DB/DBLolo.xml</page>
+		<cookieJar></cookieJar>
+	</regex>
+	
+	<regex>
+		<name>makelist</name>
+		<listrepeat><![CDATA[
+			<title>$pyFunction:('[makelist.param3]').replace('Espa&#241;ol','')</title>
+			<link>$doregex[getUrl]</link>
+			<thumbnail>[makelist2.param3]</thumbnail>
+			<fanart>[makelist2.param4]</fanart>
+		]]></listrepeat>
+		<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+		<page>[makelist2.param2]/list,1,100</page>
+		<cookieJar></cookieJar>
+	</regex>
+	
+	<regex>
+		<name>getUrl</name>
+		<expres>DownloadUrl":"([^"]+)<expres>
+		<page>[makelist2.param5]/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+		<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+		<referer>[makelist2.param5]/[makelist.param2]</referer>
+		<connection>keep-alive</connection>
+		<accept>*/*</accept>
+		<X-Req>XMLHttpRequest</X-Req>
+		<cookieJar></cookieJar>
+	</regex>
+	
+	<regex>
+		<name>tok</name>
+		<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+		<page>[makelist2.param5]/[makelist.param2]</page>
+		<referer>[makelist2.param5]</referer>
+		<connection>keep-alive</connection>
+		<cookieJar></cookieJar>
+	</regex>
+	<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/NarutoThumbnail.png?raw=true</thumbnail>
+	<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/NARUTOFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>[COLOR white][B]+[/B][/COLOR] [COLOR dodgerblue]ZONA[/COLOR] [COLOR skyblue]ONE PIECE[/COLOR]</title>
+	<link>$doregex[makelist2]</link>
+	<regex>
+		<name>makelist2</name>
+		<listrepeat><![CDATA[
+			<title>[makelist2.param1]</title>
+			<link>$doregex[makelist]</link>
+			<thumbnail>[makelist2.param3]</thumbnail>
+			<fanart>[makelist2.param4]</fanart>
+		]]></listrepeat>
+		<expres>SDKOP:"(.*?)" url:"(.*?)" thu:"(.*?)" fan:"(.*?)"; server:"(.*?)"</expres>
+		<page>https://raw.githubusercontent.com/djliptv/ElRinconDelLolo/master/Menu/DB/DBLolo.xml</page>
+		<cookieJar></cookieJar>
+	</regex>
+	
+	<regex>
+		<name>makelist</name>
+		<listrepeat><![CDATA[
+			<title>$pyFunction:('[makelist.param3]').replace('Espa&#241;ol','')</title>
+			<link>$doregex[getUrl]</link>
+			<thumbnail>[makelist2.param3]</thumbnail>
+			<fanart>[makelist2.param4]</fanart>
+        ]]></listrepeat>
+		<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+		<page>[makelist2.param2]/list,1,1000</page>
+		<cookieJar></cookieJar>
+	</regex>
+	
+	<regex>
+		<name>getUrl</name>
+		<expres>DownloadUrl":"([^"]+)<expres>
+		<page>[makelist2.param5]/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+		<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+		<referer>[makelist2.param5]/[makelist.param2]</referer>
+		<connection>keep-alive</connection>
+		<accept>*/*</accept>
+		<X-Req>XMLHttpRequest</X-Req>
+		<cookieJar></cookieJar>
+	</regex>
+	
+	<regex>
+		<name>tok</name>
+		<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+		<page>[makelist2.param5]/[makelist.param2]</page>
+		<referer>[makelist2.param5]</referer>
+		<connection>keep-alive</connection>
+		<cookieJar></cookieJar>
+	</regex>
+	<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/OnePieceThumbnail.png?raw=true</thumbnail>
+	<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/OnePieceFanart.jpg?raw=true</fanart>
+</item>
+
+<!---
+
+--->
+
+
+<!---
+<item>
+	<title>►►►►►►►►PONER AQUI EL TITULO◄◄◄◄◄◄◄◄</title>
+	<link>$doregex[makelist]</link>
+	<regex>
+		<name>makelist</name>
+		<listrepeat><![CDATA[
+			<title> [makelist.param3]</title>
+			<link>$doregex[getUrl]</link>
+			<thumbnail>====>PONER AQUI ICON DE LA PELICULA</thumbnail>
+			<fanart>====>PONER AQUI BACKGROUND DE LA PELICULA</fanart>
+		]]></listrepeat>
+		<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+		<page>►►►►►►►►PONER AQUI LA URL◄◄◄◄◄◄◄◄</page>
+		<cookieJar></cookieJar>
+	</regex>
+
+	<regex>
+		<name>getUrl</name>
+		<expres>DownloadUrl":"([^"]+)<expres>
+		<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+		<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+		<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+		<connection>keep-alive</connection>
+		<accept>*/*</accept>
+		<X-Req>XMLHttpRequest</X-Req>
+		<cookieJar></cookieJar>
+	</regex>
+
+	<regex>
+		<name>tok</name>
+		<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+		<page>http://diskokosmiko.mx/[makelist.param2]</page>
+		<referer>►►►►►►►►PONER AQUI LA URL◄◄◄◄◄◄◄◄</referer>
+		<connection>keep-alive</connection>
+		<cookieJar></cookieJar>
+	</regex>
+
+	<thumbnail>====>PONER AQUI ICON DE LA PELICULA</thumbnail>
+	<fanart>====>PONER AQUI BACKGROUND DE LA PELICULA</fanart>
+</item>
+--->
+	

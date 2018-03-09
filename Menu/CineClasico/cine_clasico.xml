@@ -1,0 +1,1428 @@
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ 
+<item>
+<title>PELICULAS CLASICAS PELICULAS HD SD VOL 1</title>
+<link>$doregex[makelist]</link>
+ 
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR white][makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://cdn-images-1.medium.com/max/800/1*7koba0cTGHg_Ed8p1lHTsg.jpeg</thumbnail> <!-- aqui va la portada -->
+        <fanart>https://cdn-images-1.medium.com/max/800/1*7koba0cTGHg_Ed8p1lHTsg.jpeg</fanart> <!-- aqui va el fondo -->
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/PukinG/peliculas-antiguas-41154/list,1,100</page> <!-- cambial este link por el de la pagina donde estan las peliculas o series si son varias paginas ir hasta el final y copiar el link completeo termina con list, 1,x --->
+<cookieJar></cookieJar>
+</regex>
+<regex>http://diskokosmiko.mx/naredo/cimarron-strip-serie-54229
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/PukinG/peliculas-antiguas-41154/list,1,100</referer> <!-- cambial este link por el de la pagina donde estan las peliculas o series si son varias paginas ir hasta el final y copiar el link completeo termina con list, 1,x --->
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://cdn-images-1.medium.com/max/800/1*7koba0cTGHg_Ed8p1lHTsg.jpeg</thumbnail> <!-- aqui va la portada -->
+<fanart>https://cdn-images-1.medium.com/max/800/1*7koba0cTGHg_Ed8p1lHTsg.jpeg</fanart> <!-- aqui va el fondo -->
+</item>
+ 
+ 
+ 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ 
+<item>
+<title>PELICULAS CLASICAS PELICULAS HD SD VOL 2</title>
+<link>$doregex[makelist]</link>
+ 
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR white][makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://cdn-images-1.medium.com/max/800/1*7koba0cTGHg_Ed8p1lHTsg.jpeg</thumbnail> <!-- aqui va la portada -->
+        <fanart>https://cdn-images-1.medium.com/max/800/1*7koba0cTGHg_Ed8p1lHTsg.jpeg</fanart> <!-- aqui va el fondo -->
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/PukinG/peliculas-antiguas-2-41773/list,1,100</page> <!-- cambial este link por el de la pagina donde estan las peliculas o series si son varias paginas ir hasta el final y copiar el link completeo termina con list, 1,x --->
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/PukinG/peliculas-antiguas-2-41773/list,1,100</referer> <!-- cambial este link por el de la pagina donde estan las peliculas o series si son varias paginas ir hasta el final y copiar el link completeo termina con list, 1,x --->
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://cdn-images-1.medium.com/max/800/1*7koba0cTGHg_Ed8p1lHTsg.jpeg</thumbnail> <!-- aqui va la portada -->
+<fanart>https://cdn-images-1.medium.com/max/800/1*7koba0cTGHg_Ed8p1lHTsg.jpeg</fanart> <!-- aqui va el fondo -->
+</item>
+ 
+ 
+ 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ 
+<item>
+<title>PELICULAS CLASICAS PELICULAS HD SD VOL 3</title>
+<link>$doregex[makelist]</link>
+ 
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR white][makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://cdn-images-1.medium.com/max/800/1*7koba0cTGHg_Ed8p1lHTsg.jpeg</thumbnail> <!-- aqui va la portada -->
+        <fanart>http://diskokosmiko.mx/PukinG/peliculas-antiguas-3-41991/list,1,100</fanart> <!-- aqui va el fondo -->
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/PukinG/peliculas-antiguas-41154/list,1,100</page> <!-- cambial este link por el de la pagina donde estan las peliculas o series si son varias paginas ir hasta el final y copiar el link completeo termina con list, 1,x --->
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/PukinG/peliculas-antiguas-3-41991/list,1,100</referer> <!-- cambial este link por el de la pagina donde estan las peliculas o series si son varias paginas ir hasta el final y copiar el link completeo termina con list, 1,x --->
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://cdn-images-1.medium.com/max/800/1*7koba0cTGHg_Ed8p1lHTsg.jpeg</thumbnail> <!-- aqui va la portada -->
+<fanart>https://cdn-images-1.medium.com/max/800/1*7koba0cTGHg_Ed8p1lHTsg.jpeg</fanart> <!-- aqui va el fondo -->
+</item>
+ 
+ 
+ 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ 
+<item>
+<title>PELICULAS CLASICAS PELICULAS HD SD VOL 4</title>
+<link>$doregex[makelist]</link>
+ 
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR white][makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://cdn-images-1.medium.com/max/800/1*7koba0cTGHg_Ed8p1lHTsg.jpeg</thumbnail> <!-- aqui va la portada -->
+        <fanart>https://cdn-images-1.medium.com/max/800/1*7koba0cTGHg_Ed8p1lHTsg.jpeg</fanart> <!-- aqui va el fondo -->
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/PukinG/peliculas-antiguas-4-42339/list,1,100</page> <!-- cambial este link por el de la pagina donde estan las peliculas o series si son varias paginas ir hasta el final y copiar el link completeo termina con list, 1,x --->
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/PukinG/peliculas-antiguas-4-42339/list,1,100</referer> <!-- cambial este link por el de la pagina donde estan las peliculas o series si son varias paginas ir hasta el final y copiar el link completeo termina con list, 1,x --->
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://cdn-images-1.medium.com/max/800/1*7koba0cTGHg_Ed8p1lHTsg.jpeg</thumbnail> <!-- aqui va la portada -->
+<fanart>https://cdn-images-1.medium.com/max/800/1*7koba0cTGHg_Ed8p1lHTsg.jpeg</fanart> <!-- aqui va el fondo -->
+</item>
+ 
+ 
+ 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ 
+<item>
+<title>PELICULAS CLASICAS PELICULAS HD SD VOL 5</title>
+<link>$doregex[makelist]</link>
+ 
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR white][makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://cdn-images-1.medium.com/max/800/1*7koba0cTGHg_Ed8p1lHTsg.jpeg</thumbnail> <!-- aqui va la portada -->
+        <fanart>https://cdn-images-1.medium.com/max/800/1*7koba0cTGHg_Ed8p1lHTsg.jpeg</fanart> <!-- aqui va el fondo -->
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/PukinG/peliculas-antiguas-5-42683/list,1,100</page> <!-- cambial este link por el de la pagina donde estan las peliculas o series si son varias paginas ir hasta el final y copiar el link completeo termina con list, 1,x --->
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/PukinG/peliculas-antiguas-5-42683/list,1,100</referer> <!-- cambial este link por el de la pagina donde estan las peliculas o series si son varias paginas ir hasta el final y copiar el link completeo termina con list, 1,x --->
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://cdn-images-1.medium.com/max/800/1*7koba0cTGHg_Ed8p1lHTsg.jpeg</thumbnail> <!-- aqui va la portada -->
+<fanart>https://cdn-images-1.medium.com/max/800/1*7koba0cTGHg_Ed8p1lHTsg.jpeg</fanart> <!-- aqui va el fondo -->
+</item>
+ 
+ 
+ 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ 
+<item>
+<title>PELICULAS CLASICAS PELICULAS HD SD VOL 6</title>
+<link>$doregex[makelist]</link>
+ 
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR white][makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://cdn-images-1.medium.com/max/800/1*7koba0cTGHg_Ed8p1lHTsg.jpeg</thumbnail> <!-- aqui va la portada -->
+        <fanart>https://cdn-images-1.medium.com/max/800/1*7koba0cTGHg_Ed8p1lHTsg.jpeg</fanart> <!-- aqui va el fondo -->
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/PukinG/peliculas-antiguas-6-44636/list,1,100</page> <!-- cambial este link por el de la pagina donde estan las peliculas o series si son varias paginas ir hasta el final y copiar el link completeo termina con list, 1,x --->
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/PukinG/peliculas-antiguas-6-44636/list,1,100</referer> <!-- cambial este link por el de la pagina donde estan las peliculas o series si son varias paginas ir hasta el final y copiar el link completeo termina con list, 1,x --->
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://cdn-images-1.medium.com/max/800/1*7koba0cTGHg_Ed8p1lHTsg.jpeg</thumbnail> <!-- aqui va la portada -->
+<fanart>https://cdn-images-1.medium.com/max/800/1*7koba0cTGHg_Ed8p1lHTsg.jpeg</fanart> <!-- aqui va el fondo -->
+</item>
+ 
+ 
+ 
+ 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ 
+<item>
+<title>PELICULAS CLASICAS PELICULAS HD SD VOL 7</title>
+<link>$doregex[makelist]</link>
+ 
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR white][makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://cdn-images-1.medium.com/max/800/1*7koba0cTGHg_Ed8p1lHTsg.jpeg</thumbnail> <!-- aqui va la portada -->
+        <fanart>https://cdn-images-1.medium.com/max/800/1*7koba0cTGHg_Ed8p1lHTsg.jpeg</fanart> <!-- aqui va el fondo -->
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/PukinG/peliculas-antiguas-7-45847/list,1,100</page> <!-- cambial este link por el de la pagina donde estan las peliculas o series si son varias paginas ir hasta el final y copiar el link completeo termina con list, 1,x --->
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/PukinG/peliculas-antiguas-7-45847/list,1,100</referer> <!-- cambial este link por el de la pagina donde estan las peliculas o series si son varias paginas ir hasta el final y copiar el link completeo termina con list, 1,x --->
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://cdn-images-1.medium.com/max/800/1*7koba0cTGHg_Ed8p1lHTsg.jpeg</thumbnail> <!-- aqui va la portada -->
+<fanart>https://cdn-images-1.medium.com/max/800/1*7koba0cTGHg_Ed8p1lHTsg.jpeg</fanart> <!-- aqui va el fondo -->
+</item>
+ 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ 
+<item>
+<title>PELICULAS CLASICAS PELICULAS HD SD VOL 8</title>
+<link>$doregex[makelist]</link>
+ 
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR white][makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://cdn-images-1.medium.com/max/800/1*7koba0cTGHg_Ed8p1lHTsg.jpeg</thumbnail> <!-- aqui va la portada -->
+        <fanart>https://cdn-images-1.medium.com/max/800/1*7koba0cTGHg_Ed8p1lHTsg.jpeg</fanart> <!-- aqui va el fondo -->
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/jml/peliculas-25581/list,1,100</page> <!-- cambial este link por el de la pagina donde estan las peliculas o series si son varias paginas ir hasta el final y copiar el link completeo termina con list, 1,x --->
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/jml/peliculas-25581/list,1,100</referer> <!-- cambial este link por el de la pagina donde estan las peliculas o series si son varias paginas ir hasta el final y copiar el link completeo termina con list, 1,x --->
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://cdn-images-1.medium.com/max/800/1*7koba0cTGHg_Ed8p1lHTsg.jpeg</thumbnail> <!-- aqui va la portada -->
+<fanart>https://cdn-images-1.medium.com/max/800/1*7koba0cTGHg_Ed8p1lHTsg.jpeg</fanart> <!-- aqui va el fondo -->
+</item>
+ 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ 
+<item>
+<title>PELICULAS CLASICAS PELICULAS HD SD VOL 9</title>
+<link>$doregex[makelist]</link>
+ 
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR white][makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://cdn-images-1.medium.com/max/800/1*7koba0cTGHg_Ed8p1lHTsg.jpeg</thumbnail> <!-- aqui va la portada -->
+        <fanart>https://cdn-images-1.medium.com/max/800/1*7koba0cTGHg_Ed8p1lHTsg.jpeg</fanart> <!-- aqui va el fondo -->
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/cinedelos80/peliculas-de-los-80-en-bluray-51454/list,1,6</page> <!-- cambial este link por el de la pagina donde estan las peliculas o series si son varias paginas ir hasta el final y copiar el link completeo termina con list, 1,x --->
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/cinedelos80/peliculas-de-los-80-en-bluray-51454/list,1,6</referer> <!-- cambial este link por el de la pagina donde estan las peliculas o series si son varias paginas ir hasta el final y copiar el link completeo termina con list, 1,x --->
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://cdn-images-1.medium.com/max/800/1*7koba0cTGHg_Ed8p1lHTsg.jpeg</thumbnail> <!-- aqui va la portada -->
+<fanart>https://cdn-images-1.medium.com/max/800/1*7koba0cTGHg_Ed8p1lHTsg.jpeg</fanart> <!-- aqui va el fondo -->
+</item
+ 
+<item>
+<title>PELICULAS CLASICAS PELICULAS HD SD VOL 10</title>
+<link>$doregex[makelist]</link>
+ 
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR white][makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://cdn-images-1.medium.com/max/800/1*7koba0cTGHg_Ed8p1lHTsg.jpeg</thumbnail> <!-- aqui va la portada -->
+        <fanart>https://cdn-images-1.medium.com/max/800/1*7koba0cTGHg_Ed8p1lHTsg.jpeg</fanart> <!-- aqui va el fondo -->
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/cinedelos80/peliculas-de-los-80-34332/list,1,20</page> <!-- cambial este link por el de la pagina donde estan las peliculas o series si son varias paginas ir hasta el final y copiar el link completeo termina con list, 1,x --->
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/cinedelos80/peliculas-de-los-80-34332/list,1,20</referer> <!-- cambial este link por el de la pagina donde estan las peliculas o series si son varias paginas ir hasta el final y copiar el link completeo termina con list, 1,x --->
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://cdn-images-1.medium.com/max/800/1*7koba0cTGHg_Ed8p1lHTsg.jpeg</thumbnail> <!-- aqui va la portada -->
+<fanart>https://cdn-images-1.medium.com/max/800/1*7koba0cTGHg_Ed8p1lHTsg.jpeg</fanart> <!-- aqui va el fondo -->
+</item>
+ 
+ <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ 
+<item>
+<title>WESTERN CLASICO</title>
+<link>$doregex[makelist]</link>
+ 
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR white][makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://s-media-cache-ak0.pinimg.com/originals/97/95/7c/97957c817fc98138d62a1227d7cd34ea.jpg</thumbnail> <!-- aqui va la portada -->
+        <fanart>https://s-media-cache-ak0.pinimg.com/originals/97/95/7c/97957c817fc98138d62a1227d7cd34ea.jpg</fanart> <!-- aqui va el fondo -->
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/naredo/western-19889/list,1,100</page> <!-- cambial este link por el de la pagina donde estan las peliculas o series si son varias paginas ir hasta el final y copiar el link completeo termina con list, 1,x --->
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/naredo/western-19889/list,1,100</referer> <!-- cambial este link por el de la pagina donde estan las peliculas o series si son varias paginas ir hasta el final y copiar el link completeo termina con list, 1,x --->
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://s-media-cache-ak0.pinimg.com/originals/97/95/7c/97957c817fc98138d62a1227d7cd34ea.jpg</thumbnail> <!-- aqui va la portada -->
+<fanart>https://s-media-cache-ak0.pinimg.com/originals/97/95/7c/97957c817fc98138d62a1227d7cd34ea.jpg</fanart> <!-- aqui va el fondo -->
+</item>
+
+<item>
+<title>PELICULAS CLASICAS ALVARO VITALI (JAIMITO)</title>
+<link>$doregex[makelist]</link>
+ 
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR white][makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://www.viruete.com/articulos/2005/fotosarticulos/jaimito/jaimito1.jpg</thumbnail> <!-- aqui va la portada -->
+        <fanart>http://www.viruete.com/articulos/2005/fotosarticulos/jaimito/jaimito1.jpg</fanart> <!-- aqui va el fondo -->
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/naredo/alvaro-vitale-19985/list,1,2</page> <!-- cambial este link por el de la pagina donde estan las peliculas o series si son varias paginas ir hasta el final y copiar el link completeo termina con list, 1,x --->
+<cookieJar></cookieJar>
+</regex>
+<regex>http://diskokosmiko.mx/naredo/cimarron-strip-serie-54229
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/naredo/alvaro-vitale-19985/list,1,2</referer> <!-- cambial este link por el de la pagina donde estan las peliculas o series si son varias paginas ir hasta el final y copiar el link completeo termina con list, 1,x --->
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.viruete.com/articulos/2005/fotosarticulos/jaimito/jaimito1.jpg</thumbnail> <!-- aqui va la portada -->
+<fanart>hhttp://www.viruete.com/articulos/2005/fotosarticulos/jaimito/jaimito1.jpg</fanart> <!-- aqui va el fondo -->
+</item>
+ 
+ 
+ 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ 
+<item>
+<title>PELICULAS CLASICAS PAJARES Y ESTESO</title>
+<link>$doregex[makelist]</link>
+ 
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR white][makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://www.retromemories.net/wp-content/uploads/2015/05/esteso-y-pajares-thomson.jpg</thumbnail> <!-- aqui va la portada -->
+        <fanart>http://www.retromemories.net/wp-content/uploads/2015/05/esteso-y-pajares-thomson.jpg</fanart> <!-- aqui va el fondo -->
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/naredo/pajares-y-esteso-peliculas-63880/list,1,2</page> <!-- cambial este link por el de la pagina donde estan las peliculas o series si son varias paginas ir hasta el final y copiar el link completeo termina con list, 1,x --->
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/naredo/pajares-y-esteso-peliculas-63880/list,1,2</referer> <!-- cambial este link por el de la pagina donde estan las peliculas o series si son varias paginas ir hasta el final y copiar el link completeo termina con list, 1,x --->
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.retromemories.net/wp-content/uploads/2015/05/esteso-y-pajares-thomson.jpg</thumbnail> <!-- aqui va la portada -->
+<fanart>http://www.retromemories.net/wp-content/uploads/2015/05/esteso-y-pajares-thomson.jpg</fanart> <!-- aqui va el fondo -->
+</item>
+ 
+ 
+ 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ 
+<item>
+<title>PELICULAS CLASICAS ALFREDO LANDA ESPAÑA</title>
+<link>$doregex[makelist]</link>
+ 
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR white][makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://4.bp.blogspot.com/-e7TLceUYtuE/UZFv-vzjF-I/AAAAAAAAD5c/1Chsxrat8v8/s1600/001.jpg</thumbnail> <!-- aqui va la portada -->
+        <fanart>http://4.bp.blogspot.com/-e7TLceUYtuE/UZFv-vzjF-I/AAAAAAAAD5c/1Chsxrat8v8/s1600/001.jpg</fanart> <!-- aqui va el fondo -->
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/naredo/alfredo-landa-peliculas-64668/list,1,3</page> <!-- cambial este link por el de la pagina donde estan las peliculas o series si son varias paginas ir hasta el final y copiar el link completeo termina con list, 1,x --->
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/naredo/alfredo-landa-peliculas-64668/list,1,3</referer> <!-- cambial este link por el de la pagina donde estan las peliculas o series si son varias paginas ir hasta el final y copiar el link completeo termina con list, 1,x --->
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://4.bp.blogspot.com/-e7TLceUYtuE/UZFv-vzjF-I/AAAAAAAAD5c/1Chsxrat8v8/s1600/001.jpg</thumbnail> <!-- aqui va la portada -->
+<fanart>http://4.bp.blogspot.com/-e7TLceUYtuE/UZFv-vzjF-I/AAAAAAAAD5c/1Chsxrat8v8/s1600/001.jpg</fanart> <!-- aqui va el fondo -->
+</item>
+ 
+ 
+ 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ 
+<item>
+<title>PELICULAS CLASICAS PACO MARTINEZ SORIA</title>
+<link>$doregex[makelist]</link>
+ 
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR white][makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://www.abc.es/Media/201207/15/soria--644x362.JPG</thumbnail> <!-- aqui va la portada -->
+        <fanart>http://www.abc.es/Media/201207/15/soria--644x362.JPG</fanart> <!-- aqui va el fondo -->
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/naredo/paco-martinez-soria-peliculas-63885</page> <!-- cambial este link por el de la pagina donde estan las peliculas o series si son varias paginas ir hasta el final y copiar el link completeo termina con list, 1,x --->
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/naredo/paco-martinez-soria-peliculas-63885</referer> <!-- cambial este link por el de la pagina donde estan las peliculas o series si son varias paginas ir hasta el final y copiar el link completeo termina con list, 1,x --->
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.abc.es/Media/201207/15/soria--644x362.JPG</thumbnail> <!-- aqui va la portada -->
+<fanart>http://www.abc.es/Media/201207/15/soria--644x362.JPG</fanart> <!-- aqui va el fondo -->
+</item>
+ 
+ 
+ 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ 
+<item>
+<title>PELICULAS CLASICAS PELICULAS BUD SSPENCER Y TERENCE HILL</title>
+<link>$doregex[makelist]</link>
+ 
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR white][makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://sm.ign.com/t/ign_es/screenshot/default/pic_s5hu.640.jpg</thumbnail> <!-- aqui va la portada -->
+        <fanart>http://sm.ign.com/t/ign_es/screenshot/default/pic_s5hu.640.jpg</fanart> <!-- aqui va el fondo -->
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/humitoy/bud-spencer-y-terence-hill-filmografia-48075/list,1,3</page> <!-- cambial este link por el de la pagina donde estan las peliculas o series si son varias paginas ir hasta el final y copiar el link completeo termina con list, 1,x --->
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/humitoy/bud-spencer-y-terence-hill-filmografia-48075/list,1,3</referer> <!-- cambial este link por el de la pagina donde estan las peliculas o series si son varias paginas ir hasta el final y copiar el link completeo termina con list, 1,x --->
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://sm.ign.com/t/ign_es/screenshot/default/pic_s5hu.640.jpg</thumbnail> <!-- aqui va la portada -->
+<fanart>http://sm.ign.com/t/ign_es/screenshot/default/pic_s5hu.640.jpg</fanart> <!-- aqui va el fondo -->
+</item>
+ 
+ 
+ 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ 
+<item>
+<title>PELICULAS CLASICAS KINKI ESPAÑOLAS</title>
+<link>$doregex[makelist]</link>
+ 
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR white][makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://www.jotdown.es/wp-content/uploads/2012/04/image02.jpg</thumbnail> <!-- aqui va la portada -->
+        <fanart>http://www.jotdown.es/wp-content/uploads/2012/04/image02.jpg</fanart> <!-- aqui va el fondo -->
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/humitoy/peliculas-kinki-45290/list,1,3</page> <!-- cambial este link por el de la pagina donde estan las peliculas o series si son varias paginas ir hasta el final y copiar el link completeo termina con list, 1,x --->
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/humitoy/peliculas-kinki-45290/list,1,3</referer> <!-- cambial este link por el de la pagina donde estan las peliculas o series si son varias paginas ir hasta el final y copiar el link completeo termina con list, 1,x --->
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.jotdown.es/wp-content/uploads/2012/04/image02.jpg</thumbnail> <!-- aqui va la portada -->
+<fanart>http://www.jotdown.es/wp-content/uploads/2012/04/image02.jpg</fanart> <!-- aqui va el fondo -->
+</item>
+ 
+ 
+ 
+ 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ 
+<item>
+<title>PELICULAS CLASICAS  ARTES MARCIALES</title>
+<link>$doregex[makelist]</link>
+ 
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR white][makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://s-media-cache-ak0.pinimg.com/736x/20/f0/2d/20f02df71ec8907b4f36d9cbd27c6cb7.jpg</thumbnail> <!-- aqui va la portada -->
+        <fanart>https://s-media-cache-ak0.pinimg.com/736x/20/f0/2d/20f02df71ec8907b4f36d9cbd27c6cb7.jpg</fanart> <!-- aqui va el fondo -->
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/jml/peliculas-de-artes-marciales-50941/list,1,5</page> <!-- cambial este link por el de la pagina donde estan las peliculas o series si son varias paginas ir hasta el final y copiar el link completeo termina con list, 1,x --->
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/jml/peliculas-de-artes-marciales-50941/list,1,5</referer> <!-- cambial este link por el de la pagina donde estan las peliculas o series si son varias paginas ir hasta el final y copiar el link completeo termina con list, 1,x --->
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://s-media-cache-ak0.pinimg.com/736x/20/f0/2d/20f02df71ec8907b4f36d9cbd27c6cb7.jpg</thumbnail> <!-- aqui va la portada -->
+<fanart>https://s-media-cache-ak0.pinimg.com/736x/20/f0/2d/20f02df71ec8907b4f36d9cbd27c6cb7.jpg</fanart> <!-- aqui va el fondo -->
+</item>
+ 
+ 
+ 
+ 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ 
+<item>
+<title>PELICULAS CLASICAS TERROR STEPHEN KING</title>
+<link>$doregex[makelist]</link>
+ 
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR white][makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://i0.fiuxy.com/f747416871c7fd74734faf94df93386eff5c2670?url=http%3A%2F%2Foi58.tinypic.com%2Fvovl7p.jpg</thumbnail> <!-- aqui va la portada -->
+        <fanart>https://i0.fiuxy.com/f747416871c7fd74734faf94df93386eff5c2670?url=http%3A%2F%2Foi58.tinypic.com%2Fvovl7p.jpg</fanart> <!-- aqui va el fondo -->
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/cinedelos80/coleccion-de-stephen-king-en-espanol-34464</page> <!-- cambial este link por el de la pagina donde estan las peliculas o series si son varias paginas ir hasta el final y copiar el link completeo termina con list, 1,x --->
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/cinedelos80/coleccion-de-stephen-king-en-espanol-34464</referer> <!-- cambial este link por el de la pagina donde estan las peliculas o series si son varias paginas ir hasta el final y copiar el link completeo termina con list, 1,x --->
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://i0.fiuxy.com/f747416871c7fd74734faf94df93386eff5c2670?url=http%3A%2F%2Foi58.tinypic.com%2Fvovl7p.jpg</thumbnail> <!-- aqui va la portada -->
+<fanart>https://i0.fiuxy.com/f747416871c7fd74734faf94df93386eff5c2670?url=http%3A%2F%2Foi58.tinypic.com%2Fvovl7p.jpg</fanart> <!-- aqui va el fondo -->
+</item>
+ 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ 
+<item>
+<title>PELICULAS CLASICAS JOHN WAYNE</title>
+<link>$doregex[makelist]</link>
+ 
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR white][makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://i.blogs.es/81a56a/waynethesearchers/450_1000.jpg</thumbnail> <!-- aqui va la portada -->
+        <fanart>https://i.blogs.es/81a56a/waynethesearchers/450_1000.jpg</fanart> <!-- aqui va el fondo -->
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/frankiepentangelli/filmografia-john-wayne-41656/list,1,7</page> <!-- cambial este link por el de la pagina donde estan las peliculas o series si son varias paginas ir hasta el final y copiar el link completeo termina con list, 1,x --->
+<cookieJar></cookieJar>
+</regex>
+<regex>http://diskokosmiko.mx/naredo/cimarron-strip-serie-54229
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/frankiepentangelli/filmografia-john-wayne-41656/list,1,7</referer> <!-- cambial este link por el de la pagina donde estan las peliculas o series si son varias paginas ir hasta el final y copiar el link completeo termina con list, 1,x --->
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://i.blogs.es/81a56a/waynethesearchers/450_1000.jpg</thumbnail> <!-- aqui va la portada -->
+<fanart>https://i.blogs.es/81a56a/waynethesearchers/450_1000.jpg</fanart> <!-- aqui va el fondo -->
+</item>
+ 
+ 
+ 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ 
+<item>
+<title>PELICULAS CLASICAS ALFRED HITCHCOCK</title>
+<link>$doregex[makelist]</link>
+ 
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR white][makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://www.entrelineas.org/public/entrelineas/galeria/alfred-hitchcock-presenta.jpg</thumbnail> <!-- aqui va la portada -->
+        <fanart>http://www.entrelineas.org/public/entrelineas/galeria/alfred-hitchcock-presenta.jpg</fanart> <!-- aqui va el fondo -->
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/garroteca/alfred-hitchcock-coleccion-51481</page> <!-- cambial este link por el de la pagina donde estan las peliculas o series si son varias paginas ir hasta el final y copiar el link completeo termina con list, 1,x --->
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/garroteca/alfred-hitchcock-coleccion-51481</referer> <!-- cambial este link por el de la pagina donde estan las peliculas o series si son varias paginas ir hasta el final y copiar el link completeo termina con list, 1,x --->
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.entrelineas.org/public/entrelineas/galeria/alfred-hitchcock-presenta.jpg</thumbnail> <!-- aqui va la portada -->
+<fanart>http://www.entrelineas.org/public/entrelineas/galeria/alfred-hitchcock-presenta.jpg</fanart> <!-- aqui va el fondo -->
+</item>
+ 
+ 
+ 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ 
+<item>
+<title>PELICULAS CLASICAS MARILYN MONROE</title>
+<link>$doregex[makelist]</link>
+ 
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR white][makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://i.ytimg.com/vi/3aMpb_QQjcM/hqdefault.jpg</thumbnail> <!-- aqui va la portada -->
+        <fanart>https://i.ytimg.com/vi/3aMpb_QQjcM/hqdefault.jpg</fanart> <!-- aqui va el fondo -->
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/garroteca/marilyn-monroe-seleccion-50874</page> <!-- cambial este link por el de la pagina donde estan las peliculas o series si son varias paginas ir hasta el final y copiar el link completeo termina con list, 1,x --->
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/garroteca/marilyn-monroe-seleccion-50874</referer> <!-- cambial este link por el de la pagina donde estan las peliculas o series si son varias paginas ir hasta el final y copiar el link completeo termina con list, 1,x --->
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://i.ytimg.com/vi/3aMpb_QQjcM/hqdefault.jpg</thumbnail> <!-- aqui va la portada -->
+<fanart>https://i.ytimg.com/vi/3aMpb_QQjcM/hqdefault.jpg</fanart> <!-- aqui va el fondo -->
+</item>
+ 
+ 
+ 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ 
+<item>
+<title>PELICULAS CLASICAS WOODY ALLEN</title>
+<link>$doregex[makelist]</link>
+ 
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR white][makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://filosofia.uc.cl/images/Noticias/allen.jpg</thumbnail> <!-- aqui va la portada -->
+        <fanart>http://filosofia.uc.cl/images/Noticias/allen.jpg</fanart> <!-- aqui va el fondo -->
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/frankiepentangelli/filmografia-woody-allen-47838/list,1,3</page> <!-- cambial este link por el de la pagina donde estan las peliculas o series si son varias paginas ir hasta el final y copiar el link completeo termina con list, 1,x --->
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/frankiepentangelli/filmografia-woody-allen-47838/list,1,3</referer> <!-- cambial este link por el de la pagina donde estan las peliculas o series si son varias paginas ir hasta el final y copiar el link completeo termina con list, 1,x --->
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://filosofia.uc.cl/images/Noticias/allen.jpg</thumbnail> <!-- aqui va la portada -->
+<fanart>http://filosofia.uc.cl/images/Noticias/allen.jpg</fanart> <!-- aqui va el fondo -->
+</item>
+ 
+ 
+ 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ 
+<item>
+<title>PELICULAS CLASICAS DE DEPORTES</title>
+<link>$doregex[makelist]</link>
+ 
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR white][makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://cines.com/files/2014/04/deporte-cine-carros-fuego.jpg</thumbnail> <!-- aqui va la portada -->
+        <fanart>http://cines.com/files/2014/04/deporte-cine-carros-fuego.jpg</fanart> <!-- aqui va el fondo -->
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/frankiepentangelli/cine-deporte-48330/list,1,3</page> <!-- cambial este link por el de la pagina donde estan las peliculas o series si son varias paginas ir hasta el final y copiar el link completeo termina con list, 1,x --->
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/frankiepentangelli/cine-deporte-48330/list,1,3</referer> <!-- cambial este link por el de la pagina donde estan las peliculas o series si son varias paginas ir hasta el final y copiar el link completeo termina con list, 1,x --->
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://cines.com/files/2014/04/deporte-cine-carros-fuego.jpg</thumbnail> <!-- aqui va la portada -->
+<fanart>http://cines.com/files/2014/04/deporte-cine-carros-fuego.jpg</fanart> <!-- aqui va el fondo -->
+</item>
+ 
+ 
+ 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ 
+<item>
+<title>PELICULAS CLASICAS  ESPAÑOLAS</title>
+<link>$doregex[makelist]</link>
+ 
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR white][makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://s9.postimg.org/ykvnhrskf/cineespanl.jpg</thumbnail> <!-- aqui va la portada -->
+        <fanart>http://s9.postimg.org/ykvnhrskf/cineespanl.jpg</fanart> <!-- aqui va el fondo -->
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/frankiepentangelli/cine-espanol-61876/list,1,13</page> <!-- cambial este link por el de la pagina donde estan las peliculas o series si son varias paginas ir hasta el final y copiar el link completeo termina con list, 1,x --->
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/frankiepentangelli/cine-espanol-61876/list,1,13</referer> <!-- cambial este link por el de la pagina donde estan las peliculas o series si son varias paginas ir hasta el final y copiar el link completeo termina con list, 1,x --->
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://s9.postimg.org/ykvnhrskf/cineespanl.jpg</thumbnail> <!-- aqui va la portada -->
+<fanart>http://s9.postimg.org/ykvnhrskf/cineespanl.jpg</fanart> <!-- aqui va el fondo -->
+</item>
+ 
+ 
+ 
+ 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ 
+<item>
+<title>PELICULAS CLASICAS  NAVIDEÑO</title>
+<link>$doregex[makelist]</link>
+ 
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR white][makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://s-media-cache-ak0.pinimg.com/736x/a7/f2/1b/a7f21b072eed67bfabfd65d1bea2a227.jpg</thumbnail> <!-- aqui va la portada -->
+        <fanart>https://s-media-cache-ak0.pinimg.com/736x/a7/f2/1b/a7f21b072eed67bfabfd65d1bea2a227.jpg</fanart> <!-- aqui va el fondo -->
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/frankiepentangelli/cine-club-navidad-41970/list,1,5</page> <!-- cambial este link por el de la pagina donde estan las peliculas o series si son varias paginas ir hasta el final y copiar el link completeo termina con list, 1,x --->
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/frankiepentangelli/cine-club-navidad-41970/list,1,5</referer> <!-- cambial este link por el de la pagina donde estan las peliculas o series si son varias paginas ir hasta el final y copiar el link completeo termina con list, 1,x --->
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://s-media-cache-ak0.pinimg.com/736x/a7/f2/1b/a7f21b072eed67bfabfd65d1bea2a227.jpg</thumbnail> <!-- aqui va la portada -->
+<fanart>https://s-media-cache-ak0.pinimg.com/736x/a7/f2/1b/a7f21b072eed67bfabfd65d1bea2a227.jpg</fanart> <!-- aqui va el fondo -->
+</item>
+ 
+ 
+ 
+ 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ 
+<item>
+<title>PELICULAS CLASICAS BELICAS</title>
+<link>$doregex[makelist]</link>
+ 
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR white][makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://3.bp.blogspot.com/-ppVkoAjEh1I/UYnClzfMHaI/AAAAAAAAFuw/EiPegJHpgQc/s1600/Memphis_Belle_tripulacion-1600x9001.jpg</thumbnail> <!-- aqui va la portada -->
+        <fanart>http://3.bp.blogspot.com/-ppVkoAjEh1I/UYnClzfMHaI/AAAAAAAAFuw/EiPegJHpgQc/s1600/Memphis_Belle_tripulacion-1600x9001.jpg</fanart> <!-- aqui va el fondo -->
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/naredo/belicas-20003/list,1,10</page> <!-- cambial este link por el de la pagina donde estan las peliculas o series si son varias paginas ir hasta el final y copiar el link completeo termina con list, 1,x --->
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/naredo/belicas-20003/list,1,10</referer> <!-- cambial este link por el de la pagina donde estan las peliculas o series si son varias paginas ir hasta el final y copiar el link completeo termina con list, 1,x --->
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://3.bp.blogspot.com/-ppVkoAjEh1I/UYnClzfMHaI/AAAAAAAAFuw/EiPegJHpgQc/s1600/Memphis_Belle_tripulacion-1600x9001.jpg</thumbnail> <!-- aqui va la portada -->
+<fanart>http://3.bp.blogspot.com/-ppVkoAjEh1I/UYnClzfMHaI/AAAAAAAAFuw/EiPegJHpgQc/s1600/Memphis_Belle_tripulacion-1600x9001.jpg</fanart> <!-- aqui va el fondo -->
+</item>
+ 
+ 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ 
+<item>
+<title>PELICULAS CLASICAS PELICULAS wWESTERN CLASICO vol 2 </title>
+<link>$doregex[makelist]</link>
+ 
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR white][makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://s-media-cache-ak0.pinimg.com/originals/97/95/7c/97957c817fc98138d62a1227d7cd34ea.jpg</thumbnail> <!-- aqui va la portada -->
+        <fanart>https://s-media-cache-ak0.pinimg.com/originals/97/95/7c/97957c817fc98138d62a1227d7cd34ea.jpg</fanart> <!-- aqui va el fondo -->
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/frankiepentangelli/cine-western-66007/list,1,19</page> <!-- cambial este link por el de la pagina donde estan las peliculas o series si son varias paginas ir hasta el final y copiar el link completeo termina con list, 1,x --->
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/frankiepentangelli/cine-western-66007/list,1,19</referer> <!-- cambial este link por el de la pagina donde estan las peliculas o series si son varias paginas ir hasta el final y copiar el link completeo termina con list, 1,x --->
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://s-media-cache-ak0.pinimg.com/originals/97/95/7c/97957c817fc98138d62a1227d7cd34ea.jpg</thumbnail> <!-- aqui va la portada -->
+<fanart>https://s-media-cache-ak0.pinimg.com/originals/97/95/7c/97957c817fc98138d62a1227d7cd34ea.jpg</fanart> <!-- aqui va el fondo -->
+</item>
+
+<item>
+<title>CINE DE BARRIO PARTE 1</title>
+<link>$doregex[makelist]</link>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR red][COLOR  white]• [/COLOR]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+		<thumbnail>http://www.movistarplus.es/recorte/n/caratula4/M336917</thumbnail>
+        <fanart>http://miguelherrero.mybesthost.com/images/2010_11/Jose_Manuel_Parada/cine%20de%20barrio.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/trivianita/cine-de-barrio-parte-1-el-rockero-34541/list,1,3</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/trivianita/cine-de-barrio-parte-1-el-rockero-34541/list,1,3</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.movistarplus.es/recorte/n/caratula4/M336917</thumbnail>
+<fanart>http://miguelherrero.mybesthost.com/images/2010_11/Jose_Manuel_Parada/cine%20de%20barrio.jpg</fanart>
+</item>
+
+<item>
+<title>CINE DE BARRIO PARTE 2</title>
+<link>$doregex[makelist]</link>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR red][COLOR  white]• [/COLOR]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+		<thumbnail>http://www.movistarplus.es/recorte/n/caratula4/M336917</thumbnail>
+        <fanart>http://miguelherrero.mybesthost.com/images/2010_11/Jose_Manuel_Parada/cine%20de%20barrio.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/trivianita/cine-de-barrio-parte-2-el-rockero-34737/list,1,4</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/trivianita/cine-de-barrio-parte-2-el-rockero-34737/list,1,4</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.movistarplus.es/recorte/n/caratula4/M336917</thumbnail>
+<fanart>http://miguelherrero.mybesthost.com/images/2010_11/Jose_Manuel_Parada/cine%20de%20barrio.jpg</fanart>
+</item>
+
+
+
+<item>
+<title>CINE DE BARRIO PARTE 3</title>
+<link>$doregex[makelist]</link>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR red][COLOR  white]• [/COLOR]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+		<thumbnail>http://www.movistarplus.es/recorte/n/caratula4/M336917</thumbnail>
+        <fanart>http://miguelherrero.mybesthost.com/images/2010_11/Jose_Manuel_Parada/cine%20de%20barrio.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/trivianita/cine-de-barrio-parte-3-el-rockero-35550/list,1,4</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/trivianita/cine-de-barrio-parte-3-el-rockero-35550/list,1,4</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.movistarplus.es/recorte/n/caratula4/M336917</thumbnail>
+<fanart>http://miguelherrero.mybesthost.com/images/2010_11/Jose_Manuel_Parada/cine%20de%20barrio.jpg</fanart>
+</item>
+
+<item>
+<title>CINE DE BARRIO PARTE 4</title>
+<link>$doregex[makelist]</link>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR red][COLOR  white]• [/COLOR]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+		<thumbnail>http://www.movistarplus.es/recorte/n/caratula4/M336917</thumbnail>
+        <fanart>http://miguelherrero.mybesthost.com/images/2010_11/Jose_Manuel_Parada/cine%20de%20barrio.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/trivianita/cine-de-barrio-parte-4-el-rockero-35940/list,1,4</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/trivianita/cine-de-barrio-parte-4-el-rockero-35940/list,1,4</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.movistarplus.es/recorte/n/caratula4/M336917</thumbnail>
+<fanart>http://miguelherrero.mybesthost.com/images/2010_11/Jose_Manuel_Parada/cine%20de%20barrio.jpg</fanart>
+</item>
+
+
+<item>
+<title>CINE DE BARRIO PARTE 5</title>
+<link>$doregex[makelist]</link>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR red][COLOR  white]• [/COLOR]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+		<thumbnail>http://www.movistarplus.es/recorte/n/caratula4/M336917</thumbnail>
+        <fanart>http://miguelherrero.mybesthost.com/images/2010_11/Jose_Manuel_Parada/cine%20de%20barrio.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/trivianita/cine-de-barrio-parte-5-el-rockero-37465/list,1,5</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/trivianita/cine-de-barrio-parte-5-el-rockero-37465/list,1,5</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.movistarplus.es/recorte/n/caratula4/M336917</thumbnail>
+<fanart>http://miguelherrero.mybesthost.com/images/2010_11/Jose_Manuel_Parada/cine%20de%20barrio.jpg</fanart>
+</item>
+
+
+<item>
+<title>CINE DE BARRIO PARTE 6</title>
+<link>$doregex[makelist]</link>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR red][COLOR  white]• [/COLOR]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+		<thumbnail>http://www.movistarplus.es/recorte/n/caratula4/M336917</thumbnail>
+        <fanart>http://miguelherrero.mybesthost.com/images/2010_11/Jose_Manuel_Parada/cine%20de%20barrio.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/trivianita/cine-de-barrio-parte-6-final-el-rockero-38031/list,1,5</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/trivianita/cine-de-barrio-parte-6-final-el-rockero-38031/list,1,5</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.movistarplus.es/recorte/n/caratula4/M336917</thumbnail>
+<fanart>http://miguelherrero.mybesthost.com/images/2010_11/Jose_Manuel_Parada/cine%20de%20barrio.jpg</fanart>
+</item>

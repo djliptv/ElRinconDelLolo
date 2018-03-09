@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet href="hide-it.xsl" type="text/xsl"?>
+
+
+	<item>
+		<title>[COLOR white][B]+[/B][/COLOR] [COLOR skyblue]SERIES LOLO[/COLOR] [COLOR gold]ACTUALIZADO 20/07/17[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/SeriesThumbnail.png?raw=true</thumbnail>
+		<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/SeriesFanart.jpg?raw=true</fanart>
+		<externallink>https://www.dropbox.com/s/mp4ldmq4aisksyx/Series.xml?dl=1</externallink><!---  https://raw.githubusercontent.com/djliptv/ElRinconDelLolo/master/Menu/Series/series.xml    https://www.dropbox.com/s/h64k9c4mmr9bgz1/series.xml?dl=1 --->
+	</item>
+	
+	<item>
+		<title>[COLOR white][B]+[/B][/COLOR] [COLOR skyblue]SERIES INFANTILES DE HOY[/COLOR] [COLOR gold] ¡¡¡ NUEVA SECCION !!![/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/SeriesInfantilesThumbnail.png?raw=true</thumbnail>
+		<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/SeriesInfantilesFanart.jpg?raw=true</fanart>
+		<externallink>https://www.dropbox.com/s/1thca37cngrfwfv/Dibujos%20Actuales.xml?dl=1</externallink>
+	</item>
+	
+	<item>
+		<title>[COLOR white][B]+[/B][/COLOR] [COLOR skyblue]SERIES INFANTILES RETRO[/COLOR] [COLOR gold] ¡¡¡ NUEVA SECCION !!![/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/SeriesInfantilesThumbnail.png?raw=true</thumbnail>
+		<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/SeriesInfantilesFanart.jpg?raw=true</fanart>
+		<externallink>https://www.dropbox.com/s/ndtxgsjawlgqt5n/Dibujos%20Retro.xml?dl=1</externallink>
+	</item>

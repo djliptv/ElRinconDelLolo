@@ -1,0 +1,661 @@
+#EXTM3U
+#EXTINF:-1 tvg-logo="http://www.pelisplanet.com/wp-content/uploads/2016/12/mary-poppins.jpg", DEDICADA A LOU
+http://streamcloud.eu/6i46thxc68bl
+#EXTINF:-1 tvg-logo="https://www.ecured.cu/images/thumb/2/28/Portada_kramer.jpg/260px-Portada_kramer.jpg", KRAMER CONTRA KRAMER
+http://149.202.76.39:8777/gmohpvsvmiikkfn2mbxpyjq3fudukdnyqrujqhqp5rysw55lpu2krwplna/v.mp4
+#EXTINF:-1 tvg-logo="http://www.inventodeldemonio.es/wp-content/uploads/2011/07/cartel-los-bingueros.jpg", LOS BINGEROS
+http://streamcloud.eu/2bo2adzj2xp5
+#EXTINF:-1 tvg-logo="http://imglf0.ph.126.net/3yf19l0UfY-zcOjP849OOg==/1854920096623389693.jpg", EL PROFESIONAL
+http://streamcloud.eu/k6ddv7myxtob
+#EXTINF:-1 tvg-logo="https://pics.filmaffinity.com/collateral_beauty-331373149-large.jpg", BELLEZA OCULTA HD
+http://streamcloud.eu/4eobmm3fbwsi
+#EXTINF:-1 tvg-logo="http://es.web.img2.acsta.net/c_215_290/pictures/16/10/20/16/55/101616.jpg", INFILTRADO HD
+http://streamcloud.eu/6oq8hgzbjhuh
+#EXTINF:-1 tvg-logo="http://es.web.img2.acsta.net/pictures/16/06/08/10/18/368568.jpg", EDITOR LIBROS HD
+http://streamcloud.eu/10wyxapp5g0x/El.Editor.De.Libros.DVD.XviD.avi.html
+#EXTINF:-1 tvg-logo="http://www.gstatic.com/tv/thumb/movieposters/13443190/p13443190_p_v8_ab.jpg", ANNONYMOUS
+http://streamcloud.eu/yw8msq15wpyh
+#EXTINF:-1 tvg-logo="http://i80.fastpic.ru/big/2016/0818/0c/341d6c857e1da358889e2d9544b0be0c.jpg", TODA LA VERDAD HD
+http://streamcloud.eu/iu7bfw2whsi8
+#EXTINF:-1 tvg-logo="https://www.covercaratulas.com/ode2/dvd/13_Horas_-_Los_Soldados_Secretos_De_Bengasi_-_Custom_por_fable.jpg", 13 HORA LOS SOLDADOS SERCRETOS HD
+http://streamcloud.eu/ho3gwk4fceuz
+#EXTINF:-1 tvg-logo="http://es.web.img2.acsta.net/pictures/14/07/01/11/52/569397.jpg", El Niño HD
+http://streamcloud.eu/bdgyq6pvfdzm
+#EXTINF:-1 tvg-logo="http://retromemories.net/wp-content/uploads/2012/03/cartel_la_historia_interminable_0.jpg", LA HISTORIA INTERMINABLE HD
+http://streamcloud.eu/6m73g4vmrtfi
+#EXTINF:-1 tvg-logo="http://miradetodo.io/wp-content/uploads/2017/04/tt3707104.jpg", MINE
+http://streamcloud.eu/rmdg871mbh17
+#EXTINF:-1 tvg-logo="https://pics.filmaffinity.com/man_of_steel_superman-919390391-large.jpg", EL HOMBRE DE ACERO
+http://streamcloud.eu/o8qk95bpebth
+#EXTINF:-1 tvg-logo="http://www.descargatelocorp.com/wp-content/uploads/2016/12/El-Furor-Del-Dragon-HD-1080p-Latino.jpg", EL FUROR DEL DRAGON HD
+https://ph2dql.oloadcdn.net/dl/l/9r8TL50FrxbGd0Nd/9ct4tUkKsz4/El_Furor_Del_Dragon_1972_HDtv.mp4?mime=true
+#EXTINF:-1 tvg-logo="https://pics.filmaffinity.com/all_the_president_s_men-311760630-large.jpg", TODOS LOS HOMBRES DEL PRESIDENTE
+http://streamcloud.eu/aqxnj4shy04d
+#EXTINF:-1 tvg-logo="http://es.web.img3.acsta.net/c_215_290/pictures/16/05/23/15/10/319123.jpg", ESPERANDO AL REY HD
+http://streamcloud.eu/u4d4mw2oalgr
+#EXTINF:-1 tvg-logo="https://imagessl8.casadellibro.com/m/ig/8/2798238.jpg", OCHO APEDILLOS CATALANES HD
+http://streamcloud.eu/qgzibdi653l9
+#EXTINF:-1 tvg-logo="http://www.todocine.com/img164/img00647.jpg", OCHO APEDILLOS VASCOS HD
+http://streamcloud.eu/3nxplc01obw6
+#EXTINF:-1 tvg-logo="http://www.pelisplanet.com/wp-content/uploads/2016/12/mary-poppins.jpg", MARY POPPINS HD
+#EXTINF:-1 tvg-logo="https://pics.filmaffinity.com/man_of_steel_superman-919390391-large.jpg", EL HOMBRE DE ACERO
+http://streamcloud.eu/o8qk95bpebth
+#EXTINF:-1 tvg-logo="http://http://3.bp.blogspot.com/-Bz3fKVciix0/ViIPupxZtsI/AAAAAAAAOFM/ZWgEXIKWiA4/s1600/1941-movie-poster-1979-1020192151.jpg", 1941
+https://pgli8l.oloadcdn.net/dl/l/gLLqVzJVqv0zHtLf/wTmdZyi3f40/XX1941+HDTV-720?mime=true
+#EXTINF:-1 tvg-logo="http://es.web.img2.acsta.net/medias/nmedia/18/90/05/09/20078386.jpg", PELICULA DEDICADA A JUANMI
+http://streamcloud.eu/wofz3o37an65/__las-cuatro-plumas.mp4.html
+#EXTINF:-1 tvg-logo="http://cultura.villarrobledo.com/wp-content/uploads/es-por-tu-bien.jpg",  ES POR TU BIEN
+http://streamcloud.eu/5srg7hq3llfj
+#EXTINF:-1 tvg-logo="http://ars.pl/wp-content/uploads/2016/11/lalaland_plakat.jpg", LA LA LAND
+https://play.cdn02.fx.fastcontentdelivery.com/5k7wywfhfuvvjuw5lxzjnusv3zdikhdvzzzur4h2bcbp7nbur6qb3a62lq4a/normal.mp4
+#EXTINF:-1 tvg-logo="https://pics.filmaffinity.com/an_uncommon_grace_tv-282627403-large.jpg",  AMOR SIN CONDICION 2017
+http://streamcloud.eu/n82y04hdm1nv
+#EXTINF:-1 tvg-logo="http://www.c1n3.org/h/harlin01r/Images/2004%20El%20exorcista%20El%20comienzo%20%28ing%29%2002.jpg", EL EXORCISTA EL COMIENZO version prohibida
+http://streamcloud.eu/z6msvfpjokj9
+#EXTINF:-1 tvg-logo="http://es.web.img3.acsta.net/medias/nmedia/18/67/78/96/20142835.jpg",  EL DIA DE LA BESTIA
+http://streamcloud.eu/xzrcblsfw6i2
+#EXTINF:-1 tvg-logo="https://s-media-cache-ak0.pinimg.com/236x/93/f4/e1/93f4e16116ed85448bbd094b88c008d6.jpg", EL EXORCISTA
+https://play.cdn02.fx.fastcontentdelivery.com/5k7xvzsxuyvvjuw5lurz7dkcz4ktfbqaigdxiy2pnezgvnei7pkhn4svwwhq/normal.mp4
+#EXTINF:-1 tvg-logo="http://www.pelisonic.com/wp-content/uploads/2015/11/el-conjuro-216x300.jpg", EL CONJURO EXPEDIENTE WARREN
+http://streamcloud.eu/7snb4cvqfmh0
+#EXTINF:-1 tvg-logo="http://i45.tinypic.com/2v30pxz.jpg", POLTERGEIST
+http://streamcloud.eu/mcu9ma77kpr8
+#EXTINF:-1 tvg-logo="https://tejiendoelmundo.files.wordpress.com/2009/05/al-final-de-la-escalera.jpg",  AL FINAL DE LA ESCALERA
+http://streamcloud.eu/hg08r1d5xv5b
+#EXTINF:-1 tvg-logo="http://aquipelis.net/wp-content/uploads/2015/08/Alta_tensi_n-230569561-large-160x230.jpg", ALTA TENSION
+http://streamcloud.eu/orfaqso53ne6
+#EXTINF:-1 tvg-logo="http://www.locopelis.com/files/uploads/10256.jpg",  LA HUERFANA
+http://streamcloud.eu/53juuqb1skpf
+#EXTINF:-1 tvg-logo="http://es.web.img3.acsta.net/c_215_290/medias/nmedia/18/82/04/81/19592828.jpg", DRAGON ROJO
+https://play.cdn04.fx.fastcontentdelivery.com/5k7x5rqu6ivvjuw5lx3j3v2d2zsu2gc7m4xzv5mq7ihjs24ufg76eqduatmq/normal.mp4
+#EXTINF:-1 tvg-logo="https://pics.filmaffinity.com/the_duchess-645036828-large.jpg",  LA DUQUESA
+http://streamcloud.eu/5idgx9f07vd0
+#EXTINF:-1 tvg-logo="https://pics.filmaffinity.com/inglourious_basterds-976286054-large.jpg", MALDITOS BASTARDOS
+http://streamcloud.eu/g5syzlig17nq/Malditos_Bastardos.mp4.html
+#EXTINF:-1 tvg-logo="http://www.gstatic.com/tv/thumb/movieposters/163191/p163191_p_v8_al.jpg", 300
+http://streamcloud.eu/td45e9pl9f4x
+#EXTINF:-1 tvg-logo="https://www.elseptimoarte.net/carteles/300_el_origen_de_un_imperio_27437.jpg", 300 EL ORIGEN DE UN IMPERIO
+http://streamcloud.eu/2gox4mffov8w
+#EXTINF:-1 tvg-logo="https://imagessl5.casadellibro.com/m/ig/5/2527245.jpg", INVENCIBLE
+http://streamcloud.eu/bjo7c0ymkpc0
+#EXTINF:-1 tvg-logo="http://www.moviesdvdr.com/torrents_img/632.web.jpg", TRAS LA LINEA ENEMIGA
+http://streamcloud.eu/5knge1k44bg6
+#EXTINF:-1 tvg-logo="http://es.web.img3.acsta.net/pictures/15/02/03/12/02/552376.jpg", EL MAESTRO DEL AGUA
+http://streamcloud.eu/ljivhjfr8f8w/ElMaestrodelAgua.mkv.html
+#EXTINF:-1 tvg-logo="http://images.mymovies.net/images/film/cin/350x522/fid16068.jpg", BONE TOMAHAWK
+http://streamcloud.eu/qavtci4viyck
+#EXTINF:-1 tvg-logo="https://pics.filmaffinity.com/no_country_for_old_men-150566696-large.jpg", NO ES PAIS PARA VIEJOS
+http://streamcloud.eu/d7bugbza7mtl
+#EXTINF:-1 tvg-logo="http://pics.filmaffinity.com/snatch-921179475-large.jpg", SNATCH CERDOS Y DIAMANTES
+http://streamcloud.eu/0u0iwkop7qo3/Snatch..Cerdos.y.diamantes.2000.DVDRip.es.avi.html
+#EXTINF:-1 tvg-logo="http://3.bp.blogspot.com/-3hdClxDGsN0/UGCiJuzwzzI/AAAAAAAAMwI/tZXccH8ClM0/s275/taken-2.jpg", VENGANZA CONECCION ESTAMBUL
+http://streamcloud.eu/gk139m31navy/Venganza_2_Conexion_Estambul_V.Extendida__www.DNPelis.Com_.avi.html
+#EXTINF:-1 tvg-logo="http://es.web.img3.acsta.net/pictures/14/10/01/14/18/210836.jpg", V3NGANZA
+http://streamcloud.eu/mqhz79i3q94y/Venganza_3_HD.avi.html
+#EXTINF:-1 tvg-logo="http://orig15.deviantart.net/46b3/f/2011/053/2/b/vendetta_by_pookytart-d3a58rh.jpg",  V VENDETTA
+http://streamcloud.eu/w62vtlfkj5vy
+#EXTINF:-1 tvg-logo="http://media.salir-static.net/_images_/peliculas/3/a/5/4/cartel_oceans_eleven_hagan_juego_0.jpg", OCEANS ELEVEV
+http://streamcloud.eu/p2wdfye14zb1
+#EXTINF:-1 tvg-logo="http://www.gstatic.com/tv/thumb/movieposters/29122/p29122_p_v8_ap.jpg", MINORITY REPORT
+http://streamcloud.eu/p2wdfye14zb1
+#EXTINF:-1 tvg-logo="http://1.bp.blogspot.com/-uUbFQ0WOnmg/T1-7ETC7-nI/AAAAAAAABpk/f7b1RTgP1cM/s275/la-roca.jpg", LA ROCA
+http://streamcloud.eu/dnha7ug2hw1n
+#EXTINF:-1 tvg-logo="https://pics.filmaffinity.com/timecop-130127636-large.jpg", TIME COP
+http://streamcloud.eu/aww2py00m8p9
+#EXTINF:-1 tvg-logo="http://es.web.img3.acsta.net/medias/nmedia/18/79/19/94/20531678.jpg",  EJECUTOR
+http://streamcloud.eu/dki2fl85m6lh
+#EXTINF:-1 tvg-logo="http://ifanboy.com/wp-content/uploads/2012/07/SOLOMON-KANE.jpg", SALOMON KANE
+http://streamcloud.eu/62rmnkns1mha
+#EXTINF:-1 tvg-logo="https://pics.filmaffinity.com/kickboxer_vengeance-429023281-large.jpg", KICKBOXER VENGANZA
+http://streamcloud.eu/bbz9arbup4i5
+#EXTINF:-1 tvg-logo="https://pics.filmaffinity.com/the_bodyguard-601884855-large.jpg", EL GUARDA ESPALDA
+http://streamcloud.eu/j00z5i65ad40
+#EXTINF:-1 tvg-logo="http://www.iphotoscrap.com/Image/865/1317605607-m.jpg", IMPACTO INMINENTE
+http://streamcloud.eu/5mb0ehpmvtb8
+#EXTINF:-1 tvg-logo="http://es.web.img3.acsta.net/pictures/14/02/28/11/15/239158.jpg", PLAN DE VUELO
+http://streamcloud.eu/1wxwjdiuhdp6
+#EXTINF:-1 tvg-logo="http://www.gstatic.com/tv/thumb/movieposters/7876953/p7876953_p_v8_aa.jpg", REPOMEN
+http://streamcloud.eu/ss5ap9n2bacn
+#EXTINF:-1 tvg-logo="http://www.gstatic.com/tv/thumb/movieposters/7874392/p7874392_p_v8_ae.jpg", ROBIN HOOD
+http://streamcloud.eu/642o3796w73h
+#EXTINF:-1 tvg-logo="http://www.gstatic.com/tv/thumb/dvdboxart/11357/p11357_d_v8_ad.jpg", MPPNWALKER
+http://streamcloud.eu/u1u1epqienoq
+#EXTINF:-1 tvg-logo="http://www.dcine.org/sites/default/files/carteles/El%20buscavidas.jpg", EL BUSCAVIDAS
+http://streamcloud.eu/jouk7xibkt5t/El_buscavidas..mp4.html
+#EXTINF:-1 tvg-logo="http://es.web.img2.acsta.net/c_300_300/medias/nmedia/18/68/98/58/20134057.jpg", EL COLOR DEL DINERO
+https://play.cdn04.fx.fastcontentdelivery.com/5k7xrlam6ivuebw7lx3z3ccf2ngjwqyevgu77pn42vgfj5d67me4s6l3ii6a/normal.mp4
+#EXTINF:-1 tvg-logo="http://www.enclavedecine.com/wp-content/uploads/2012/10/Muertos-de-risa.jpg", MUERTOS DE RISA
+http://streamcloud.eu/13qqj0cyemd3
+#EXTINF:-1 tvg-logo="https://pics.filmaffinity.com/mirrors-729580914-large.jpg", REFLEJOS
+http://streamcloud.eu/oaod4661fkxu
+#EXTINF:-1 tvg-logo="http://1.bp.blogspot.com/-_4nwEPXbYVE/U451SuOTKkI/AAAAAAAAORI/aWenhAU36ls/s275/guardianes-de-la-galaxia.jpg", GUARDIANES DE LA GALAXIA
+http://streamcloud.eu/r7i9muv71uxf
+#EXTINF:-1 tvg-logo="http://4.bp.blogspot.com/-hvSPAnXpJhE/VHO8infq2sI/AAAAAAAAA8E/jt2XVMkk42Q/s1600/Folder.jpg", EL CLUB DE LOS LOS CINCO
+http://streamcloud.eu/ymyrzkbp5kn3
+#EXTINF:-1 tvg-logo="https://pics.filmaffinity.com/monty_python_s_life_of_brian-402192024-large.jpg", LA VIDA DE BRIAM
+http://streamcloud.eu/8tyxyu5554ve
+#EXTINF:-1 tvg-logo="http://es.web.img3.acsta.net/pictures/14/04/15/10/46/568345.jpg", EL RESPLANDOR
+http://streamcloud.eu/80zpyk4tj9rj
+#EXTINF:-1 tvg-logo="http://2.bp.blogspot.com/-mtKG0Ls3gDU/VOhFC8oA1sI/AAAAAAAABgI/8xeTiwzLSig/s275/el-exorcista.jpg", EL EXORCISTA
+https://play.cdn02.fx.fastcontentdelivery.com/5k7xvzsxuyvuebw7lurz7dkcz6bdskphlysbjedsh5lexsglcgpeooylfidq/normal.mp4
+#EXTINF:-1 tvg-logo="http://unsoloclic.info/wp-content/uploads/2011/10/Hellraiser-1987.jpg", HELLRAISER
+http://streamcloud.eu/56ggywpv8duv
+#EXTINF:-1 tvg-logo="http://www.gstatic.com/tv/thumb/movieposters/191800/p191800_p_v8_aa.jpg", PANDORUM
+http://streamcloud.eu/zytdp3xvwhyw
+#EXTINF:-1 tvg-logo="http://img.sipeliculas.com/img-mediano/desde-el-infierno.jpg", DESDE EL INFIERNO
+http://streamcloud.eu/cufco8ncmmvn
+#EXTINF:-1 tvg-logo="http://es.web.img3.acsta.net/pictures/14/11/05/12/38/064438.jpg", MUSARAÑAS
+http://streamcloud.eu/onvmi5t4th68
+#EXTINF:-1 tvg-logo="http://es.web.img3.acsta.net/medias/nmedia/18/93/26/53/20473725.jpg",   MEMORIAS DE UN ZOMBIE ADOLESCENTE
+http://streamcloud.eu/fuij7qgbvdbv
+#EXTINF:-1 tvg-logo="http://www.phenomena-experience.com/galeria/Marzo/la-muerte-tenia-precio.jpg", LA MUERTE TENIA UN PRECIO
+http://streamcloud.eu/7lwa7l3ycu0r
+#EXTINF:-1 tvg-logo="http://tv.unam.mx/wp-content/plugins/empldoc/fotos_fichas/cartel_bueno.jpg", EL BUENO EL FEO Y EL MALO
+http://streamcloud.eu/2bbbqqwwmyci
+#EXTINF:-1 tvg-logo="https://esbilla.files.wordpress.com/2011/09/le20llamaban20trinidad.jpg", LE LLAMABAN TRINIDAD
+http://streamcloud.eu/999u2mzqd7nw
+#EXTINF:-1 tvg-logo="http://es.web.img3.acsta.net/medias/nmedia/18/91/38/22/20142441.jpg",  LEYENDAS DE PASION
+http://streamcloud.eu/j1kyx7d2yvzk
+#EXTINF:-1 tvg-logo="http://image.tmdb.org/t/p/w396/sWGLEDO2huA6Sw3VbxQJ7slWHQd.jpg", INFIERNO DE COBARDES
+http://streamcloud.eu/josbr97pek2z
+#EXTINF:-1 tvg-logo="https://pics.filmaffinity.com/the_salvation-444581982-large.jpg", THE SALVATION
+http://streamcloud.eu/ds3ovt4j4m6r
+#EXTINF:-1 tvg-logo="https://pics.filmaffinity.com/hacksaw_ridge-698653296-large.jpg", HASTA EL ULTIMO HOMBRE
+http://streamcloud.eu/ihspfxbiyzoi
+#EXTINF:-1 tvg-logo="http://2.bp.blogspot.com/-qlSkS2uo2L0/Ty5GYXpIIWI/AAAAAAAAAN4/hjTW7ut4510/s1600/Acorralado.jpg", ACORRALADO RAMBO
+http://streamcloud.eu/36hout6l3rj7
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/GunsofNavarone.jpg/200px-GunsofNavarone.jpg", LOS CAÑONES DE NAVARRONE
+http://streamcloud.eu/xbdqlqx73mgw
+#EXTINF:-1 tvg-logo="http://www.gstatic.com/tv/thumb/dvdboxart/28621/p28621_d_v8_aa.jpg", EL BATALLON PERDIDO
+http://streamcloud.eu/07ag4o0nlqx5
+#EXTINF:-1 tvg-logo="http://movieboozer.com/wp-content/uploads/2014/08/DoctorZhivago.jpg",  DOCTOR ZHIVAGO
+http://streamcloud.eu/azywtfg02wbk
+#EXTINF:-1 tvg-logo="http://www.gstatic.com/tv/thumb/movieposters/191800/p191800_p_v8_aa.jpg", PANDORUM
+http://streamcloud.eu/zytdp3xvwhyw
+#EXTINF:-1 tvg-logo="http://img.sipeliculas.com/img-mediano/desde-el-infierno.jpg", DESDE EL INFIERNO
+http://streamcloud.eu/cufco8ncmmvn
+#EXTINF:-1 tvg-logo="http://es.web.img3.acsta.net/pictures/14/11/05/12/38/064438.jpg", MUSARAÑAS
+http://streamcloud.eu/onvmi5t4th68
+#EXTINF:-1 tvg-logo="http://es.web.img3.acsta.net/medias/nmedia/18/93/26/53/20473725.jpg",   MEMORIAS DE UN ZOMBIE ADOLESCENTE
+http://streamcloud.eu/fuij7qgbvdbv
+#EXTINF:-1 tvg-logo="http://www.phenomena-experience.com/galeria/Marzo/la-muerte-tenia-precio.jpg", LA MUERTE TENIA UN PRECIO
+http://streamcloud.eu/7lwa7l3ycu0r
+#EXTINF:-1 tvg-logo="http://tv.unam.mx/wp-content/plugins/empldoc/fotos_fichas/cartel_bueno.jpg", EL BUENO EL FEO Y EL MALO
+http://streamcloud.eu/2bbbqqwwmyci
+#EXTINF:-1 tvg-logo="https://bloguionistas.files.wordpress.com/2011/03/el-discurso-del-rey-trailer-espanol.jpg", EL DICURSO DEL REY
+http://streamcloud.eu/e6aakx9e5lem
+#EXTINF:-1 tvg-logo="http://www.gstatic.com/tv/thumb/movieposters/3575791/p3575791_p_v8_ae.jpg",  INVICTUS
+http://streamcloud.eu/gnn4sqticxr9
+#EXTINF:-1 tvg-logo="http://3.bp.blogspot.com/-RuvHb4vlpYU/TjVMNiqh9oI/AAAAAAAAADo/9CqwcFUIpVI/s275/ciudad-de-dios.jpg", CIUDAD DE DIOS
+http://streamcloud.eu/c877ajvqj4l3
+#EXTINF:-1 tvg-logo="http://static.rogerebert.com/uploads/movie/movie_poster/taxi-driver-1976/large_7QgyUVIwo20tduM4yf43zjaGMbK.jpg", TAXI DRIVER
+http://streamcloud.eu/bv93l3jnw9o7
+#EXTINF:-1 tvg-logo="http://thescruffynerfherder.com/wp-content/uploads/2015/04/Cover1.jpg", BLADE RUNNER
+http://streamcloud.eu/blk88uqyz01l
+#EXTINF:-1 tvg-logo="http://es.web.img3.acsta.net/c_215_290/medias/nmedia/18/84/77/79/19757766.jpg", EL SEXTO SENTIDO
+http://streamcloud.eu/7nsgakz6l0kc
+#EXTINF:-1 tvg-logo="http://static.betazeta.com/www.bolido.com/wp-content/uploads/2011/03/ronin-1-595x399.jpg", RONIN
+http://streamcloud.eu/fxkccw5mqw9f
+#EXTINF:-1 tvg-logo="http://www.sosmoviers.com/wp-content/uploads/2010/08/Depredador-Edici%C3%B3n-especial-Blu-ray-Portada.jpg", DEPREDADOR
+http://streamcloud.eu/p1u560jj1umi
+#EXTINF:-1 tvg-logo="http://www.oconowocc.com/wp-content/uploads/2014/06/anuncio-y-primeros-detalles-de-juegos-de-guerra-en-blu-ray-l.jpg",  JUEGOS DE GUERRA
+http://streamcloud.eu/x4y2ut0pfnyd
+#EXTINF:-1 tvg-logo="http://www.gstatic.com/tv/thumb/movieposters/29423/p29423_p_v8_ab.jpg", JONH Q
+http://streamcloud.eu/p10pzh87iyun
+#EXTINF:-1 tvg-logo="http://imagenes.subadictos.net/afiche/6944.jpg", FREQUECY
+http://streamcloud.eu/u7t8244khl0p
+#EXTINF:-1 tvg-logo="http://www.rosariocine.com.ar/info/3804d.jpg", 2GUNS
+http://streamcloud.eu/rq0xp65dwvit
+#EXTINF:-1 tvg-logo="http://3.bp.blogspot.com/-JtskSXQnMm8/Ubcy4HINFBI/AAAAAAAAAoE/GmBkKaFBWYI/s1600/2009_The_Road_AR02.jpg", THE ROAD
+http://streamcloud.eu/3qh8z7x1s72b
+#EXTINF:-1 tvg-logo="https://pics.filmaffinity.com/el_orfanato-559183806-large.jpg", EL ORFANATO
+http://streamcloud.eu/re8yrlceavym
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/9zJk3OWcKKk/maxresdefault.jpg", COMMANDO
+http://streamcloud.eu/3eiwwtuvzfnc
+#EXTINF:-1 tvg-logo="http://www.dcine.org/sites/default/files/carteles/El%20buscavidas.jpg", EL BUSCAVIDAS
+http://streamcloud.eu/jouk7xibkt5t/El_buscavidas..mp4.html
+#EXTINF:-1 tvg-logo="http://es.web.img2.acsta.net/medias/nmedia/18/90/05/09/20078386.jpg", LAS CUATRO PLUMAS- RECOMENDADA
+http://streamcloud.eu/wofz3o37an65/__las-cuatro-plumas.mp4.html
+#EXTINF:-1 tvg-logo="http://www.labutaca.net/imagenes/wp-content/original/2012_10/el-hobbit-parte-1-cartel-4.jpg", EL HOBBIT 1 PARTE V EXTENDIDA
+http://streamcloud.eu/9dj3gm5njpjn
+#EXTINF:-1 tvg-logo="https://pics.filmaffinity.com/the_hobbit_the_desolation_of_smaug-498845622-large.jpg", EL HOBBIT 2 V EXTENDIDA
+http://streamcloud.eu/sk3zpr4gzgto/El_Hobbit_La_desolacion_de_Smaug__Version_extendida___DNATHARIX_.avi.html
+#EXTINF:-1 tvg-logo="http://es.web.img2.acsta.net/pictures/14/10/17/13/10/188874.jpg", EL HOBBIT 3 FINAL
+http://streamcloud.eu/ckyn4dmqr6v9
+#EXTINF:-1 tvg-logo="http://es.web.img2.acsta.net/medias/nmedia/18/78/67/99/19517201.jpg", DEJAME ENTRAR
+http://streamcloud.eu/96d1d9f1yyu5
+#EXTINF:-1 tvg-logo="http://3.bp.blogspot.com/-e9tJHYWgx9g/VoO2uPOoIBI/AAAAAAAAFRc/Cora87TY2gY/s1600/leyenda.jpg", SOY LEYENDA
+http://streamcloud.eu/kt900g2l6rw1
+#EXTINF:-1 tvg-logo="http://3.bp.blogspot.com/-_Hp1yH6YN9Q/TfTj5bgUohI/AAAAAAAAAQQ/QQbbbF_lDTA/s275/constantine.jpg", COSTANTINE
+http://streamcloud.eu/5bb0gcni3zui
+#EXTINF:-1 tvg-logo="http://www.gstatic.com/tv/thumb/movieposters/35226/p35226_p_v8_ae.jpg", MILLON DOLAR BABY
+http://streamcloud.eu/62l2ihcgs1pp
+#EXTINF:-1 tvg-logo="http://tr.web.img2.acsta.net/pictures/bzp/01/5571.jpg", PACTAR CON EL DIABLO
+http://streamcloud.eu/zxlv82oipt2u/The_Devils_Advocate.720.bdrip.cast.mp4.html
+#EXTINF:-1 tvg-logo="https://1.bp.blogspot.com/-klNVXZdwE6U/VZEnA_AmnfI/AAAAAAAASEs/4_1u7OmcQKE/s1600/legend.jpg", LEYEND
+http://streamcloud.eu/799g7l3wb19k
+#EXTINF:-1 tvg-logo="http://upload.aflamhq.com/435620464_AflamHQ.com.jpg", LA PLAYA
+http://streamcloud.eu/z5liyvzievz5
+#EXTINF:-1 tvg-logo="http://www.ecartelera.com/carteles/10800/10842/003_p.jpg", MIKE Y DAVE BUSCAN ROLLO
+http://streamcloud.eu/ef5btq3nr3kt
+#EXTINF:-1 tvg-logo="https://pics.filmaffinity.com/fury-657159513-large.jpg", CORAZONES DE ACERO
+http://streamcloud.eu/cxnol0x2mnix/Corazones.De.Acero__www.DNPelis.Com_.avi.html
+#EXTINF:-1 tvg-logo="https://pics.filmaffinity.com/life_of_pi-316210173-large.jpg", LA VIDA DE PI
+http://streamcloud.eu/1tpdv0detgv2
+#EXTINF:-1 tvg-logo="https://pics.filmaffinity.com/alice_in_wonderland-108542060-large.jpg", ALICIA EN EL PAIS DE LA MARAVILLA
+http://streamcloud.eu/2v8ntdohy4bf/Alicia_maravillas_Walt_Disney_.IkkI.mpg.html
+#EXTINF:-1 tvg-logo="http://pics.filmaffinity.com/the_island-196250465-large.jpg", LA ISLA
+http://streamcloud.eu/ifyfc72m6mhk/LaIsla_HellsyHD.avi.html
+#EXTINF:-1 tvg-logo="https://cdn3.vox-cdn.com/uploads/chorus_asset/file/2933660/interblu.0.jpeg", INTERVIEW
+http://streamcloud.eu/w24vqaz215ha
+#EXTINF:-1 tvg-logo="https://pics.filmaffinity.com/alice_through_the_looking_glass-160005310-large.jpg", ALICIA ATRAVES DEL ESPEJO
+http://streamcloud.eu/2rl588bjdglb
+#EXTINF:-1 tvg-logo="https://pics.filmaffinity.com/rush-471040098-large.jpg", RUSH
+http://streamcloud.eu/rwhwzj61y64o/RUSH_HellsyHD1080.mkv.html
+#EXTINF:-1 tvg-logo="http://es.web.img3.acsta.net/medias/nmedia/18/89/85/99/20070124.jpg",  TROYA
+http://streamcloud.eu/1q2iz1rm9q5q
+#EXTINF:-1 tvg-logo="http://es.web.img2.acsta.net/pictures/16/02/22/13/32/340710.jpg", EL ILUSIONISTA
+http://streamcloud.eu/ubcg7894cgcf/3L_1lusi0nista_k0sac.avi.html
+#EXTINF:-1 tvg-logo="http://www.psicocine.com/wp-content/uploads/2015/11/el_puente_de_los_espias_cartel.jpg", EL PUENTE DE LOS ESPIAS
+http://streamcloud.eu/2sul0imk3owx
+#EXTINF:-1 tvg-logo="http://es.web.img3.acsta.net/medias/nmedia/18/74/29/15/19757760.jpg", EL SILENCIO DE LOS CORDEROS
+http://streamcloud.eu/isn7kv7w3yr3/El_Silencio_de_los_Corderos.avi.html
+#EXTINF:-1 tvg-logo="http://es.web.img2.acsta.net/pictures/16/03/04/14/39/303264.jpg", ULTIMA LLAMADA
+http://streamcloud.eu/otksc4nqp144
+#EXTINF:-1 tvg-logo="https://pics.filmaffinity.com/crimson_peak-936865881-large.jpg", LA CUMBRE ECARLATA
+http://streamcloud.eu/r8qnp96jfcnh/La_cumbre_escarlata.mp4.html
+#EXTINF:-1 tvg-logo="https://pics.filmaffinity.com/munich-802663906-large.jpg", MUNICH
+http://streamcloud.eu/mywwe8suak0u/Munich_HellsyHD.avi.html
+#EXTINF:-1 tvg-logo="http://es.web.img2.acsta.net/pictures/14/10/31/12/49/208307.jpg", LA TEORIA DEL TODO
+http://streamcloud.eu/rn7unw8aq4ds
+#EXTINF:-1 tvg-logo="http://1.bp.blogspot.com/-ejj9KTT8vJw/U_4cs8Qcc8I/AAAAAAAABBk/NE6YD0g1aJM/s1600/urbeat-12-horas-para-sobrevivir-poster.jpg", LA PURGA
+http://streamcloud.eu/pbg3bg58idtu
+#EXTINF:-1 tvg-logo="http://www.gstatic.com/tv/thumb/movieposters/32271/p32271_p_v8_aa.jpg", FREDDY VS JASON
+http://streamcloud.eu/e34w78s4fatp
+#EXTINF:-1 tvg-logo="http://es.web.img2.acsta.net/medias/nmedia/18/88/66/95/20012376.jpg", INFIERNO BLANCO
+http://streamcloud.eu/trbxsk06z0pe/Infierno.Blanco.DV.avi.html
+#EXTINF:-1 tvg-logo="https://pics.filmaffinity.com/dracula_untold-705662802-large.jpg", DRACULA LA HISTORIA JAMAS CONTADA
+http://streamcloud.eu/f4lkcfoalezw/Dracula._La_leyenda_jamas_contada.mp4.html
+#EXTINF:-1 tvg-logo="http://decine21.com/img/upload/obras/El-protegido-2521/El-protegido-2521-C.jpg", EL PROTEGIDO
+http://streamcloud.eu/nwnfykv076rd
+#EXTINF:-1 tvg-logo="https://lamadraza.ugr.es/wp-content/uploads/2016/02/La_habitaci_n_del_p_nico-934218577-large.jpg", LA HABITACION DEL PANICO
+http://streamcloud.eu/pey2xwbsan04
+#EXTINF:-1 tvg-logo="http://es.web.img3.acsta.net/medias/nmedia/18/67/80/25/20388604.jpg", SEÑALES DEL FUTURO
+http://streamcloud.eu/rdwchrj0gknt
+#EXTINF:-1 tvg-logo="http://image.tmdb.org/t/p/w396/lUs9LItQb044zc9Zg6UthNrvct2.jpg", EL UNICO SUPERVIVIENTE
+http://streamcloud.eu/5vwxg2rgza9v
+#EXTINF:-1 tvg-logo="https://pics.filmaffinity.com/War_on_Everyone-581301127-large.jpg", WAR ON EVERYONE
+http://streamcloud.eu/n1a3tndf5b6i/W4r.3v3ry0n3.HDCast.s256.avi.html
+#EXTINF:-1 tvg-logo="http://allcalidad.com/wp-content/uploads/2017/03/Vivir-de-noche.jpg", VIVIR DE NOCHE
+http://streamcloud.eu/oqhodgy6vi3k/V1virN0cheHDR.avi.html
+#EXTINF:-1 tvg-logo="https://pics.filmaffinity.com/kill_bill_volume_1-216872360-large.jpg", KILL BILL 1
+http://streamcloud.eu/sbucj9b4dndf/Kill_Bill_Vol1_HDRip_2003.avi.html
+#EXTINF:-1 tvg-logo="http://www.ccine10.com.br/wp-content/uploads/2013/08/KILL-BILL-VOLUME-2.jpg", KILL BILL 2
+http://streamcloud.eu/gfzxre63cd8l/Kill_Bill_Vol_2_HDRip_2004.avi.html
+#EXTINF:-1 tvg-logo="http://es.web.img3.acsta.net/pictures/14/10/17/13/16/120934.jpg", OUIJA
+http://streamcloud.eu/gj924cv1jsh3
+#EXTINF:-1 tvg-logo="http://desdeabajo.net/wp-content/uploads/2013/10/carrie2013.jpg", CARRIER
+http://streamcloud.eu/utcbytelg9vo/Carrie.__www.DNPelis.Com_.avi.html
+#EXTINF:-1 tvg-logo="http://www.elmulticine.com/imagenes/carteles/4/annabelle-cartel-b.jpg", ANNABELLE
+http://streamcloud.eu/dvz031pmvkpi
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/MwND0X4m28c/maxresdefault.jpg", NO RESPIRES
+http://streamcloud.eu/8lw2ox07620h
+#EXTINF:-1 tvg-logo="http://es.web.img3.acsta.net/pictures/14/05/05/12/46/010208.jpg", AL FILO DE LA MAÑANA
+http://streamcloud.eu/5w5t9v22ljkp
+#EXTINF:-1 tvg-logo="http://s3-eu-west-1.amazonaws.com/abandomedia/db/poster/db_posters_32314.jpg", CHAPPIE
+http://streamcloud.eu/mv3gihonmzyr/Chappie__www.DNPelis.Com_.avi.html
+#EXTINF:-1 tvg-logo="http://www.bricocine.com/sc/img/capitn_phillips_.jpg", CAPITAN PHILLIPS
+http://streamcloud.eu/yekfa9au9635/Capitan.Phillips__www.DNPelis.Com_.mpg.html
+#EXTINF:-1 tvg-logo="http://www.gstatic.com/tv/thumb/movieposters/8640610/p8640610_p_v8_ae.jpg", IN TIME
+http://streamcloud.eu/scqiecdqgcyb/In_Time__2011_.720.bdrip.cast.mp4.html
+#EXTINF:-1 tvg-logo="http://2.bp.blogspot.com/_qSAXiNmD9fc/TMBTfAJUccI/AAAAAAAAAAk/mrv4mlf-_Lo/s275/la-guerra-de-los-mundos.jpg", LA GERRA DE LOS MUNDOS
+http://streamcloud.eu/a4mb2jx7icln/__la-guerra-de-los-mundos.mp4.html
+#EXTINF:-1 tvg-logo="https://media.melty.fr/article-1154024-ajust_930/affiche-de-district-9-premiere-realisation.jpg", DISTRITO 9
+http://streamcloud.eu/oa5u70mkm9xd
+#EXTINF:-1 tvg-logo="http://www.mongrelmedia.com/MongrelMedia/files/a5/a5efcf3d-3afa-4f3b-ae59-365420c9eec6.jpg", EX MACHINA
+http://streamcloud.eu/9a3e89vz9uv9
+#EXTINF:-1 tvg-logo="http://www.cinequanon.it/web/wp-content/uploads/2015/05/tomorrowland-poster-italiano.jpg", TOMORROWLAMD
+http://streamcloud.eu/mjopvvddswl0/Tomorrowland_Hellsy1080.mkv.html
+#EXTINF:-1 tvg-logo="https://www.ethanproductions.com/movies-newDB/images/667068956788.jpg", INTELIGENCIA ARTIFICIAL
+http://streamcloud.eu/j1l6q8pwvwz6/A.I._Inteligencia_Artificial_HDrip.avi.html
+#EXTINF:-1 tvg-logo="https://img.yescdn.ru/2016/07/16/cover/6f4151d0e7464a3c89a651dc03dc7bee-robocop-2014-1468659451.jpg", ROBOCOP
+http://streamcloud.eu/hvjjb7f4n80p
+#EXTINF:-1 tvg-logo="http://es.web.img2.acsta.net/c_215_290/pictures/16/04/11/12/53/412302.jpg", RATCHET AND CLANK
+http://streamcloud.eu/ht17vdcdmgfa
+#EXTINF:-1 tvg-logo="http://www.cartelera.com.uy/imagenes_espectaculos/moviedetail13/18543.jpg", LA QUINTA OLA
+http://streamcloud.eu/rhc536twrvcd/La_Quinta_Ola.720.hdrip.cast.mp4.html
+#EXTINF:-1 tvg-logo="http://aquipelis.net/wp-content/uploads/2015/12/Steve_Jobs-585050302-large.jpg", STEVE JOBS
+http://streamcloud.eu/b3r2thm34tx5
+#EXTINF:-1 tvg-logo="https://pics.filmaffinity.com/black_hawk_down-847311943-large.jpg", BLAVK HACK DERRIVADO
+http://streamcloud.eu/8ewkssxd9xos
+#EXTINF:-1 tvg-logo="http://www.elmulticine.com/imagenes/noticias/10/pompeya-kit-accion3.jpg", POMPEYA
+http://streamcloud.eu/w3f6sfxgwo9c
+#EXTINF:-1 tvg-logo="http://www.fotogramas.es/var/ezflow_site/storage/images/peliculas/sully/113980613-1-esl-ES/Sully.jpg", SULLY
+http://streamcloud.eu/te1rgxds32pq/Sully_hdesp.avi.html
+#EXTINF:-1 tvg-logo="http://www.labutaca.net/peliculas/wp-content/uploads/2009/10/agora-cartel.jpg", AGORA
+http://streamcloud.eu/affnmq8wvfsu
+#EXTINF:-1 tvg-logo="http://www.gstatic.com/tv/thumb/dvdboxart/165058/p165058_d_v8_aa.jpg", RATATOUILLE
+http://streamcloud.eu/8y0bxpopq9ak
+#EXTINF:-1 tvg-logo="http://www.allodoublage.com/glossaire/images/Film%20-%20Forrest%20Gump%20(1994).jpg", FORREST GUMP
+http://streamcloud.eu/bs8xlwh472cy/Forrest.Gump.1994.HDRip.es.avi.html
+#EXTINF:-1 tvg-logo="http://www.mubis.es/media/users/1660/8468/resacon-en-las-vegas-firmada-por-bradley-cooper-original.jpg", RESACON EN LAS VEGAS
+http://streamcloud.eu/n0e4cjwwgdb2
+#EXTINF:-1 tvg-logo="http://es.web.img3.acsta.net/c_300_300/medias/nmedia/18/83/46/66/19751447.jpg", RESACON 2
+http://streamcloud.eu/wouuli3lxynl
+#EXTINF:-1 tvg-logo="http://www.peliculasrey.com/wp-content/uploads/2016/01/resacon-en-las-vegas-ellas-tambien-210x300.jpg", RESACON EN LA VEGAS ELLAS TAMBIEN
+http://streamcloud.eu/i9oqdn5ygmk1
+#EXTINF:-1 tvg-logo="http://4.bp.blogspot.com/-qY_gq1yFmLI/UXCzeiTBNfI/AAAAAAAABjc/j8TjJY-6YXY/s275/ralph-el-demoledor.jpg", ROMPE RALPH
+http://streamcloud.eu/l2me4zsta2x8
+#EXTINF:-1 tvg-logo="https://pics.filmaffinity.com/the_hangover_part_iii-749776753-large.jpg”, R3SANCON
+http://streamcloud.eu/fkktsr1pjcvf
+#EXTINF:-1 tvg-logo="http://1.bp.blogspot.com/-m2hEYTNbGCU/TpOnwAOFGJI/AAAAAAAAAXw/Vd9sMGaC1qs/s1600/Monstros+S.A.+2.jpg", MONTRUOS SA
+http://streamcloud.eu/9imqxo7gg0vg/Monstruos_SA_HDrip__Spanish_.avi.html
+#EXTINF:-1 tvg-logo="http://es.web.img2.acsta.net/pictures/14/02/27/11/34/475374.jpg”, LA TERMINAL
+http://streamcloud.eu/0knpsuduh0p1/LaTerminal_HellsyHD.avi.html
+#EXTINF:-1 tvg-logo="https://pics.filmaffinity.com/friends_with_benefits-728146688-large.jpg", CON DERECHO A ROCE
+http://streamcloud.eu/3kbx4nxrqhm5/Derecho.A.Roce__www.DNPelis.Com_.avi.html
+#EXTINF:-1 tvg-logo="https://pics.filmaffinity.com/bruce_almighty-711854266-large.jpg", COMO DIOS
+http://streamcloud.eu/arjimdlvyd0l/ComoDios_Hellsy1080.mkv.html
+#EXTINF:-1 tvg-logo="http://3.bp.blogspot.com/_-mFCDOYZDqE/TElx-CFblnI/AAAAAAAABeg/qbk95uix8RE/s1600/Wichita-b.jpg", NOCHE Y DIA
+http://streamcloud.eu/f4obw4i0666m/Noche_y_Dia_DVDRip_2010.avi.html
+#EXTINF:-1 tvg-logo="https://pics.filmaffinity.com/evan_almighty-714318273-large.jpg", SIGO COMO DIOS
+http://streamcloud.eu/wu49ew9mxrz4/SigoComoDios_Hellsy.avi.html
+#EXTINF:-1 tvg-logo="http://1.bp.blogspot.com/-lCUgYEWUyZs/T0mqCV66wOI/AAAAAAAABjg/JQLatkg9PQ8/s275/up.jpg", UP
+http://streamcloud.eu/2xo7c8w8qw87/Up__DVDRip_.avi.html
+#EXTINF:-1 tvg-logo="http://3.bp.blogspot.com/-zyomLG9dkJs/UYf48SSlZRI/AAAAAAAAjbg/VhIdvme1-YU/s275/monstruos-university.jpg", MOSTRUOS UNIVERSITY
+http://streamcloud.eu/vakpqoe36kue/Monstruos_University.wmv.html
+#EXTINF:-1 tvg-logo="http://www.peliculalatinoonline.com/wp-content/uploads/2015/07/mi-villano-favorito-1.jpg", MI VILLANO FAVORITO
+http://streamcloud.eu/y6hv9yvaqy8k
+#EXTINF:-1 tvg-logo="http://doomtv.net/wp-content/uploads/2016/07/mza_28336873787537402551.jpg", MI VILLANO FAVORITO 2
+http://streamcloud.eu/yy5t817kg97k
+#EXTINF:-1 tvg-logo="http://www.gstatic.com/tv/thumb/movieposters/171577/p171577_p_v8_ag.jpg", BOLT
+http://streamcloud.eu/6ghsgoaqvytn
+#EXTINF:-1 tvg-logo="https://pics.filmaffinity.com/machine_gun_preacher-795681043-large.jpg", SOLDADO DE DIOS
+http://streamcloud.eu/nzepwi9i4j81
+#EXTINF:-1 tvg-logo="https://www.elseptimoarte.net/carteles/341/ultimatum_a_la_tierra_57963.jpg", ULTIMATUN LA TIERRA
+http://streamcloud.eu/dd7q82e75ayd/The_Day_The_Earth_Stood_Still.720.bdrip.cast.mp4.html
+#EXTINF:-1 tvg-logo="http://streamcloud.eu/qxdigwowdrvu/El_planeta_de_los_simios.2001.HDRip.es.avi.html", EL PLANETA DE LOS SIMIOS 2001
+http://streamcloud.eu/qxdigwowdrvu/El_planeta_de_los_simios.2001.HDRip.es.avi.html
+#EXTINF:-1 tvg-logo="https://pics.filmaffinity.com/daybreakers-986176065-large.jpg", DAYBREAKERS
+http://streamcloud.eu/qn1vqx7egr5n/Daybreakers__www.DNPelis.Com_.avi.html
+#EXTINF:-1 tvg-logo="http://www.gstatic.com/tv/thumb/dvdboxart/30448/p30448_d_v8_aa.jpg", SIMONE
+http://streamcloud.eu/7hh9g76o01h5/S1m0ne__DVDRIP__Spanish_.avi.html
+#EXTINF:-1 tvg-logo="http://schmoesknow.com/wp-content/uploads/2015/06/project-almanac-blu-ray-cover-53.jpg", PROJECT ALMANAC
+http://streamcloud.eu/c6udrts7kas0/Project_Almanac__2014__MicroHD_.mkv.html
+#EXTINF:-1 tvg-logo="http://cdn.cinencuentro.com/wp-content/uploads/2015/12/POSTER-victor-frankenstein.jpg", VICTOR FRNAKENTEIN
+http://streamcloud.eu/2oyl2hj44z8w/Victor_Frankenstein__www.DNPelis.Com_.avi.html
+#EXTINF:-1 tvg-logo="https://pics.filmaffinity.com/fuga_de_cerebros-507433977-large.jpg", FUGA CEREBROS
+http://streamcloud.eu/5304uqdbee2u/Fuga_de_cerebros__1_.avi.html
+#EXTINF:-1 tvg-logo="http://es.web.img2.acsta.net/pictures/15/11/05/12/50/199846.jpg", FUGA DE CEREBROS 2
+http://streamcloud.eu/c0zxlmcep4ek
+#EXTINF:-1 tvg-logo="http://cineporvena.playonbarcelona.com/wp-content/uploads/2015/01/Automata-Film.jpg", AUTOMATA
+#EXTINF:-1 tvg-logo="https://pics.filmaffinity.com/fury-657159513-large.jpg", CORAZONES DE ACERO
+http://streamcloud.eu/23lshl8k2exe
+#EXTINF:-1 tvg-logo="https://pics.filmaffinity.com/life_of_pi-316210173-large.jpg", LA VIDA DE PI
+http://streamcloud.eu/1tpdv0detgv2
+#EXTINF:-1 tvg-logo="https://pics.filmaffinity.com/alice_in_wonderland-108542060-large.jpg", ALICIA EN EL PAIS DE LA MARAVILLA
+http://streamcloud.eu/2v8ntdohy4bf/Alicia_maravillas_Walt_Disney_.IkkI.mpg.html
+#EXTINF:-1 tvg-logo="http://pics.filmaffinity.com/the_island-196250465-large.jpg", LA ISLA
+http://streamcloud.eu/ifyfc72m6mhk/LaIsla_HellsyHD.avi.html
+#EXTINF:-1 tvg-logo="https://cdn3.vox-cdn.com/uploads/chorus_asset/file/2933660/interblu.0.jpeg", INTERVIEW
+http://streamcloud.eu/w24vqaz215ha
+#EXTINF:-1 tvg-logo="https://pics.filmaffinity.com/alice_through_the_looking_glass-160005310-large.jpg", ALICIA ATRAVES DEL ESPEJO
+http://streamcloud.eu/2rl588bjdglb
+#EXTINF:-1 tvg-logo="https://pics.filmaffinity.com/127_hours-846868462-large.jpg", 127 HORAS
+http://streamcloud.eu/u4h3kfbe6r67
+#EXTINF:-1 tvg-logo="https://pics.filmaffinity.com/rush-471040098-large.jpg", RUSH
+http://streamcloud.eu/rwhwzj61y64o/RUSH_HellsyHD1080.mkv.html
+#EXTINF:-1 tvg-logo="http://es.web.img3.acsta.net/medias/nmedia/18/89/85/99/20070124.jpg",  TROYA
+http://streamcloud.eu/1q2iz1rm9q5q
+#EXTINF:-1 tvg-logo="http://es.web.img2.acsta.net/pictures/16/02/22/13/32/340710.jpg", EL ILUSIONISTA
+http://streamcloud.eu/ubcg7894cgcf/3L_1lusi0nista_k0sac.avi.html
+#EXTINF:-1 tvg-logo="http://www.psicocine.com/wp-content/uploads/2015/11/el_puente_de_los_espias_cartel.jpg", EL PUENTE DE LOS ESPIAS
+http://streamcloud.eu/2sul0imk3owx
+#EXTINF:-1 tvg-logo="http://es.web.img3.acsta.net/medias/nmedia/18/74/29/15/19757760.jpg", EL SILENCIO DE LOS CORDEROS
+http://streamcloud.eu/isn7kv7w3yr3/El_Silencio_de_los_Corderos.avi.html#EXTINF:-1 tvg-logo="http://www.ecartelera.com/carteles/11800/11838/001_p.jpg", LA DOCTORA DE BREST
+http://streamcloud.eu/3kl0g1a34b4x/Ex0rc1st4.1x03.es.720p.mkv.html
+#EXTINF:-1 tvg-logo="https://pics.filmaffinity.com/the_disappointments_room-894537634-large.jpg", LA CASA DEL PANICO
+http://streamcloud.eu/8unc4rmjsod9/C4saPan1coHDR.avi.html
+#EXTINF:-1 tvg-logo="https://pics.filmaffinity.com/bodom-152291495-large.jpg", LAKE BODOM
+http://streamcloud.eu/6eosop3f4zc0/L4keB0d0mHDR.Castellano.avi.html
+#EXTINF:-1 tvg-logo="http://es.web.img2.acsta.net/c_300_300/pictures/17/03/28/16/29/422206.jpg", RICHARD LA CIGUEÑA
+http://streamplay.to/8b9pehvgf3h2
+#EXTINF:-1 tvg-logo="https://pics.filmaffinity.com/split-172094905-large.jpg", MULTIPLE
+http://streamcloud.eu/jishlk551n3s/Mult.avi.html
+#EXTINF:-1 tvg-logo="http://4.bp.blogspot.com/-O04x7NdoIf4/Udh6_RqMawI/AAAAAAAAQPU/IVo2mC_7m-c/s275/guerra-mundial-z.jpg", GERRA MUNDIAL Z
+http://streamcloud.eu/lkeb2s6xnlyt
+#EXTINF:-1 tvg-logo="http://intlportal2.s3.foxfilm.com/intlportal2/58a5c841b7c17-medium.jpg", EL BEBE JEFAZO
+http://streamcloud.eu/ufnkw6vmpdyg/th3.b0ss.b4by.2017.hds.720p.latino.gnula.mp4.html
+#EXTINF:-1 tvg-logo="http://es.web.img3.acsta.net/pictures/16/01/06/11/42/375538.jpg", COLONIA
+http://streamcloud.eu/7nsj7q3pbpfj/Col0n1aHDR.avi.html
+#EXTINF:-1 tvg-logo="http://image.tmdb.org/t/p/w396/oGxw0NSwtO8e2NHh4pDbI7dWWLj.jpg", BILLY LYNNS
+http://streamcloud.eu/q73vvb40yxr6/B1llyL1nHDR.avi.html
+#EXTINF:-1 tvg-logo="https://pbs.twimg.com/media/C41WIusWEAEAL9K.jpg",  MOONLIGHT
+http://streamcloud.eu/qh7y1k8eqa04/M00N.L1GHT.HDCast.s256.avi.html
+#EXTINF:-1 tvg-logo="http://www.labutaca.net/imagenes/wp-content/original/2012_06/ted-cartel-1.jpg", TED
+http://streamcloud.eu/bexw4niwtj3p
+#EXTINF:-1 tvg-logo="https://pics.filmaffinity.com/ted_2-177396934-large.jpg", TED 2
+http://streamcloud.eu/abh98tyyqtuu
+#EXTINF:-1 tvg-logo="http://www.gstatic.com/tv/thumb/movieposters/183329/p183329_p_v8_ab.jpg", EL GRAN TORINO
+http://streamcloud.eu/8qcg7k0yf8vp/Gran_torino.avi.html#EXTINF:-1 tvg-logo="http://www.labutaca.net/peliculas/wp-content/uploads/2011/03/rise-of-the-planet-cartel3.jpg", EL ORIGEN DEL PLANETA DE LOS SIMIOS
+http://streamcloud.eu/dmwmq3ztwusj
+#EXTINF:-1 tvg-logo="http://www.pelismundo.com/wp-content/uploads/2015/06/El-%C3%BAltimo-samurai.jpg", EL ULTIMO SAMURAI
+http://streamcloud.eu/hyglsj2zgmot
+#EXTINF:-1 tvg-logo="http://es.web.img3.acsta.net/pictures/14/10/27/12/51/279029.jpg", EL FRANCOTIRADOR
+http://streamcloud.eu/1h6d6cghvgf2
+#EXTINF:-1 tvg-logo="https://pics.filmaffinity.com/shooter-787378275-large.jpg", SHOOTER
+http://streamcloud.eu/9oi1e2ofvqqi
+#EXTINF:-1 tvg-logo="https://pics.filmaffinity.com/the_man_from_u_n_c_l_e-205242431-large.jpg", OPERACION UNCLE
+http://streamcloud.eu/dqcd371jxut7
+#EXTINF:-1 tvg-logo="https://www.ciberdvd.com/wp-content/uploads/2012/06/el-perfume-historia-de-un-asesino.jpg", EL PERFUME HISTORIA DE UN ASESISO
+http://streamcloud.eu/l59gu3guppwx
+#EXTINF:-1 tvg-logo="http://www.gstatic.com/tv/thumb/movieposters/28596/p28596_p_v8_ae.jpg", KPAX
+http://streamcloud.eu/7dy1joqtvfqr
+#EXTINF:-1 tvg-logo="https://pics.filmaffinity.com/cast_away-930468673-large.jpg", NAUFRAGO
+http://streamcloud.eu/q4tpic5hmx7y
+#EXTINF:-1 tvg-logo="http://es.web.img2.acsta.net/medias/nmedia/18/83/23/13/19706938.jpg",  CODIGO FUENTE
+http://streamcloud.eu/ksldivs6bbfh
+#EXTINF:-1 tvg-logo="http://pics.filmaffinity.com/the_simpsons_movie-824739936-large.jpg", LOS SIMPSONS
+http://streamcloud.eu/s7kjgzpb0loa
+#EXTINF:-1 tvg-logo="http://www.cinemasguzzo.com/DATA/FILM/2022_fr~v~le-revenant.jpg", EL RENACIDO
+http://streamcloud.eu/uzal0mgzbilp
+#EXTINF:-1 tvg-logo="http://es.web.img2.acsta.net/pictures/15/12/02/11/04/206744.jpg", TRUMBO
+http://streamcloud.eu/hn7y5stn8f7l#EXTINF:-1 tvg-logo="http://www.lashorasperdidas.com/wp-content/uploads//2010/08/critica-de-origen-cartel.jpg", ORIGEN
+http://streamcloud.eu/j4ps5uosrfvc
+#EXTINF:-1 tvg-logo="http://www.doobeedoobeedoo.info/wp-content/uploads/2010/01/OST-My-Name-Is-Khan-CD-cover.jpg", MI NOMBRE ES KHAN
+http://streamcloud.eu/s3jsvf8prxkp
+#EXTINF:-1 tvg-logo="http://agenda.diariovasco.com/media/eventos/0/0/4/9/2/492579_1.jpg", MARTE
+http://streamcloud.eu/gamvi756a9v9
+#EXTINF:-1 tvg-logo="http://www.labutaca.net/imagenes/wp-content/original/2012_10/la-vida-de-pi-cartel-31.jpg", LA VIDA DE PI
+http://streamcloud.eu/ftp0p59ojiup
+#EXTINF:-1 tvg-logo="https://pics.filmaffinity.com/10_cloverfield_lane-565304710-large.jpg", CALLE CLOVERFIELD
+http://streamcloud.eu/6gxcnvwaxjk1
+#EXTINF:-1 tvg-logo="https://pics.filmaffinity.com/the_notebook-565006977-large.jpg", EL DIARIO DE NOAH
+http://streamcloud.eu/bl2cqfi375v4
+#EXTINF:-1 tvg-logo="http://es.web.img2.acsta.net/medias/nmedia/18/67/08/53/20071009.jpg", EL MAQUINISTA
+http://streamcloud.eu/qrts7dj5m8hj
+#EXTINF:-1 tvg-logo="https://i.blogs.es/48cfb5/creed-posters-1/2560_3000.jpg",  CREED
+http://streamcloud.eu/dvr5xp4q6310
+#EXTINF:-1 tvg-logo="http://es.web.img3.acsta.net/medias/nmedia/18/66/89/00/20198925.jpg",  VENGANZA
+http://streamcloud.eu/p234cund7pyk
+#EXTINF:-1 tvg-logo="http://www.gstatic.com/tv/thumb/dvdboxart/8437077/p8437077_d_v8_aa.jpg", SECUESTRADOS
+http://streamcloud.eu/p4v56hklgf4a
+#EXTINF:-1 tvg-logo="https://s-media-cache-ak0.pinimg.com/236x/79/37/4d/79374d7bb38f16133684f4fb2605bd13.jpg",  PIRATAS DEL CARIBE ESPAÑOL
+http://streamcloud.eu/jggufsw4dc8t
+#EXTINF:-1 tvg-logo="https://pics.filmaffinity.com/nieve_negra-228454480-large.jpg", NIEVE NEGRA
+http://streamcloud.eu/uqdmx30xf253#EXTINF:-1 tvg-logo="http://s3-eu-west-1.amazonaws.com/abandomedia/db/poster/db_posters_38884.jpg", MERCY
+http://streamcloud.eu/xslcen29qinp
+#EXTINF:-1 tvg-logo="https://pics.filmaffinity.com/amy-796388910-large.jpg", AMY DOCUMENTAL
+http://streamcloud.eu/21hhywrc3n90
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/5/5e/The_Imitation_Game_poster.jpg", THE IMITATION GAME
+http://streamcloud.eu/8xqyc0u9ul5r
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/98/John_Wick_TeaserPoster.jpg", JOHN WICK
+http://streamcloud.eu/uax1zzedzwnb
+#EXTINF:-1 tvg-logo="http://www.monografias.com/trabajos96/resena-del-libro-nino-pijama-rayas/image002.jpg", El NIÑO DE PIJAMA DE RAYAS
+http://streamcloud.eu/mr3ol0ywss6j
+#EXTINF:-1 tvg-logo="http://3.bp.blogspot.com/-Zx4fW5fKnc0/UpY4h2JhElI/AAAAAAAAXz8/vA-4OAPwwBQ/s275/el-lobo-de-wall-street.jpg", EL LOBO DE WALL STREER
+http://streamcloud.eu/s653h3z403wp
+#EXTINF:-1 tvg-logo="http://sitgesfilmfestival.com/sitgesadmin/uploads/pelicules_rel_img/10310301.jpg", COLDWATER
+http://streamcloud.eu/qcxk99zj497t
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600/3wReP8n1vK4neUcTm2vjDYczkCs.jpg", SMALL CRIMES
+http://streamcloud.eu/lwa8sq33xejc
+#EXTINF:-1 tvg-logo="http://www.mubis.es/media/movies/3038/59445/elegidos-para-la-gloria-original.jpg",  ELEGIDOS PARA LA GLORIA
+http://streamcloud.eu/m5jf431mt88m
+#EXTINF:-1 tvg-logo="https://pics.filmaffinity.com/porky_s-813476418-large.jpg", PORKYS
+http://streamcloud.eu/n3ciikrjv8c7
+#EXTINF:-1 tvg-logo="http://es.web.img3.acsta.net/pictures/210/205/21020568_20130717175157066.jpg",  PORKYS 2
+http://streamcloud.eu/vqmwuh0qy4dj
+#EXTINF:-1 tvg-logo="http://1.bp.blogspot.com/__cpdGQIjrC0/ScRK_6ALCTI/AAAAAAAADNs/RqgN0Ujm9Y8/s250/porkyrevengequ3.jpg",  PORKYS 3
+http://streamcloud.eu/792a9rptx2ag#EXTINF:-1 tvg-logo="http://www.labutaca.net/peliculas/wp-content/uploads/2011/03/sin-limites-cartel.jpg", SIN LIMITESS
+http://streamcloud.eu/60c4vlddgs51
+#EXTINF:-1 tvg-logo="http://pics.filmaffinity.com/enemy_at_the_gates-479537758-large.jpg", ENEMIGO A LAS PUERTAS
+http://streamcloud.eu/exqna5xs4q1j
+#EXTINF:-1 tvg-logo="http://consultas-abogados.es/wp-content/uploads/2016/12/CADENA-PERPETUA.jpg", CADENA PERPETUA
+http://streamcloud.eu/xnvtkvp6i9kf
+#EXTINF:-1 tvg-logo="http://es.web.img3.acsta.net/c_215_290/medias/nmedia/18/74/37/43/20156807.jpg", LA MILLA VERDE PARA LAURA
+http://streamcloud.eu/0c7nwwyzqguz
+#EXTINF:-1 tvg-logo="http://www.moviecricket.com/wp-content/uploads/2014/10/Interstellar-Main-One-Sheet-QUAD.jpg", INTERSTELLAR
+http://streamcloud.eu/64qyqm9b2wj1
+#EXTINF:-1 tvg-logo="http://pics.filmaffinity.com/a_beautiful_mind-636974393-large.jpg", UNA MENTE MARAVILLOSA
+http://streamcloud.eu/3miweuy0irkb
+#EXTINF:-1 tvg-logo="http://www.gstatic.com/tv/thumb/movieposters/11323/p11323_p_v8_ac.jpg", RAINMAN
+http://streamcloud.eu/wpia28g06bjo
+#EXTINF:-1 tvg-logo="https://pics.filmaffinity.com/rings-728446533-large.jpg", RINGS 2017
+http://streamcloud.eu/7um1c7qm70lo
+#EXTINF:-1 tvg-logo="http://www.elmulticine.com/imagenes/noticias/16/kate-underworld-5cartel435.jpg",  UNDERWORLD 5
+http://streamcloud.eu/lqdis5r2zygk
+#EXTINF:-1 tvg-logo="http://pics.filmaffinity.com/ghost_in_the_shell-446755661-large.jpg",  GHOST IN THE SHELL REPARADA
+http://streamcloud.eu/dujytmjcuj9e
+#EXTINF:-1 tvg-logo="http://peliculas.vuelo-digital.org/wp-content/uploads/2016/12/zrtn_023p3c676f76_tn25255B325255D.jpg",  REVANCHA
+http://streamcloud.eu/17rkh0m7qd8z#EXTINF:-1 tvg-logo="http://pics.filmaffinity.com/the_nice_guys-516760362-large.jpg", DOS BUENOS TIPOS
+http://streamcloud.eu/lfyrq1r2spci
+#EXTINF:-1 tvg-logo="http://pics.filmaffinity.com/meet_joe_black-143070741-large.jpg", CONOCES A JOE BLACK
+http://streamcloud.eu/lfyrq1r2spci
+#EXTINF:-1 tvg-logo="http://pics.filmaffinity.com/instinct-517349540-large.jpg", ISTINTO
+http://streamcloud.eu/xm0ob07jrcsx
+#EXTINF:-1 tvg-logo="http://www.gstatic.com/tv/thumb/movieposters/3547340/p3547340_p_v8_an.jpg", SHERLOK HOLMES
+hhttp://streamcloud.eu/3jdoz8l0ezbt
+#EXTINF:-1 tvg-logo="https://barbaravb.files.wordpress.com/2012/01/sherlock_holmes_juego_de_sombras_sherlock_holmes_2-323399956-large.jpg", SHERLOK HOLMES 2
+http://streamcloud.eu/62p48t08bo5z
+#EXTINF:-1 tvg-logo="http://ateoyagnostico.com/wp-content/uploads/2010/12/contact-pelicula.jpg", CONTAC
+http://streamcloud.eu/q5ginnu63adg
+#EXTINF:-1 tvg-logo="http://www.gstatic.com/tv/thumb/dvdboxart/32186/p32186_d_v8_aa.jpg", MYCTIC RIVERS
+http://streamcloud.eu/0n5ruu7hani7
+#EXTINF:-1 tvg-logo="http://videosru.net/wp-content/uploads/KinoPrestij.jpg", EL TRUCO FINAL
+http://streamcloud.eu/9mvlcc50emj5
+#EXTINF:-1 tvg-logo="http://imgs24.com/images/2014/08/23/la_isla_siniestra.th.jpg",  LA ISLA SINIESTRA
+http://streamcloud.eu/h0jghbgd45qm
+#EXTINF:-1 tvg-logo="https://www.tuexperto.com/wp-content/uploads/2012/08/prometheus.jpg",  PROMETHEUS
+http://streamcloud.eu/swdp76dug72c#EXTINF:-1 tvg-logo="http://pics.filmaffinity.com/the_curious_case_of_benjamin_button-553974725-large.jpg", BENJAMIN BUTTON
+http://streamcloud.eu/zssp2k4w80bj
+#EXTINF:-1 tvg-logo="http://www.elladog.com.ar/wp-content/uploads/2015/08/Atticus-institute-00b.jpg", ATTICUS INSTITUTE
+http://streamcloud.eu/6i46thxc68bl
+#EXTINF:-1 tvg-logo="http://www.gstatic.com/tv/thumb/dvdboxart/90600/p90600_d_v8_aa.jpg", WOLF CREEK
+http://streamcloud.eu/hzqx4ehtom6c
+#EXTINF:-1 tvg-logo="http://pics.filmaffinity.com/wolf_creek_2-700926028-large.jpg", WOLF CREEK 2
+http://streamcloud.eu/hzqx4ehtom6c
+#EXTINF:-1 tvg-logo="http://cdn.collider.com/wp-content/uploads/21-jump-street-poster2.jpg", jump street
+http://streamcloud.eu/a6jkdu58apd1
+#EXTINF:-1 tvg-logo="http://i66.fastpic.ru/big/2014/1011/1d/385c944be0482a44e42ee5881735981d.jpg", jump street 2
+http://streamcloud.eu/rmb4598ka1k8
+#EXTINF:-1 tvg-logo="http://es.web.img3.acsta.net/pictures/13/12/16/10/16/070759.jpg", EL UNICO SUPERVIVIENTE
+http://streamcloud.eu/dt7nzgue7bij
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/d5/Karate_kid_ver2.jpg", KARATE KID
+http://streamcloud.eu/nrfku2ie19zl
+#EXTINF:-1 tvg-logo="http://es.web.img3.acsta.net/medias/nmedia/18/67/78/13/20066706.jpg",   EL ULTIMO SAMURAI
+http://streamcloud.eu/9ga4a0h8646r
+#EXTINF:-1 tvg-logo="http://1.bp.blogspot.com/-TYO-KXvITmc/Ug6dKDvtjTI/AAAAAAAAFFQ/n4K701SUSpI/s275/elysium.jpg",  ELYSIUM
+http://streamcloud.eu/x0zbo2nlglav
+#EXTINF:-1 tvg-logo="http://es.web.img3.acsta.net/c_215_290/pictures/16/11/14/17/25/184425.jpg", PASAJEROS
+http://streamcloud.eu/27qve96e5x6h
+#EXTINF:-1 tvg-logo="http://es.web.img3.acsta.net/c_215_290/pictures/16/06/29/12/19/506455.jpg", MORGAN
+http://streamcloud.eu/mciexd01ax0l
+#EXTINF:-1 tvg-logo="http://pics.filmaffinity.com/arrival-150207636-large.jpg", LA LLEGADA
+http://streamcloud.eu/nm2w5ytxr4xk
+#EXTINF:-1 tvg-logo="http://peliculasonline4k.com/wp-content/uploads/2016/04/LaPurga2.jpg", LA PURGA 2
+http://streamcloud.eu/p3ewlbpdy9q6
+#EXTINF:-1 tvg-logo="http://ecx.images-amazon.com/images/I/51-ynRtmT6L.jpg", CAZAFANTASMA
+http://streamcloud.eu/sfluwcdtjbib
+#EXTINF:-1 tvg-logo="http://www.freecinemamovies.online/wp-content/uploads/2017/02/p-ladybloodfight-dvd.jpg", LADY BLOODFIGHT
+http://streamcloud.eu/8vzewh4p1523
+#EXTINF:-1 tvg-logo="http://sm.ign.com/ign_es/screenshot/default/one-shett-spain-980x680_wrtq.jpg", LA GRAN MURALLA
+http://streamcloud.eu/qapjqwxzhb8d
+#EXTINF:-1 tvg-logo="http://pics.filmaffinity.com/the_accountant-825837789-large.jpg", EL CONTABLE
+http://streamcloud.eu/jetlojvy5i9r
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/e/e5/The_Legend_of_Tarzan_poster.jpg", TARZAN
+http://streamcloud.eu/9zn3gk0kqn8g
+#EXTINF:-1 tvg-logo="http://kinolux.ge/uploads/posts/2016-12/1482668419_undisputed.jpg", INVICTO
+http://streamcloud.eu/y9blmbopw4jx
+#EXTINF:-1 tvg-logo="http://pics.filmaffinity.com/prince_of_persia_the_sands_of_time-396298749-large.jpg", PRINCE OF PERSIA
+http://streamcloud.eu/4n9gok4lwh55
+#EXTINF:-1 tvg-logo="http://www.cineol.net/galeria/bso/1315.jpg", EVOLUTION
+http://streamcloud.eu/uyghj5btcc16
+#EXTINF:-1 tvg-logo="http://pics.filmaffinity.com/the_mechanic-343996468-large.jpg", THE MECANIC
+http://streamcloud.eu/bmdl340pm7xy#EXTINF:-1 tvg-logo="http://www.streamflix.es/art/art/0796f/9359352913c8af3eb6fa72a1037eb29c1240796f.jpg", SUEÑO LUCIDO
+http://streamcloud.eu/q6bq3xhybron
+#EXTINF:-1 tvg-logo="http://www.institutfrancais.es/madrid/adjuntos/affiche%20intocable.jpg", INTOCABLE
+http://streamcloud.eu/gtcxjcyz9c73
+#EXTINF:-1 tvg-logo="http://es.web.img2.acsta.net/pictures/14/02/27/09/35/442750.jpg", LA LISTA DE SCHINDLER
+http://streamcloud.eu/b0m32m891jve
+#EXTINF:-1 tvg-logo="http://es.web.img3.acsta.net/medias/nmedia/18/89/67/45/20061512.jpg", LA COMUNIDA DEL ANIÑO
+http://streamcloud.eu/aphpx39zvobm
+#EXTINF:-1 tvg-logo="https://cdn3.ciberdvd.com/wp-content/uploads/2012/07/el-senor-de-los-anillos-las-dos-torres.jpg", LAS DOS TORRES
+http://streamcloud.eu/wplll5tx3uhm
+#EXTINF:-1 tvg-logo="http://cloud10.todocoleccion.online/cine-posters-carteles/tc/2011/09/18/28557851.jpg", EL RETORNO DEL REY
+http://streamcloud.eu/hz2f9xc7cxej
+#EXTINF:-1 tvg-logo="http://es.web.img3.acsta.net/pictures/14/03/11/10/30/351336.jpg", REGRESO AL FUTURO
+http://streamcloud.eu/aeoc7l1zdy31
+#EXTINF:-1 tvg-logo="http://es.web.img3.acsta.net/pictures/14/04/03/13/45/034916.jpg",  REGRESO AL FUTURO 2
+http://streamcloud.eu/butdqtfaqxw1
+#EXTINF:-1 tvg-logo="https://pics.filmaffinity.com/back_to_the_future_part_iii-223713634-large.jpg",  REGRESO AL FUTURO 3
+http://streamcloud.eu/m4tetjshua7d
+#EXTINF:-1 tvg-logo="https://www.elseptimoarte.net/carteles/seven.jpg", SEVEN
+http://streamcloud.eu/t19y45isrp45
+#EXTINF:-1 tvg-logo="https://pics.filmaffinity.com/jagten_the_hunt-856722221-large.jpg",  LA CAZA
+http://streamcloud.eu/0zmahg2o1mx9
+#EXTINF:-1 tvg-logo="http://es.web.img3.acsta.net/pictures/14/03/24/12/30/071643.jpg", OPERACION DRAGON
+http://streamcloud.eu/gf2kk6oadrnr#EXTM3U
+#EXTINF:-1 tvg-logo="http://www.lashorasperdidas.com/wp-content/uploads//2010/08/critica-de-origen-cartel.jpg", ORIGEN
+http://streamcloud.eu/j4ps5uosrfvc
+#EXTINF:-1 tvg-logo="http://www.doobeedoobeedoo.info/wp-content/uploads/2010/01/OST-My-Name-Is-Khan-CD-cover.jpg", MI NOMBRE ES KHAN
+http://streamcloud.eu/s3jsvf8prxkp
+#EXTINF:-1 tvg-logo="http://agenda.diariovasco.com/media/eventos/0/0/4/9/2/492579_1.jpg", MARTE
+http://streamcloud.eu/gamvi756a9v9
+#EXTINF:-1 tvg-logo="http://www.labutaca.net/imagenes/wp-content/original/2012_10/la-vida-de-pi-cartel-31.jpg", LA VIDA DE PI
+http://streamcloud.eu/ftp0p59ojiup
+#EXTINF:-1 tvg-logo="https://pics.filmaffinity.com/10_cloverfield_lane-565304710-large.jpg", CALLE CLOVERFIELD
+http://streamcloud.eu/6gxcnvwaxjk1
+#EXTINF:-1 tvg-logo="https://pics.filmaffinity.com/the_notebook-565006977-large.jpg", EL DIARIO DE NOAH
+http://streamcloud.eu/bl2cqfi375v4
+#EXTINF:-1 tvg-logo="http://es.web.img2.acsta.net/medias/nmedia/18/67/08/53/20071009.jpg", EL MAQUINISTA
+http://streamcloud.eu/qrts7dj5m8hj
+#EXTINF:-1 tvg-logo="https://i.blogs.es/48cfb5/creed-posters-1/2560_3000.jpg",  CREED
+http://streamcloud.eu/dvr5xp4q6310
+#EXTINF:-1 tvg-logo="http://es.web.img3.acsta.net/medias/nmedia/18/66/89/00/20198925.jpg",  VENGANZA
+http://streamcloud.eu/p234cund7pyk
+#EXTINF:-1 tvg-logo="http://www.gstatic.com/tv/thumb/dvdboxart/8437077/p8437077_d_v8_aa.jpg", SECUESTRADOS
+http://streamcloud.eu/p4v56hklgf4a
+#EXTINF:-1 tvg-logo="https://s-media-cache-ak0.pinimg.com/236x/79/37/4d/79374d7bb38f16133684f4fb2605bd13.jpg",  PIRATAS DEL CARIBE ESPAÑOL
+http://streamcloud.eu/jggufsw4dc8t
+#EXTINF:-1 tvg-logo="https://pics.filmaffinity.com/nieve_negra-228454480-large.jpg", NIEVE NEGRA
+http://streamcloud.eu/uqdmx30xf253#EXTINF:-1 tvg-logo="http://es.web.img3.acsta.net/c_300_300/pictures/17/01/09/09/56/256507.jpg", LA BELLA Y BESTIA
+http://streamcloud.eu/it4uzi89dird
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/archive/2/2d/20170501161357%21The_Fate_of_The_Furious_Theatrical_Poster.jpg", A TODO GAS 8
+http://streamcloud.eu/pkq4w2x5z2iz
+#EXTINF:-1 tvg-logo="http://www.pelisplanet.com/wp-content/uploads/2016/10/la-septima-profecia.jpg", LA SPTIMA PROFECIA
+http://streamcloud.eu/uff3pzycwucd
+#EXTINF:-1 tvg-logo="http://pics.filmaffinity.com/villaviciosa_de_al_lado-665174723-large.jpg", VILLAVICOSA DEL AL LADO
+http://streamcloud.eu/7k62vrbre0m9
+#EXTINF:-1 tvg-logo="http://www.scified.com/media-thumbs/kong--skull-island-chinese-poster-529866.jpg", KONG
+http://streamcloud.eu/jgb10nyty36w
+#EXTINF:-1 tvg-logo="http://es.web.img2.acsta.net/pictures/16/07/21/11/28/234821.jpg",  CAZADEMONIOS
+http://streamcloud.eu/k2fn3h6abkkq
+#EXTINF:-1 tvg-logo="http://1.bp.blogspot.com/-F3agc5iWx6M/VauYrtB9iNI/AAAAAAAARPk/Tl12B5tgPfc/s1600/fifty_shades_of_grey.jpg",  50 SOMBRAS MAS OCURAS
+http://streamcloud.eu/hew3kvpzkhct
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/Oid5Ox5fTpo/maxresdefault.jpg", XXX 2
+http://streamcloud.eu/hwew2k1i9an0
+#EXTINF:-1 tvg-logo="http://www.descargatelocorp.com/wp-content/uploads/2017/05/xXx-Reactivado-2017-HD-720p-Espa%C3%B1ol-Latino.jpg", XXX3
+http://streamcloud.eu/txc7oy5vorwu
+#EXTINF:-1 tvg-logo="http://www.tororaton.com/wp-content/uploads/2017/01/la-momia-2017.jpg", LA MOMIA 2017
+http://streamcloud.eu/p9ens4mwylvg#
+#EXTINF:-1 tvg-logo="http://es.web.img2.acsta.net/medias/nmedia/18/67/08/53/20071009.jpg", EL MAQUINISTA

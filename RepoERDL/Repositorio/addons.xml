@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.video.DJLIPTV"
+       name="[COLOR orange]DJL[/COLOR] [COLOR white]IPTV[/COLOR] [COLOR gold]ADDON[/COLOR]"
+	   version="1.0"
+	   provider-name="DJLIPTV">
+
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+	<import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+	<import addon="script.module.livestreamer" optional="true"/>
+	<import addon="script.module.pyamf" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+
+  <extension point="xbmc.addon.repository" name="El Rincon De Lolo">
+        <info>https://raw.githubusercontent.com/djliptv/ElRinconDelLolo/master/RepoERDL/Repositorio/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/djliptv/ElRinconDelLolo/master/RepoERDL/Repositorio/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/djliptv/ElRinconDelLolo/master/RepoERDL/Repositorio/</datadir>
+    </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <summary>Addon DJLIPTV</summary>
+    <description lang="en">[COLOR white][B]GRATIS Y PARA TODOS[/B][/COLOR]</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.ElRinconDeLolo"
+       name="[COLOR blue]El Rincon Del Lolo[/COLOR]"
+	   version="1.2"
+	   provider-name="Lolo">
+
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+	<import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+	<import addon="script.module.livestreamer" optional="true"/>
+	<import addon="script.module.pyamf" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+
+	<extension point="xbmc.addon.repository" name="El Rincon De Lolo">
+        <info>https://raw.githubusercontent.com/djliptv/ElRinconDelLolo/master/RepoERDL/Repositorio/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/djliptv/ElRinconDelLolo/master/RepoERDL/Repositorio/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/djliptv/ElRinconDelLolo/master/RepoERDL/Repositorio/</datadir>
+    </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <summary>Addon El Rincon Del Lolo</summary>
+    <description lang="en">[COLOR blue][B]PARA TODOS VOSOTROS CON MUCHO ARTE[/B][/COLOR]</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.ElRinconDelTerror"
+	name="[COLOR darkred]EL RINCON DEL TERROR[/COLOR]"
+	version="0.0.1"
+	provider-name="[COLOR darkred]EL RINCON DEL TERROR[/COLOR]">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+    <extension point="xbmc.addon.repository" name="El Rincon De Lolo">
+        <info>https://raw.githubusercontent.com/djliptv/ElRinconDelLolo/master/RepoERDL/Repositorio/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/djliptv/ElRinconDelLolo/master/RepoERDL/Repositorio/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/djliptv/ElRinconDelLolo/master/RepoERDL/Repositorio/</datadir>
+    </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">EL RINCON DEL TERROR</summary>
+    <description lang="en">TODO CONTENIDO DEL GENERO TERROR.</description>
+    <platform>all</platform>
+    <forum>n/a</forum>
+    <website>n/a</website>
+  </extension>
+</addon>
+
+<addon id="plugin.video.INSOMNIA"
+       name="[COLOR white]INSOMNIA[/COLOR]"
+       version="0.0.1"
+       provider-name="LOLO TEAM">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" />
+    <import addon="script.module.simplejson" />
+     <import addon="script.module.livestreamer" optional="true"/>
+     <import addon="script.module.pyamf" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+
+	<extension point="xbmc.addon.repository" name="El Rincon De Lolo">
+        <info>https://raw.githubusercontent.com/djliptv/ElRinconDelLolo/master/RepoERDL/Repositorio/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/djliptv/ElRinconDelLolo/master/RepoERDL/Repositorio/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/djliptv/ElRinconDelLolo/master/RepoERDL/Repositorio/</datadir>
+    </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <summary>INSOMNIA</summary>
+    <description>
+    Addon Creado por LOLO TEAM.
+	LOLO TEAM GNU/GPU 2018 LICENSE
+    </description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.JHG.MASTER.3.0"
+       name="[COLOR goldenrod]JHG.MASTER.3.0 [/COLOR]"
+       version="3.0.2"
+       provider-name="[COLOR goldenrod]JHG.MASTER.3.0[/COLOR]">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+     <import addon="script.module.livestreamer" optional="true"/>
+     <import addon="script.module.pyamf" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+
+  <extension point="xbmc.addon.repository" name="El Rincon De Lolo">
+        <info>https://raw.githubusercontent.com/djliptv/ElRinconDelLolo/master/RepoERDL/Repositorio/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/djliptv/ElRinconDelLolo/master/RepoERDL/Repositorio/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/djliptv/ElRinconDelLolo/master/RepoERDL/Repositorio/</datadir>
+    </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <summary>[COLOR goldenrod][B]JHG.MASTER.3.0 [/B][/COLOR]</summary>
+    <description>
+----= Bienvenidos a JHG.MASTER.3.0 TV Addon =----
+Este complemento se convierte en una opcion mas
+a la hora de tener un centro multimedia completo,
+cubriendo las categorias mas solicitadas por los
+usuarios.
+
+JHG.MASTER.3.0 no aloja ningun tipo de contenido. Todos estos
+enlaces estan colocado de manera libre en interNET.
+--------------------------------------------------------------------
+
+    </description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.mundocine"
+	name="[COLOR white]Mundo[/COLOR] [COLOR grey]Cine[/COLOR]"
+	version="0.0.1"
+	provider-name="Toni Clasico">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+
+	<extension point="xbmc.addon.repository" name="El Rincon De Lolo">
+        <info>https://raw.githubusercontent.com/djliptv/ElRinconDelLolo/master/RepoERDL/Repositorio/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/djliptv/ElRinconDelLolo/master/RepoERDL/Repositorio/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/djliptv/ElRinconDelLolo/master/RepoERDL/Repositorio/</datadir>
+    </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">[COLOR white]Mundo[/COLOR] [COLOR grey]Cine[/COLOR]</summary>
+    <description lang="en">[COLOR grey]Vive todo el cine clasico.[/COLOR].</description>
+    <platform>all</platform>
+    <forum>n/a</forum>
+    <website>n/a</website>
+  </extension>
+</addon>
+
+<addon id="plugin.video.next"
+	name="[COLOR blue]NEXT[/COLOR]"
+	version="0.0.4"
+	provider-name="NEXT">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.repository" name="El Rincon De Lolo">
+        <info>https://raw.githubusercontent.com/djliptv/ElRinconDelLolo/master/RepoERDL/Repositorio/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/djliptv/ElRinconDelLolo/master/RepoERDL/Repositorio/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/djliptv/ElRinconDelLolo/master/RepoERDL/Repositorio/</datadir>
+    </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">NEXTube</summary>
+    <description lang="en">Musica Actual Y Retro.</description>
+    <platform>all</platform>
+    <forum>n/a</forum>
+    <website>n/a</website>
+  </extension>
+</addon>
+
+<addon id="plugin.video.xmas"
+	name="[COLOR lime]XMAS[/COLOR]"
+	version="0.0.1"
+	provider-name="XMAS">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+
+   <extension point="xbmc.addon.repository" name="El Rincon De Lolo">
+        <info>https://raw.githubusercontent.com/djliptv/ElRinconDelLolo/master/RepoERDL/Repositorio/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/djliptv/ElRinconDelLolo/master/RepoERDL/Repositorio/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/djliptv/ElRinconDelLolo/master/RepoERDL/Repositorio/</datadir>
+    </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">XMAS</summary>
+    <description lang="en">ADDON DE NAVIDAD.</description>
+    <platform>all</platform>
+    <forum>n/a</forum>
+    <website>n/a</website>
+  </extension>
+</addon>
+
+<addon id="repository.ElRinconDeLolo" name="[COLOR blue]El Rincon De Lolo[/COLOR] Repo" version="1.0.1" provider-name="Lolo">
+    <extension point="xbmc.addon.repository" name="El Rincon De Lolo">
+        <info>https://raw.githubusercontent.com/djliptv/ElRinconDelLolo/master/RepoERDL/Repositorio/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/djliptv/ElRinconDelLolo/master/RepoERDL/Repositorio/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/djliptv/ElRinconDelLolo/master/RepoERDL/Repositorio/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Repositorio El Rincon De Lolo</summary>
+        <description></description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="script.ERDLMaintenance"
+       name="El Rincon Del Lolo Auto Maintenance"
+       version="0.0.1"
+       provider-name="LOLO">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+ 	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video executable</provides>
+	</extension>
+  <extension point="xbmc.service" library="service.py" start="startup" />
+
+	<extension point="xbmc.addon.repository" name="El Rincon De Lolo">
+        <info>https://raw.githubusercontent.com/djliptv/ElRinconDelLolo/master/RepoERDL/Repositorio/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/djliptv/ElRinconDelLolo/master/RepoERDL/Repositorio/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/djliptv/ElRinconDelLolo/master/RepoERDL/Repositorio/</datadir>
+    </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Maintenance</summary>
+    <description>Your one stop tool for clearing your device.</description>
+    <language></language>
+    <license></license>
+    <source></source>
+    <forum></forum>
+    <website></website>
+  </extension>
+</addon>
+</addons>

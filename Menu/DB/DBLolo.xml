@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-stylesheet href="hide-it.xsl" type="text/xsl"?> 
+
+<!-- TEMPLATES INICIO
+
+-- === ZONA 1 - MOVIES INFANTILES DISKOKOSMIKO Y OTROS === --
+<item>
+<title>[COLOR white]+[/COLOR] [COLOR deepskyblue]Movies[/COLOR] [COLOR gold][ZONA 1][/COLOR]</title>
+<link>$doregex[makelist2]</link>
+
+
+<regex>
+  <name>makelist2</name>
+  <listrepeat><![CDATA[
+        <title>[makelist2.param1]</title>
+		<link>$doregex[makelist]</link>
+		<thumbnail>[makelist2.param3]</thumbnail>
+		<fanart>[makelist2.param4]</fanart>
+		]]></listrepeat>
+<expres>Name:"(.*?)" url:"(.*?)" thu:"(.*?)" fan:"(.*?)"; server:"(.*?)"</expres>
+<page>https://www.dropbox.com/s/hu7rzp2l7h7cbru/DB.xml?dl=1</page>
+<cookieJar></cookieJar>
+</regex>
+
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>$pyFunction:('[makelist.param3]').replace('Espa&#241;ol','')</title>
+        <link>$doregex[getUrl]</link>
+		<thumbnail>[makelist2.param3]</thumbnail>
+		<fanart>[makelist2.param4]</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>[makelist2.param2]/list,1,100</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>[makelist2.param5]/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>[makelist2.param5]/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>[makelist2.param5]/[makelist.param2]</page>
+<referer>[makelist2.param5]</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://bestforkodi.com/wp-content/uploads/2015/11/KIDS-MOVIES.png</thumbnail>
+<fanart>http://woodland-church.com/files/Kidzone/KidZone%20Logo%20600dpi.jpg</fanart>
+</item>
+TEMPLATES FIN-->
+
+<!-- ************************************************************************************************************************************************************************** -->
+
+<!-- EJEMPLO | Name:"" url:"" thu:"" fan:""; server:"" | --->
+
+<!-- ZONA 1 - SDK , SRDK, SIDK | MDK, MIDK, MSDK | MVDK |
+	 ZONA 2 - SCP , SRCP, SICP | MCP, MICP, MSCP | MVCP 
+	 S - SERIE, SR - SERIES RETRO, SI - SERIES INFANTILES, M - MOVIES, MI - MOVIES INFANTILES, MS - MOVIE SAGAS, MV - MUSIC VIDEOS
+	 ---> 
+
+<!-- *** ZONA 1 - DISKOKOSMIKO Y OTROS === ***-->
+
+<!-- === ZONA 1 - SERIES DISKOKOSMIKO Y OTROS === -->
+SDKN:"                   [COLOR white]::: |[/COLOR] [COLOR skyblue]NARUTO SHIPUDEN[/COLOR] [COLOR gold][SAGAS][/COLOR] [COLOR white]| :::[/COLOR]" url:"" thu:"" fan:""; server:""
+SDKN:"===================================================" url:"" thu:"" fan:""; server:""
+name:"[COLOR white][B]+[/B][/COLOR] [COLOR skyblue]NARUTO[/COLOR]" url:"http://diskokosmiko.mx/anime/naruto-todas-las-temporadas-100-latino-1212/" thu:"https://www.dropbox.com/s/7g3st0tqk1b05wt/NarutoThumbnail.png?dl=1" fan:"https://www.dropbox.com/s/5e2c01u6raig1ee/NARUTOFanart.jpg?dl=1"; server:"http://diskokosmiko.mx"
+SDKN:"[COLOR white][B]+[/B][/COLOR] [COLOR skyblue]NARUTO SHIPUDEN[/COLOR] [COLOR white]CAPITULOS (1 AL 29)[/COLOR]" url:"http://diskokosmiko.mx/randy-villamar/naruto-shippuden-16261/" thu:"https://www.dropbox.com/s/wakykoqzhhxrwvc/NarutoShipudenThumbnail.png?dl=1" fan:"https://www.dropbox.com/s/5e2c01u6raig1ee/NARUTOFanart.jpg?dl=1"; server:"http://diskokosmiko.mx"
+SDKN:"[COLOR white][B]+[/B][/COLOR] [COLOR skyblue]NARUTO SHIPUDEN[/COLOR] [COLOR white]CAPITULOS (113 AL 242)[/COLOR]" url:"http://diskokosmiko.mx/Cesarike_MA/naruto-shippuden-113-242-40536/" thu:"https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/NarutoShipudenThumbnail.png?raw=true" fan:"https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/NARUTOFanart.jpg?raw=true"; server:"http://diskokosmiko.mx"
+SDKN:"[COLOR white][B]+[/B][/COLOR] [COLOR skyblue]NARUTO SHIPUDEN[/COLOR] [COLOR white]CAPITULOS (243 AL 361)[/COLOR]" url:"http://diskokosmiko.mx/Cesarike_MA/naruto-shippuden-243-361-74641/" thu:"https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/NarutoShipudenThumbnail.png?raw=true" fan:"https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/NARUTOFanart.jpg?raw=true"; server:"http://diskokosmiko.mx"
+SDKN:"[COLOR white][B]+[/B][/COLOR] [COLOR skyblue]NARUTO SHIPUDEN[/COLOR] [COLOR white]CAPITULOS (362 AL 400)[/COLOR]" url:"http://diskokosmiko.mx/Cesarike_MA/naruto-shippuden-362-400-75813/" thu:"https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/NarutoShipudenThumbnail.png?raw=true" fan:"https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/NARUTOFanart.jpg?raw=true"; server:"http://diskokosmiko.mx"
+Name:"" url:"" thu:"" fan:""; server:"http://diskokosmiko.mx"
+
+
+SDKOP:"                   [COLOR white]::: |[/COLOR] [COLOR skyblue]OME PIECE[/COLOR] [COLOR gold][SAGAS][/COLOR] [COLOR white]| :::[/COLOR]" url:"" thu:"" fan:""; server:""
+SDKOP:"===================================================" url:"" thu:"" fan:""; server:""
+SDKOP:"[COLOR white][B]+[/B][/COLOR] [COLOR skyblue]ONE PIECE: PELICULAS[/COLOR]" url:"http://diskokosmiko.mx/Cesarike_MA/one-piece-peliculas-45789/" thu:"https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/OnePieceThumbnail.png?raw=true" fan:"https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/OnePieceFanart.jpg?raw=true"; server:"http://diskokosmiko.mx"
+SDKOP:"[COLOR white][B]+[/B][/COLOR] [COLOR skyblue]ONE PIECE: [COLOR white]CAPITULOS (1 AL ---)[/COLOR]" url:"http://diskokosmiko.mx/ayachii/redlinesp-one-piece-765-22900/" thu:"https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/OnePieceThumbnail.png?raw=true" fan:"https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/OnePieceFanart.jpg?raw=true"; server:"http://diskokosmiko.mx"
+SDKOP:"[COLOR white][B]+[/B][/COLOR] [COLOR skyblue]ONE PIECE: [COLOR white]CAPITULOS (747 AL 793)[/COLOR]" url:"http://diskokosmiko.mx/Cesarike_MA/one-piece-saga-de-los-cuatro-emperadores-747-46657/" thu:"https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/OnePieceThumbnail.png?raw=true" fan:"https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/OnePieceFanart.jpg?raw=true"; server:"http://diskokosmiko.mx"
+
+
+SDKDB:"                   [COLOR white]::: |[COLOR skyblue]MUNDO[/COLOR] [COLOR yellow]DRAG[/COLOR][COLOR orange]O[/COLOR][COLOR yellow]N[/COLOR] [COLOR red]BALL[/COLOR] [COLOR white]- BY POLO Y DANI[/COLOR] [COLOR white]| :::[/COLOR]" url:"" thu:"https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/DragonBallMundoThumnail.jpg?raw=true" fan:"https://www.dropbox.com/s/ndjner7ftd19zgw/DragonBallMundoFanart.jpg?dl=1"; server:""
+SDKDB:"===================================================" url:"" thu:"" fan:""; server:""
+SDKDB:"[COLOR skyblue]DRAGON BALL[/COLOR]" url:"http://diskokosmiko.mx/retrogames33/db-74096/" thu:"https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/DragonBallMundoThumnail.jpg?raw=true" fan:"https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/DragonBallMundoDBFanart.jpg?raw=true"; server:"http://diskokosmiko.mx"
+SDKDB:"[COLOR skyblue]DRAGON BALL Z[/COLOR]" url:"http://diskokosmiko.mx/retrogames33/dbz-74737/" thu:"https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/DragonBallMundoThumnail.jpg?raw=true" fan:"https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/DragonBallMundoDBZFanart.jpg?raw=true"; server:"http://diskokosmiko.mx"
+SDKDB:"[COLOR skyblue]DRAGON BALL GT[/COLOR]" url:"http://diskokosmiko.mx/retrogames33/dbgt-76726/" thu:"https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/DragonBallMundoThumnail.jpg?raw=true" fan:"https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/DragonBallMundoDBGTFanart.jpg?raw=true"; server:"http://diskokosmiko.mx"
+SDKDB:"[COLOR skyblue]DRAGON BALL KAI[/COLOR] [COLOR white]SAGAS SAIYANS,FREEZER Y CELULA[/COLOR]" url:"http://diskokosmiko.mx/retrogames33/dbk-1-77058/" thu:"https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/DragonBallMundoThumnail.jpg?raw=true" fan:"https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/DragonBallMundoDBKFanart.jpg?raw=true"; server:"http://diskokosmiko.mx"
+SDKDB:"[COLOR skyblue]DRAGON BALL KAI[/COLOR] [COLOR white]CAPITULOS FINALES SAGA MAJIN BUU[/COLOR]" url:"http://diskokosmiko.mx/retrogames33/dbk-2-77765/" thu:"https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/DragonBallMundoThumnail.jpg?raw=true" fan:"https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/DragonBallMundoDBK2Fanart.jpg?raw=true"; server:"http://diskokosmiko.mx"
+SDKDB:"[COLOR skyblue]DRAGON BALL SUPER[/COLOR]" url:"http://kbagi.com/retrogames33/dbs-602162/" thu:"https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/DragonBallMundoThumnail.jpg?raw=true" fan:"https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/DragonBallMundoDBSFanart.png?raw=true"; server:"http://kbagi.com"
+SDKDB:"[COLOR skyblue]DRAGON BALL PELICULAS[/COLOR]" url:"http://diskokosmiko.mx/retrogames33/dbo-77047/" thu:"https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/DragonBallMundoThumnail.jpg?raw=true" fan:"https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/DragonBallMundoDBPeliFanart.jpg?raw=true"; server:"http://diskokosmiko.mx"
+SDKDB:"[COLOR skyblue]DRAGON BALL CONCIERTO SINFONICO PARIS[/COLOR]" url:"http://diskokosmiko.mx/retrogames33/concierto-dbsa-82181" thu:"https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/DragonBallMundoThumnail.jpg?raw=true" fan:"https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/DragonBallMundoDBCSFanart.jpg?raw=true"; server:"http://diskokosmiko.mx"
+SDKDB:"[COLOR skyblue]YUYU HAKUSHO SERIE [CATALAN][/COLOR]" url:"http://diskokosmiko.mx/retrogames33/yyh-90488" thu:"https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/DragonBallMundoThumnail.jpg?raw=true" fan:"https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/DragonBallMundoYHFanart.jpg?raw=true"; server:"http://diskokosmiko.mx"
+SDKDB:"[COLOR skyblue]YUYU HAKUSHO PELICULAS[/COLOR]" url:"http://diskokosmiko.mx/retrogames33/yyho-90489" thu:"https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/DragonBallMundoThumnail.jpg?raw=true" fan:"https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/DragonBallMundoYHPeliFanart.jpg?raw=true"; server:"http://diskokosmiko.mx"
+SDKDB:"[COLOR skyblue]ONE PUNCH MAN[/COLOR]" url:"http://diskokosmiko.mx/retrogames33/opm-91782" thu:"https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/DragonBallMundoThumnail.jpg?raw=true" fan:"https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/DragonBallMundoOpmFanart.jpg?raw=true"; server:"http://diskokosmiko.mx"
+SDKDB:"[COLOR skyblue]ONE PUNCH MAN SPECIALS AND OVAS[/COLOR]" url:"http://diskokosmiko.mx/retrogames33/opmo-91917" thu:"https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/DragonBallMundoThumnail.jpg?raw=true" fan:"https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/DragonBallMundoOpmoFanart.jpg?raw=true"; server:"http://diskokosmiko.mx"
+name:"" url:"" thu:"https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/DragonBallMundoThumnail.jpg?raw=true" fan:"https://www.dropbox.com/s/5iint7g35ghcwfy/DragonBallFanart.jpg?dl=1"; server:"http://diskokosmiko.mx"

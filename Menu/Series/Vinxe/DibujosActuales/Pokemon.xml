@@ -1,0 +1,903 @@
+<item>
+<title> [COLOR lime]•[/COLOR]    [COLOR blue][B]POKEMON TEMPORADA 1[/B] [/COLOR]  </title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://s-media-cache-ak0.pinimg.com/originals/67/bc/36/67bc36fe4a5ad62a59b03059b58f57a1.jpg</thumbnail>
+        <fanart>https://19818-presscdn-pagely.netdna-ssl.com/wp-content/uploads/434/23/6bf8a74fe06cdecaedcab5e4ff672456.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/gemma-valencia/pokemon-t1-completa-83-cap-castellano-31440/list,1,4</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/gemma-valencia/pokemon-t1-completa-83-cap-castellano-31440/list,1,4</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://s-media-cache-ak0.pinimg.com/originals/67/bc/36/67bc36fe4a5ad62a59b03059b58f57a1.jpg</thumbnail>
+<fanart>https://19818-presscdn-pagely.netdna-ssl.com/wp-content/uploads/434/23/6bf8a74fe06cdecaedcab5e4ff672456.jpg</fanart>
+<info>Es el décimo cumpleaños de Ash, y está listo para hacer lo que muchos chicos de 10 años en la región Kanto se proponen: ¡convertirse en un Entrenador Pokémon! Las cosas no salieron exactamente según lo planeado cuando terminó con un Pikachu en lugar de un primer Pokémon estándar, y ganar Medallas de Gimnasio fue mucho más duro de lo que pensó. Afortunadamente tiene a los antiguos Líderes de Gimnasio Brock y Misty a su lado, junto con un gran grupo de nuevos amigos Pokémon, incluidos Bulbasaur, Squirtle y Charmander.!</info>
+</item>
+</items>
+
+
+
+
+
+
+
+
+
+
+
+<item>
+<title> [COLOR lime]•[/COLOR]    [COLOR blue][B]POKEMON TEMPORADA 2[/B] [/COLOR]  </title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://3.bp.blogspot.com/-Kk4N1LJ2Ewg/VyLKRFUBYdI/AAAAAAAAAfY/AkQQzWP4DBcfb5GVW-yY_aUuhE_mwui_ACLcB/s1600/naranja.jpg</thumbnail>
+        <fanart>http://assets1.ignimgs.com/2016/07/18/pokemonlove1280jpg-6ab499_1280w.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/chicho306/pokemon-t2-35661/list,1,2</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/chicho306/pokemon-t2-35661/list,1,2</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://3.bp.blogspot.com/-Kk4N1LJ2Ewg/VyLKRFUBYdI/AAAAAAAAAfY/AkQQzWP4DBcfb5GVW-yY_aUuhE_mwui_ACLcB/s1600/naranja.jpg</thumbnail>
+<fanart>http://assets1.ignimgs.com/2016/07/18/pokemonlove1280jpg-6ab499_1280w.jpg</fanart>
+<info>El viaje de Ash a la cima de la Liga Añil continúa; pero ¿hará que peligren sus oportunidades la amistad con su compañero y competidor Richie de la Liga Pokémon? Finalizado su viaje a Kanto, Ash se da cuenta de que hay muchas cosas que ver y hacer cuando el Profesor Oak les envía a él y a sus amigos a las Islas Naranja. Brock se enamora perdidamente de la atractiva Profesora Ivy y decide quedarse con ella dejando a Ash y Misty solos como un dúo dinámico, ¡al menos hasta que conozcan al intrépido observador Pokémon Tracey Sketchit!</info>
+</item>
+</items>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<item>
+<title> [COLOR lime]•[/COLOR]    [COLOR blue][B]POKEMON TEMPORADA 3[/B] [/COLOR]  </title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://1.bp.blogspot.com/-knJvLJlgDQw/WB6NypmF0-I/AAAAAAAAERI/zYBet0CBsvMqXjBIOZYjy0PBxUbhMDDkgCLcB/s1600/pokemon-temporada-3-latino.jpg</thumbnail>
+        <fanart>https://i.ytimg.com/vi/FFujn_blhBQ/maxresdefault.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/chicho306/pokemon-t3-35662/list,1,2</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/chicho306/pokemon-t3-35662/list,1,2</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://animejoin.com/wp-content/uploads/2015/11/pokemon-los-viajes-johto.png</thumbnail>
+<fanart>https://i.ytimg.com/vi/FFujn_blhBQ/maxresdefault.jpg</fanart>
+<info>Ash Ketchum comienza su viaje en la Región de Johto, hallando a un Pokémon Legendario, Suicune, de la misma manera con la que vio a Ho-Oh al iniciar su viaje en la primera temporada. Captura a un Heracross y un Chikorita (que tiene la particularidad de ser muy cariñosa con Ash y de tenerle celos a Pikachu), además conoce a una niña llamada Cassie, fanática de un equipo de béisbol profesional, los Electabuzz. El objetivo de Ash en esta temporada es ganar en la Liga Johto y tiene su primer combate en Ciudad Violeta/Malva, donde se enfrenta al primer líder de gimnasio, Falkner/Pegaso. Al vencerlo con Charizard, Ash obtiene la Medalla Zafiro/Céfiro, su primera medalla en Johto.</info>
+</item>
+</items>
+
+
+
+
+<item>
+<title> [COLOR lime]•[/COLOR]    [COLOR blue][B]POKEMON TEMPORADA 4[/B] [/COLOR]  </title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://i.imgur.com/7UfwhNW.jpg</thumbnail>
+        <fanart>https://fthmb.tqn.com/ynywZnu2uH11H-RzAezi3c9TNrE=/1500x1000/filters:no_upscale()/about/Pokemon-Season-03-JohtoJourneys-56a013965f9b58eba4aed2e9.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/chicho306/pokemon-t4-35667/list,1,3</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/chicho306/pokemon-t4-35667/list,1,3</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://i.imgur.com/7UfwhNW.jpg</thumbnail>
+<fanart>https://fthmb.tqn.com/ynywZnu2uH11H-RzAezi3c9TNrE=/1500x1000/filters:no_upscale()/about/Pokemon-Season-03-JohtoJourneys-56a013965f9b58eba4aed2e9.jpg</fanart>
+<info>Desde la expansión de la metrópolis de Ciudad Trigal hasta la helada cima de la Montaña Snowtop, la región Johto presenta a Ash, Misty y Brock nuevas y excitantes aventuras; ¡junto con algunas caras familiares como las de sus viejos amigos Todd, Duplica y Suzie! El enriquecido pasado de Johto significa muchos misterios Pokémon que nuestros héroes deberán resolver, y su emocionante presente significa algunos desafíos difíciles: Ash se enfrenta a tres Líderes Gim más, mientras que también se ocupa de competiciones como la Conferencia de Sumo Pokémon en el camino.</info>
+</item>
+</items>
+
+
+
+
+
+
+
+<item>
+<title> [COLOR lime]•[/COLOR]    [COLOR blue][B]POKEMON TEMPORADA 5[/B] [/COLOR]  </title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://i.imgur.com/VajTaC5.jpg</thumbnail>
+        <fanart>https://i.ytimg.com/vi/1n0uzU3E_Qw/maxresdefault.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/chicho306/pokemon-t5-35668/list,1,3</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/chicho306/pokemon-t5-35668/list,1,3</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://i.imgur.com/VajTaC5.jpg</thumbnail>
+<fanart>https://i.ytimg.com/vi/1n0uzU3E_Qw/maxresdefault.jpg</fanart>
+<info>Con el Gim de Ciudad Olivo temporalmente fuera de servicio, nuestros héroes salen hacia la Competición de la Copa Remolino; ¡y Misty los quiere en acción! Reanudando su viaje, descubren que Jessie, James y Meowth no son los únicos miembros de Team Rocket de los que tienen que preocuparse, aunque este cobarde trío todavía tiene unos cuantos trucos bajo la manga. Después de una batalla acalorada con el último Líder Gim, Ash se va a la Conferencia de Plata, pero ¿estará dispuesto a encontrarse a su viejo rival, Gary?</info>
+</item>
+</items>
+
+
+
+
+
+
+
+
+
+
+<item>
+<title> [COLOR lime]•[/COLOR]    [COLOR blue][B]POKEMON TEMPORADA 6[/B] [/COLOR]  </title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://4.bp.blogspot.com/-aCFAKxuVTbw/V2U9KLe-sQI/AAAAAAAABog/gy9NkY_DnG0zXOKPLnkdg-KcvLiJ1SQhgCKgB/s1600/pokemon-season-6-advanced.jpg</thumbnail>
+        <fanart>https://2.bp.blogspot.com/-_fIu8lQj9K8/V7LYs5e2fVI/AAAAAAAAAXw/HcqbYkMbZEgP4gGXBebZYWLp5zWHsQ2YACLcB/s1600/light_texture2195.png</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/chicho306/pokemon-t6-35688/list,1,2</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/chicho306/pokemon-t6-35688/list,1,2</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://4.bp.blogspot.com/-aCFAKxuVTbw/V2U9KLe-sQI/AAAAAAAABog/gy9NkY_DnG0zXOKPLnkdg-KcvLiJ1SQhgCKgB/s1600/pokemon-season-6-advanced.jpg</thumbnail>
+<fanart>https://2.bp.blogspot.com/-_fIu8lQj9K8/V7LYs5e2fVI/AAAAAAAAAXw/HcqbYkMbZEgP4gGXBebZYWLp5zWHsQ2YACLcB/s1600/light_texture2195.png</fanart>
+<info>Exterminada la Conferencia de Plata, Ash continúa hacia su próximo desafío: ¡la región lejana de Hoenn! Mientras que ha de despedirse de sus viejos amigos, conoce a Aura, una Entrenadora que acaba de comenzar el viaje Pokémon. Junto con su hermanito Max y el siempre fiable Brock, este grupo de Entrenadores Pokémon comienza a perseguir sus sueños.Ash se anota tres Medallas Gim, mientras que Aura cambia de táctica para seguir la ruta de los Concursos de una Coordinadora de Pokémon.</info>
+</item>
+</items>
+
+
+
+
+
+
+
+
+
+
+
+<item>
+<title> [COLOR lime]•[/COLOR]    [COLOR blue][B]POKEMON TEMPORADA 7[/B] [/COLOR]  </title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://i.imgur.com/WGsmDym.jpg</thumbnail>
+        <fanart>http://s1.dmcdn.net/TfjE5.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/chicho306/pokemon-t7-35712/list,1,3</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/chicho306/pokemon-t7-35712/list,1,3</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://i.imgur.com/WGsmDym.jpg</thumbnail>
+<fanart>http://s1.dmcdn.net/TfjE5.jpg</fanart>
+<info>Una sombra se cierne sobre Ash, Aura y sus amigos a medida que continúan su viaje a través de la región de Hoenn, no solo en el Monte Cenizo. ¡Tanto el Equipo Magma como el Equipo Agua llevan a cabo sus planes y nuestros héroes, sin quererlo, se ven envueltos en la situación! Cuando no están intentando evitar que se lleven a cabo planes malvados, Ash y Aura continúan con sus objetivos, Ash intentando conseguir tres Medallas Gim más y Aura gana sus tres primeras Cintas de Concursos. Estos además consiguen nuevos Pokémon como Torkoal y Bulbasaur, ¿pero podrían ser demasiados como para controlarlos?</info>
+</item>
+</items>
+
+
+
+
+
+
+
+<item>
+<title> [COLOR lime]•[/COLOR]    [COLOR blue][B]POKEMON TEMPORADA 8[/B] [/COLOR]  </title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://i.imgur.com/q6RNZ11.jpg</thumbnail>
+        <fanart>http://s2.dmcdn.net/KbiEV/1280x720-WB9.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/chicho306/pokemon-t8-35718/list,1,3</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/chicho306/pokemon-t8-35718/list,1,3</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://i.imgur.com/q6RNZ11.jpg</thumbnail>
+<fanart>http://s2.dmcdn.net/KbiEV/1280x720-WB9.jpg</fanart>
+<info>Ash gana sus dos últimas Medallas y se asegura un lugar en la Liga de Campeones Hoenn, mientras que Aura se prepara para un enfrentamiento épico contra dos rivales en el Gran Festival estando muy cerca de no conseguir su Cinta final. Ash se encuentra con dos Entrenadores que se convierten en sus propios rivales Hoenn, enfrentándose a los dos durante el transcurso del torneo. Cuando vuelve a Kanto y se reúne con sus viejos amigos, Ash es reclutado para un nuevo desafío: ¡el Frente Batalla!</info>
+</item>
+</items>
+
+
+
+
+
+
+
+<item>
+<title> [COLOR lime]•[/COLOR]    [COLOR blue][B]POKEMON TEMPORADA 9[/B] [/COLOR]  </title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://i.imgur.com/Pyo7FFN.jpg</thumbnail>
+        <fanart>https://cdn.vox-cdn.com/thumbor/fYmghq57nqRVIh-3gFB0916JBqw=/0x0:500x373/1200x800/filters:focal(210x147:290x227)/cdn.vox-cdn.com/uploads/chorus_image/image/53674157/tumblr_inline_ohujmuFKMg1r9z6eg_540.0.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/chicho306/pokemon-t9-35741/list,1,2</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/chicho306/pokemon-t9-35741/list,1,2</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://i.imgur.com/Pyo7FFN.jpg</thumbnail>
+<fanart>https://cdn.vox-cdn.com/thumbor/fYmghq57nqRVIh-3gFB0916JBqw=/0x0:500x373/1200x800/filters:focal(210x147:290x227)/cdn.vox-cdn.com/uploads/chorus_image/image/53674157/tumblr_inline_ohujmuFKMg1r9z6eg_540.0.jpg</fanart>
+<info>Puede que el territorio resulte familiar, pero incluso Ash y Brock pueden encontrar algo más que unas cuantas sorpresas en su propia región de Kanto, ¡como un Pokéguarda interesado en los casos de dos Pokémon Legendarios! Aura está de nuevo en el trayecto hacia los Concursos, abriendo el camino hasta el Gran Festival Kanto. Mientras Ash busca fuera de las instalaciones ocultas de Batalla de la Frontera. Si encontrarlos no era ya demasiado difícil, todavía le quedan combates en Batalla de la Frontera mucho más duros de lo que cualquier Líder Gim se puede imaginar.</info>
+</item>
+</items>
+
+
+
+
+
+
+
+
+
+
+<item>
+<title> [COLOR lime]•[/COLOR]    [COLOR blue][B]POKEMON TEMPORADA 10[/B] [/COLOR]  </title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://animeget.net/dub/mobile/cover/Pokemon-Diamond-and-Pearl-Galactic-Battles.jpg?x2</thumbnail>
+        <fanart>http://pm1.narvii.com/5714/b4040afa6c06381272bd1c91a2a2cee11db7979d_hq.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/chicho306/pokemon-t10-35760/list,1,3</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/chicho306/pokemon-t10-35760/list,1,3</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://animeget.net/dub/mobile/cover/Pokemon-Diamond-and-Pearl-Galactic-Battles.jpg?x2</thumbnail>
+<fanart>http://pm1.narvii.com/5714/b4040afa6c06381272bd1c91a2a2cee11db7979d_hq.jpg</fanart>
+<info>Si Gary Oak se dirige hacia la región Sinnoh, ¡entonces Ash no andará muy lejos! Listo para enfrentarse a la Liga Sinnoh, Ash se lleva a Pikachu y se encuentran con Brock en Sinnoh, donde pronto se une un tercero al par de Entrenadores: Maya, una Coordinadora de Pokémon novata decidida a seguir los pasos de su madre. Tanto a Ash como a Maya les cuesta seguir sus caminos, pero no les resulta difícil hacer nuevos amigos, obteniendo nuevos Pokémon como Turtwig y Piplup.</info>
+</item>
+</items>
+
+
+
+
+
+
+
+
+
+
+<item>
+<title> [COLOR lime]•[/COLOR]    [COLOR blue][B]POKEMON TEMPORADA 11[/B] [/COLOR]  </title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://i.imgur.com/eysHq4R.jpg</thumbnail>
+        <fanart>http://www.sorrisi.com/guidatv/uploads/epg/images/programseries/0/0/originale/268485.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/chicho306/pokemon-t11-36588/list,1,3</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/chicho306/pokemon-t11-36588/list,1,3</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://i.imgur.com/eysHq4R.jpg</thumbnail>
+<fanart>http://www.sorrisi.com/guidatv/uploads/epg/images/programseries/0/0/originale/268485.jpg</fanart>
+<info>Parece que a Ash le van bien las cosas mientras se prepara para sus próximas tres Medallas Gim, pero no ocurre lo mismo con Maya, que pierde un par de veces en los Concursos. Ambos harán lo que puedan para llegar a ser mejores Entrenadores, desde entrar en la competición de la Copa Wallace a asistir a la Escuela de Verano Pokémon del Profesor Serbal. Con un poco de suerte, las nuevas tácticas que adopten les darán las herramientas necesarias para salir airosos frente a la última trama del Cazador Pokémon J; ¡así como la amenaza del Equipo Galaxia!</info>
+</item>
+</items>
+
+
+
+
+
+
+
+
+
+
+<item>
+<title> [COLOR lime]•[/COLOR]    [COLOR blue][B]POKEMON TEMPORADA 12[/B] [/COLOR]  </title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://www.rightstufanime.com/images/productImages/782009241850_anime-Pokemon-Diamond-and-Pearl-Galactic-Battles-DVD-Box-Set-3-D.jpg</thumbnail>
+        <fanart>https://vignette1.wikia.nocookie.net/pokemon/images/0/03/DP121.png/revision/latest?cb=20151117040131</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/chicho306/pokemon-t12-36617/list,1,3</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/chicho306/pokemon-t12-36617/list,1,3</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.rightstufanime.com/images/productImages/782009241850_anime-Pokemon-Diamond-and-Pearl-Galactic-Battles-DVD-Box-Set-3-D.jpg</thumbnail>
+<fanart>https://vignette1.wikia.nocookie.net/pokemon/images/0/03/DP121.png/revision/latest?cb=20151117040131</fanart>
+<info>Dado que la amenaza del Equipo Galaxia continúa cerniéndose sobre la región de Sinnoh, Ash y Maya continúan viéndose envueltos en los planes de este misterioso grupo de villanos; ¡así como enfrentándose a otros desafíos inesperados! Maya está muy ocupada con los numerosos problemas de su Pokémon, mientras que la rivalidad continúa con Polo llegando finalmente a un punto crítico ¡en una batalla completa 6-a-6! Podría ser la prueba por excelencia de estilos de entrenamiento. ¿Llegarán nuestros héroes a la cima?</info>
+</item>
+</items>
+
+
+
+
+
+
+
+
+
+
+<item>
+<title> [COLOR lime]•[/COLOR]    [COLOR blue][B]POKEMON TEMPORADA 13[/B] [/COLOR]  </title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://d3fa68hw0m2vcc.cloudfront.net/60a/38723933.jpeg</thumbnail>
+        <fanart>https://i.ytimg.com/vi/OfDgVb8PUZ8/maxresdefault.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/chicho306/pokemon-t13-36625/list,1,2</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/chicho306/pokemon-t13-36625/list,1,2</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://d3fa68hw0m2vcc.cloudfront.net/60a/38723933.jpeg</thumbnail>
+<fanart>https://i.ytimg.com/vi/OfDgVb8PUZ8/maxresdefault.jpg</fanart>
+<info>Verás a Ash, Maya y Brock viajar por toda la región de Sinnoh para enfrentarse a retos, batallas y las travesuras de Team Rocket. Ahora que no está el Equipo Galaxia, Ash puede concentrarse en clasificarse para la Liga Sinnoh. Y Maya se entrenará para competir en la final del Concurso de Cintas, ¡lo que le permitirá participar en el Gran Festival!</info>
+</item>
+</items>
+
+
+
+
+
+
+
+
+
+<item>
+<title> [COLOR lime]•[/COLOR]    [COLOR blue][B]POKEMON TEMPORADA 14[/B] [/COLOR]  </title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://www.sanity.com.au/media/Images/fullimage/281295/TSA_2217829_2015-17-4--01-15-46.jpg</thumbnail>
+        <fanart>http://gearnuke.com/wp-content/uploads/2014/02/pokemon-black-and-white-anime-1.png</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/chicho306/pokemon-t14-36628/list,1,2</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/chicho306/pokemon-t14-36628/list,1,2</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.sanity.com.au/media/Images/fullimage/281295/TSA_2217829_2015-17-4--01-15-46.jpg</thumbnail>
+<fanart>http://gearnuke.com/wp-content/uploads/2014/02/pokemon-black-and-white-anime-1.png</fanart>
+<info>¡Un nuevo territorio, nuevos rivales, nuevos desafíos y nuevos Pokémon hacen de la temporada 14 de la serie de dibujos animados de Pokémon una de las más emocionantes jamás vistas! Cuando Ash y su madre acompañan al Profesor Oak a la lejana región de Teselia, Ash descubre Pokémon que nunca había visto antes… ¡y que está deseando atrapar! Es cierto que tiene a Pikachu a su lado junto a sus amigos Iris y Millo, pero aun así necesitará muchos nuevos Pokémon en su equipo si quiere retar a los expertos Líderes de Gimnasio de Teselia. ¡Su aventura para convertirse en Maestro Pokémon es ahora aún más difícil!</info>
+</item>
+</items>
+
+
+
+
+
+
+
+
+
+<item>
+<title> [COLOR lime]•[/COLOR]    [COLOR blue][B]POKEMON TEMPORADA 15[/B] [/COLOR]  </title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://cdn.bulbagarden.net/upload/thumb/4/4b/BW_Rival_Destinies_Collection_1.png/300px-BW_Rival_Destinies_Collection_1.png</thumbnail>
+        <fanart>http://i.imgur.com/yC0ix.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/chicho306/pokemon-t15-36639/list,1,2</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/chicho306/pokemon-t15-36639/list,1,2</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://cdn.bulbagarden.net/upload/thumb/4/4b/BW_Rival_Destinies_Collection_1.png/300px-BW_Rival_Destinies_Collection_1.png</thumbnail>
+<fanart>http://i.imgur.com/yC0ix.jpg</fanart>
+<info>Nuevos rivales, amigos y docenas de Pokémon jamás vistos hasta ahora aguardan a Ash y Pikachu en Negro y Blanco: Destinos rivales, la nueva temporada de la serie de dibujos animados de Pokémon. Mientras Ash continúa explorando la región de Teselia con sus amigos, se encontrará ante el desafío definitivo: ¡Mirto, el Campeón de Teselia! Por su parte, sus compañeros también se enfrentarán a sus propios retos: ella deberá luchar por su derecho a continuar sus viajes, y él le plantará cara nuevamente a un desafío del pasado. Además, los tres deberán unir sus fuerzas para salvar una isla de la fuerza arrolladora de tres misteriosos Pokémon legendarios sumamente poderosos.</info>
+</item>
+</items>
+
+
+
+
+
+
+
+
+
+<item>
+<title> [COLOR lime]•[/COLOR]    [COLOR blue][B]POKEMON TEMPORADA 16[/B] [/COLOR]  </title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://2.bp.blogspot.com/-_awMlS5lwFU/V2V2IEL5l4I/AAAAAAAABuQ/OA8jhZl_qwcybA_1lTYHgd7RWkRrLB_-wCLcB/s1600/bhe5184-cover.jpg</thumbnail>
+        <fanart>http://i.imgur.com/3zwzfvi.png</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/chicho306/pokemon-t16-36679/list,1,2</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/chicho306/pokemon-t16-36679/list,1,2</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://2.bp.blogspot.com/-_awMlS5lwFU/V2V2IEL5l4I/AAAAAAAABuQ/OA8jhZl_qwcybA_1lTYHgd7RWkRrLB_-wCLcB/s1600/bhe5184-cover.jpg</thumbnail>
+<fanart>http://i.imgur.com/3zwzfvi.png</fanart>
+<info>Ash y sus amigos Iris y Millo han conseguido desbaratar los viles planes del Team Rocket, ¡y ahora les acechan nuevos peligros! Pero, para empezar, con ocho Medallas de Gimnasio, Ash está más que preparado para enfrentarse al reto máximo de la región: ¡la Liga de Teselia! Ash combatirá contra rivales nuevos y ya conocidos en su aventura para convertirse en Maestro Pokémon. Iris, por su parte, ha estado teniendo problemas para conectar con su poderoso y cabezota Dragonite. ¿Podría una visita a la Aldea de los Dragones ayudarle a solucionar las cosas a esta aspirante a Maestra Dragón? ¿Y qué nuevas aventuras aguardan a nuestros héroes más allá de la Liga de Teselia? ¡Descúbrelo mientras continúa la aventura!</info>
+</item>
+</items>
+
+
+
+
+
+
+
+
+
+<item>
+<title> [COLOR lime]•[/COLOR]    [COLOR blue][B]POKEMON TEMPORADA 17[/B] [/COLOR]  </title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://i.imgur.com/R7tBwwB.jpg</thumbnail>
+        <fanart>https://vignette2.wikia.nocookie.net/pokemon/images/5/52/XY016.png/revision/latest?cb=20160129192839</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/chicho306/pokemon-t17-36689/list,1,2</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/chicho306/pokemon-t17-36689/list,1,2</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://i.imgur.com/R7tBwwB.jpg</thumbnail>
+<fanart>https://vignette2.wikia.nocookie.net/pokemon/images/5/52/XY016.png/revision/latest?cb=20160129192839</fanart>
+<info>El viaje de Ash Ketchum continúa en la serie Pokémon XY al llegar a la región de Kalos, una tierra rebosante de belleza, llena de nuevos Pokémon por descubrir. Con vistas en la Liga de Kalos, Ash está listo para combatir y atrapar tantos nuevos Pokémon como pueda. Pero antes tendrá que enfrentarse a los increíbles Líderes de Gimnasio de esta región y descubrir nueva y emocionante información sobre la evolución Pokémon. Aunque tiene a su lado a sus nuevos amigos Serena, Lem y Clem, también se encuentra con un montón de caras y Pokémon familiares mientras persigue su sueño de convertirse en Maestro Pokémon.</info>
+</item>
+</items>
+
+
+
+
+
+
+
+
+<item>
+<title> [COLOR lime]•[/COLOR]    [COLOR blue][B]POKEMON TEMPORADA 18[/B] [/COLOR]  </title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://d3fa68hw0m2vcc.cloudfront.net/9a9/131260537.jpeg</thumbnail>
+        <fanart>http://www.hobbyconsolas.com/sites/hobbyconsolas.com/public/media/image/2016/11/pokemon-xyz_0.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/chicho306/pokemon-t18-36726/list,1,2</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/chicho306/pokemon-t18-36726/list,1,2</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://d3fa68hw0m2vcc.cloudfront.net/9a9/131260537.jpeg</thumbnail>
+<fanart>http://www.hobbyconsolas.com/sites/hobbyconsolas.com/public/media/image/2016/11/pokemon-xyz_0.jpg</fanart>
+<info>¡La aventura de Ash y Pikachu en la región de Kalos está llegando a su punto culminante con la serie Pokémon XYZ! A Ash solo le queda por conseguir una Medalla de Gimnasio para poder participar en la Liga de Kalos, así que debe darlo todo para poder realizar su sueño de convertirse en un Maestro Pokémon. Mientras tanto, Serena también está cerca de poder conseguir su sueño, ya que sus logros en el Gran Espectáculo Pokémon la están llevando a poder competir por la corona de la Reina de Kalos. Clem tiene un nuevo amigo al que cuidar, el adorable pero misterioso Blandín, pero pronto se darán cuenta de que hay en marcha unas fuerzas siniestras que podrían separarlos. ¿Se saldrá el sombrío Team Flare con la suya, o podrán nuestros héroes proteger a Blandín y toda la región de Kalos de sus ardientes ambiciones?</info>
+</item>
+</items>
+
+
+
+
+
+
+
+
+<item>
+<title> [COLOR lime]•[/COLOR]    [COLOR blue][B]POKEMON TEMPORADA 19[/B] [/COLOR]  </title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://i.imgur.com/Ow39U4f.jpg</thumbnail>
+        <fanart>https://www.japanzone.com.br/wp-content/uploads/2016/08/1200px-XY076.png</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/gemma-valencia/pokemon-t19-castellano-45054/list,1,2</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/gemma-valencia/pokemon-t19-castellano-45054/list,1,2</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://i.imgur.com/Ow39U4f.jpg</thumbnail>
+<fanart>https://www.japanzone.com.br/wp-content/uploads/2016/08/1200px-XY076.png</fanart>
+<info>¡Ash y Pikachu continúan su travesía épica en la nueva y emocionante temporada de la serie Pokémon XY! Ash y sus compañeros de viaje harán nuevos amigos, crearán nuevas rivalidades y, por supuesto, conocerán a nuevos Pokémon, mientras Ash sigue centrado en su objetivo de conseguir ocho Medallas de Gimnasio para poder entrar en la liga de Kalos. Serena, con su compañero Fennekin y su nuevo amigo Pancham, se adentrará en el mundo del Gran Espectáculo Pokémon. Lem continuará creando invenciones con la esperanza de que algunas tengan éxito. Y Clem, como siempre, ¡intentará encontrar a alguien que cuide de su hermanito mayor!</info>
+</item>
+</items>

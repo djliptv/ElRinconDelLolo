@@ -1,0 +1,97 @@
+
+
+
+
+
+
+
+
+<item>
+<title>[COLOR Yellow][COLOR lime]•[/COLOR]    [COLOR red][B]TEMPORADA 1[/B] [/COLOR][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://static.posters.cz/image/1300/3022.jpg</thumbnail>
+        <fanart>https://i.ytimg.com/vi/5dvkixf7Zrc/maxresdefault.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/gemma-valencia/pocoyo-t1-castellano-69700/list,1,3</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/gemma-valencia/pocoyo-t1-castellano-69700/list,1,3</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://static.posters.cz/image/1300/3022.jpg</thumbnail>
+<fanart>https://i.ytimg.com/vi/5dvkixf7Zrc/maxresdefault.jpg</fanart>
+<info>Pocoyó es una serie de animación española y británica creada por David Cantolla, Colman López, Luis Gallego y Guillermo García Carsi. Está producida por Zinkia Entertainment y distribuida por ITV Global.</info>
+</item>
+</items>
+</channel>
+
+
+
+
+
+
+
+
+
+<item>
+<title>[COLOR Yellow][COLOR lime]•[/COLOR]    [COLOR red][B]TEMPORADA 2[/B] [/COLOR][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://static.posters.cz/image/1300/3022.jpg</thumbnail>
+        <fanart>https://i.ytimg.com/vi/5dvkixf7Zrc/maxresdefault.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/gemma-valencia/pocoyo-t2-castellano-69766/list,1,3</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/gemma-valencia/pocoyo-t2-castellano-69766/list,1,3</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://static.posters.cz/image/1300/3022.jpg</thumbnail>
+<fanart>https://i.ytimg.com/vi/5dvkixf7Zrc/maxresdefault.jpg</fanart>
+<info>Pocoyó es una serie de animación española y británica creada por David Cantolla, Colman López, Luis Gallego y Guillermo García Carsi. Está producida por Zinkia Entertainment y distribuida por ITV Global.</info>
+</item>
+</items>
+</channel>

@@ -1,0 +1,1005 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+
+<item>
+		<title>[COLOR white][B]+[/B][/COLOR] [COLOR dodgerblue]INGRESAR[/COLOR] [COLOR skyblue]AQUI[/COLOR] [COLOR white]ESPAÑOL[/COLOR]</title>
+		<link>plugin://plugin.video.youtube/play/?video_id=_aDQ4jYLMIA</link>
+		<thumbnail>http://thenews-chronicle.com/wp-content/uploads/2017/10/Fifa-World-Cup.png</thumbnail>
+		<fanart>https://pre00.deviantart.net/aa93/th/pre/i/2016/310/c/0/zabivaka_fanart_by_henjikotetsu-dangkei.png</fanart>
+		<info></info>
+	</item>
+
+<item>
+		<title>[COLOR white][B]+[/B][/COLOR] [COLOR dodgerblue]INGRESAR[/COLOR] [COLOR skyblue]AQUI[/COLOR] [COLOR white]Eglish[/COLOR]</title>
+		<link>plugin://plugin.video.youtube/play/?video_id=SMOaNOHCba8</link>
+		<thumbnail>http://thenews-chronicle.com/wp-content/uploads/2017/10/Fifa-World-Cup.png</thumbnail>
+		<fanart>https://pre00.deviantart.net/aa93/th/pre/i/2016/310/c/0/zabivaka_fanart_by_henjikotetsu-dangkei.png</fanart>
+		<info></info>
+	</item>
+	
+	<item>
+		<title>[COLOR white][B]+[/B][/COLOR] [COLOR dodgerblue]INGRESAR[/COLOR] [COLOR skyblue]AQUI[/COLOR] [COLOR white]FINAL DRAW[/COLOR]</title>
+		<link>plugin://plugin.video.youtube/play/?video_id=lb_sHtejsC4</link>
+		<thumbnail>http://thenews-chronicle.com/wp-content/uploads/2017/10/Fifa-World-Cup.png</thumbnail>
+		<fanart>https://pre00.deviantart.net/aa93/th/pre/i/2016/310/c/0/zabivaka_fanart_by_henjikotetsu-dangkei.png</fanart>
+		<info></info>
+	</item>
+	
+	<item>
+		<title>[COLOR white][B]+[/B][/COLOR] [COLOR dodgerblue]INGRESAR[/COLOR] [COLOR skyblue]AQUI[/COLOR] [COLOR white]RED CARPET[/COLOR]</title>
+		<link>plugin://plugin.video.youtube/play/?video_id=_A4cd7BO4lQ</link>
+		<thumbnail>http://thenews-chronicle.com/wp-content/uploads/2017/10/Fifa-World-Cup.png</thumbnail>
+		<fanart>https://pre00.deviantart.net/aa93/th/pre/i/2016/310/c/0/zabivaka_fanart_by_henjikotetsu-dangkei.png</fanart>
+		<info></info>
+	</item>
+
+	<item>
+		<title>[COLOR white][B]+[/B][/COLOR] [COLOR dodgerblue]INGRESAR[/COLOR] [COLOR skyblue]AQUI[/COLOR] [COLOR white]LIVE INFO GRAPHIC[/COLOR]</title>
+		<link>plugin://plugin.video.youtube/play/?video_id=beTvLwWQiYk</link>
+		<thumbnail>http://thenews-chronicle.com/wp-content/uploads/2017/10/Fifa-World-Cup.png</thumbnail>
+		<fanart>https://pre00.deviantart.net/aa93/th/pre/i/2016/310/c/0/zabivaka_fanart_by_henjikotetsu-dangkei.png</fanart>
+		<info></info>
+	</item>
+
+<!---
+<item>
+		<title>[B][COLOR deepskyblue]MAYWEATHER JR-MCGREGOR[/B][/COLOR][COLOR red]EL RINCON DEL LOLO PPV[/COLOR]</title>
+		<link>http://tecnotv.xyz/media/box</link>
+		<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/EEThumbnail.png?raw=true</thumbnail>
+		<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/EEFanart.jpg?raw=true</fanart>
+		<info></info>
+	</item>
+
+<item>
+		<title>[B][COLOR deepskyblue]MAYWEATHER JR-MCGREGOR[/B][/COLOR]</title>
+		<link>plugin://plugin.video.youtube/play/?video_id=9srKEUujkRo</link>
+		<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/EEThumbnail.png?raw=true</thumbnail>
+		<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/EEFanart.jpg?raw=true</fanart>
+		<info></info>
+	</item>
+
+<item>
+		<title>[B][COLOR deepskyblue]MAYWEATHER JR-MCGREGOR[/B][/COLOR]</title>
+		<link>plugin://plugin.video.f4mTester/?url=http://142.4.217.62:25461/live/kEc4azKjFU/XwHhbcAXXo/1798.ts&amp;streamtype=TSDOWNLOADER&amp;name=FOX Action$$lsname=FOX Action</link>
+		<link>plugin://plugin.video.f4mTester/?url=http://142.4.217.62:25461/live/kEc4azKjFU/XwHhbcAXXo/2524.ts&amp;streamtype=TSDOWNLOADER&amp;name=FOX Action HD$$lsname=FOX Action HD</link>
+		<link>https://live91.vkuserlive.com/613504/live/HdCRLOBAf_zZkyY1/playlist.m3u8$$lsname=FOX Action</link>
+		<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/messef/ao539EpinD/534.ts&amp;streamtype=TSDOWNLOADER&amp;name=Showtime 2 US$$lsname=Showtime 2 US</link>
+		<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/messef/ao539EpinD/535.ts&amp;streamtype=TSDOWNLOADER&amp;name=Showtime FHD US$$lsname=Showtime FHD US</link>
+		<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/messef/ao539EpinD/485.ts&amp;streamtype=TSDOWNLOADER&amp;name=Showtime West US$$lsname=Showtime West US</link>
+		<link>plugin://plugin.video.f4mTester/?url=http://portal.softclientarea.com:9100/live/m5p9Hijcno/XPUMnVr5bX/32505.ts&amp;streamtype=TSDOWNLOADER&amp;name=Showtime 2 HD$$lsname=Showtime 2 HD</link>
+		<link>plugin://plugin.video.f4mTester/?url=http://portal.softclientarea.com:9100/live/m5p9Hijcno/XPUMnVr5bX/32409.ts&amp;streamtype=TSDOWNLOADER&amp;name=Showtime Extreme HD$$lsname=Showtime Extreme HD</link>
+		<link>plugin://plugin.video.f4mTester/?url=http://portal.softclientarea.com:9100/live/m5p9Hijcno/XPUMnVr5bX/32506.ts&amp;streamtype=TSDOWNLOADER&amp;name=Showtime HDTV$$lsname=Showtime HDTV</link>
+		<link>plugin://plugin.video.f4mTester/?url=http://portal.softclientarea.com:9100/live/m5p9Hijcno/XPUMnVr5bX/32408.ts&amp;streamtype=TSDOWNLOADER&amp;name=Showtime Showcase$$lsname=Showtime Showcase</link>
+		<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/EEThumbnail.png?raw=true</thumbnail>
+		<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/EEFanart.jpg?raw=true</fanart>
+	</item>
+
+
+<item>
+<title>[B][COLOR deepskyblue]MAYWEATHER JR-MCGREGOR[/B][/COLOR] [COLOR orange] ES [/COLOR]</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=MAYWEATHER JR-MCGREGOR</link>
+			<regex>
+			<name>hash</name> 
+			<expres>this.loadPlayer\("(.*?)"</expres>
+			<page>http://arenavision2017.tk/23</page>
+			<referer>http://arenavision.ru</referer>
+			<setcookie>beget=begetok</setcookie>
+			</regex>
+<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/EEThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/EEFanart.jpg?raw=true</fanart>
+</item>
+ 
+<item>
+<title>[B][COLOR deepskyblue]MAYWEATHER JR-MCGREGOR[/B][/COLOR] [COLOR orange] PT [/COLOR]</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=MAYWEATHER JR-MCGREGOR</link>
+			<regex>
+			<name>hash</name> 
+			<expres>this.loadPlayer\("(.*?)"</expres>
+			<page>http://arenavision2017.tk/17</page>
+			<referer>http://arenavision.ru</referer>
+			<setcookie>beget=begetok</setcookie>
+			</regex>
+<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/EEThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/EEFanart.jpg?raw=true</fanart>
+</item>
+ 
+<item>
+<title>[B][COLOR deepskyblue]MAYWEATHER JR-MCGREGOR[/B][/COLOR] [COLOR orange] FR [/COLOR]  </title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=MAYWEATHER JR-MCGREGOR</link>
+			<regex>
+			<name>hash</name> 
+			<expres>this.loadPlayer\("(.*?)"</expres>
+			<page>http://arenavision2017.tk/21</page>
+			<referer>http://arenavision.ru</referer>
+			<setcookie>beget=begetok</setcookie>
+			</regex>
+<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/EEThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/EEFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+<title>[B] [COLOR deepskyblue] MAYWEATHER JR-MCGREGOR [/B][/COLOR]  [COLOR orange] ES [SL 01] [/COLOR]  </title>
+<link>http://$doregex[url]|Referer=http://www.streamlive.to/</link>
+<regex>
+<name>url</name>
+<expres>file": "\/\/(.*?)"</expres>
+<page>https://www.streamlive.to/embedplayer_new2.php?width=653&amp;height=370&amp;channel=$doregex[channel]&amp;autoplay=true</page>
+<referer>http://vipracing.info/channel/canal-1</referer>
+</regex>
+<regex>
+<name>channel</name>
+<expres>embed\/(.*?)\&</expres>
+<page>http://vipracing.info/channel/canal-1</page>
+<referer>http://vipracing.info/channel/canal-1</referer>
+</regex>
+
+
+ <thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/EEThumbnail.png?raw=true</thumbnail>
+ <fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/EEFanart.jpg?raw=true</fanart>
+  <description>[B][COLOR aquamarine]AdryanList for KODI [/COLOR][COLOR deepskyblue] MAYWEATHER JR-MCGREGOR [/B][/COLOR] </description>
+    <plot>[B][COLOR deepskyblue] MAYWEATHER JR-MCGREGOR [/B][/COLOR] </plot>
+</item>
+
+
+
+
+
+  <item>
+<title>[B] [COLOR deepskyblue] MAYWEATHER JR-MCGREGOR [/B][/COLOR]  [COLOR orange] ES [SL 02] [/COLOR]  </title>
+<link>http://$doregex[url]|Referer=http://www.streamlive.to/</link>
+<regex>
+<name>url</name>
+<expres>file": "\/\/(.*?)"</expres>
+<page>https://www.streamlive.to/embedplayer_new2.php?width=653&amp;height=370&amp;channel=$doregex[channel]&amp;autoplay=true</page>
+<referer>http://vipracing.info/channel/canal-6</referer>
+</regex>
+<regex>
+<name>channel</name>
+<expres>embed\/(.*?)\&</expres>
+<page>http://vipracing.info/channel/canal-6</page>
+<referer>http://vipracing.info/channel/canal-6</referer>
+</regex>
+
+ <thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/EEThumbnail.png?raw=true</thumbnail>
+ <fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/EEFanart.jpg?raw=true</fanart>
+</item>
+ 
+
+ <item>
+<title>[B] [COLOR deepskyblue] MAYWEATHER JR-MCGREGOR [/B][/COLOR]  [COLOR orange] ES [SL 02] [/COLOR]  </title>
+<link>http://$doregex[url]|Referer=http://www.streamlive.to/</link>
+<regex>
+<name>url</name>
+<expres>file": "\/\/(.*?)"</expres>
+<page>https://www.streamlive.to/embedplayer_new2.php?width=653&amp;height=370&amp;channel=$doregex[channel]&amp;autoplay=true</page>
+<referer>http://vipracing.info/channel/canal-10</referer>
+</regex>
+<regex>
+<name>channel</name>
+<expres>embed\/(.*?)\&</expres>
+<page>http://vipracing.info/channel/canal-10</page>
+<referer>http://vipracing.info/channel/canal-10</referer>
+</regex>
+
+
+ <thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/EEThumbnail.png?raw=true</thumbnail>
+ <fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/EEFanart.jpg?raw=true</fanart>
+</item>
+ 
+
+
+ <item>
+<title>[B] [COLOR deepskyblue] MAYWEATHER JR-MCGREGOR [/B][/COLOR]  [COLOR orange] EN [SL 44] [/COLOR]  </title>
+<link>http://$doregex[url]|Referer=http://www.streamlive.to/</link>
+<regex>
+<name>url</name>
+<expres>file": "\/\/(.*?)"</expres>
+<page>https://www.streamlive.to/embedplayer_new2.php?width=653&amp;height=370&amp;channel=$doregex[channel]&amp;autoplay=true</page>
+<referer>http://vipracing.info/channel/canal-4</referer>
+</regex>
+<regex>
+<name>channel</name>
+<expres>embed\/(.*?)\&</expres>
+<page>http://vipracing.info/channel/canal-4</page>
+<referer>http://vipracing.info/channel/canal-4</referer>
+</regex>
+ <thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/EEThumbnail.png?raw=true</thumbnail>
+ <fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/EEFanart.jpg?raw=true</fanart>
+</item>
+ 
+
+ <item>
+<title>[B] [COLOR deepskyblue] MAYWEATHER JR-MCGREGOR [/B][/COLOR]  [COLOR orange] EN [SL 45] [/COLOR]  </title>
+<link>http://$doregex[url]|Referer=http://www.streamlive.to/</link>
+<regex>
+<name>url</name>
+<expres>file": "\/\/(.*?)"</expres>
+<page>https://www.streamlive.to/embedplayer_new2.php?width=750&amp;height=480&amp;channel=73642&amp;autoplay=true</page>
+<referer>http://vipracing.info/channel/canal-5</referer>
+</regex>
+ <thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/EEThumbnail.png?raw=true</thumbnail>
+ <fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/EEFanart.jpg?raw=true</fanart>
+</item>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+<item>
+<title>[B] [COLOR deepskyblue] MAYWEATHER JR-MCGREGOR [/B][/COLOR]  [COLOR orange] ES [MAX 01] [/COLOR]  </title>
+ <link>$doregex[bro.adca.st]</link>
+<regex>
+<name>bro.adca.st</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url = 'http://bro.adca.st/stream.php?id=739&p=1&c=0&stretching=uniform&old=0'):
+ import requests, re, urllib
+ headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0'}
+ headers['Referer'] = 'http://vipracing.info/channel/canal-2'
+ source = requests.get(url, headers=headers)
+ m3u8 = re.findall('trap = "(.+?)"', source.text)[0]
+ m3u8 = m3u8.decode('base64')
+ tokenpage = re.findall('nws1 = "(.+?)"', source.text)[0]
+ headers['Referer'] = url
+ headers['X-Requested-With'] = 'XMLHttpRequest'
+ headers['Accept'] = 'application/json, text/javascript, */*; q=0.01'
+ headers['Accept-Language'] = 'en-US,en;q=0.5'
+ source = requests.get('http://bro.adca.st/%s'%tokenpage, headers=headers)
+ m3u8 = m3u8 + re.findall(':"(.+?)"', source.text)[0] + '|User-Agent=%s&Referer=http://bro.adca.st/&Origin=http://bro.adca.st'%headers['User-Agent']
+ return m3u8
+]]></expres>
+<page></page>
+</regex>
+ <thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/EEThumbnail.png?raw=true</thumbnail>
+ <fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/EEFanart.jpg?raw=true</fanart>
+  <description>[B][COLOR aquamarine]AdryanList for KODI [/COLOR][COLOR deepskyblue] MAYWEATHER JR-MCGREGOR [/B][/COLOR] </description>
+    <plot>[B][COLOR deepskyblue] MAYWEATHER JR-MCGREGOR [/B][/COLOR] </plot>
+</item>
+
+
+
+
+
+
+<item>
+<title>[B] [COLOR deepskyblue] MAYWEATHER JR-MCGREGOR [/B][/COLOR]  [COLOR orange] ES [MAX 19] [/COLOR]  </title>
+ <link>$doregex[bro.adca.st]</link>
+<regex>
+<name>bro.adca.st</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url = 'http://bro.adca.st/stream.php?id=15129&p=1&c=0&stretching=uniform&old=0'):
+ import requests, re, urllib
+ headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0'}
+ headers['Referer'] = 'http://maxdeportv.net/indexa.php?canal=19'
+ source = requests.get(url, headers=headers)
+ m3u8 = re.findall('trap = "(.+?)"', source.text)[0]
+ m3u8 = m3u8.decode('base64')
+ tokenpage = re.findall('nws1 = "(.+?)"', source.text)[0]
+ headers['Referer'] = url
+ headers['X-Requested-With'] = 'XMLHttpRequest'
+ headers['Accept'] = 'application/json, text/javascript, */*; q=0.01'
+ headers['Accept-Language'] = 'en-US,en;q=0.5'
+ source = requests.get('http://bro.adca.st/%s'%tokenpage, headers=headers)
+ m3u8 = m3u8 + re.findall(':"(.+?)"', source.text)[0] + '|User-Agent=%s&Referer=http://bro.adca.st/&Origin=http://bro.adca.st'%headers['User-Agent']
+ return m3u8
+]]></expres>
+<page></page>
+</regex>
+ <thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/EEThumbnail.png?raw=true</thumbnail>
+ <fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/EEFanart.jpg?raw=true</fanart>
+</item>
+ 
+
+
+
+
+<item>
+<title>[B] [COLOR deepskyblue] MAYWEATHER JR-MCGREGOR [/B][/COLOR]  [COLOR orange] ES [MAX 42] [/COLOR]  </title>
+ <link>$doregex[bro.adca.st]</link>
+<regex>
+<name>bro.adca.st</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url = 'http://bro.adca.st/stream.php?id=13137&p=1&c=0&stretching=uniform&old=0'):
+ import requests, re, urllib
+ headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0'}
+ headers['Referer'] = 'http://maxdeportv.net/indexa.php?canal=42'
+ source = requests.get(url, headers=headers)
+ m3u8 = re.findall('trap = "(.+?)"', source.text)[0]
+ m3u8 = m3u8.decode('base64')
+ tokenpage = re.findall('nws1 = "(.+?)"', source.text)[0]
+ headers['Referer'] = url
+ headers['X-Requested-With'] = 'XMLHttpRequest'
+ headers['Accept'] = 'application/json, text/javascript, */*; q=0.01'
+ headers['Accept-Language'] = 'en-US,en;q=0.5'
+ source = requests.get('http://bro.adca.st/%s'%tokenpage, headers=headers)
+ m3u8 = m3u8 + re.findall(':"(.+?)"', source.text)[0] + '|User-Agent=%s&Referer=http://bro.adca.st/&Origin=http://bro.adca.st'%headers['User-Agent']
+ return m3u8
+]]></expres>
+<page></page>
+</regex>
+ <thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/EEThumbnail.png?raw=true</thumbnail>
+ <fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/EEFanart.jpg?raw=true</fanart>
+</item>
+ 
+
+
+
+
+
+<item>
+<title>[B] [COLOR deepskyblue] MAYWEATHER JR-MCGREGOR [/B][/COLOR]  [COLOR orange] ES [MAX 56] [/COLOR]  </title>
+ <link>$doregex[bro.adca.st]</link>
+<regex>
+<name>bro.adca.st</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url = 'http://bro.adca.st/stream.php?id=13634&p=1&c=0&stretching=uniform&old=0'):
+ import requests, re, urllib
+ headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0'}
+ headers['Referer'] = 'http://maxdeportv.net/indexa.php?canal=56'
+ source = requests.get(url, headers=headers)
+ m3u8 = re.findall('trap = "(.+?)"', source.text)[0]
+ m3u8 = m3u8.decode('base64')
+ tokenpage = re.findall('nws1 = "(.+?)"', source.text)[0]
+ headers['Referer'] = url
+ headers['X-Requested-With'] = 'XMLHttpRequest'
+ headers['Accept'] = 'application/json, text/javascript, */*; q=0.01'
+ headers['Accept-Language'] = 'en-US,en;q=0.5'
+ source = requests.get('http://bro.adca.st/%s'%tokenpage, headers=headers)
+ m3u8 = m3u8 + re.findall(':"(.+?)"', source.text)[0] + '|User-Agent=%s&Referer=http://bro.adca.st/&Origin=http://bro.adca.st'%headers['User-Agent']
+ return m3u8
+]]></expres>
+<page></page>
+</regex>
+ <thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/EEThumbnail.png?raw=true</thumbnail>
+ <fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/EEFanart.jpg?raw=true</fanart>
+</item>
+ 
+
+
+
+
+
+<item>
+<title>[B] [COLOR deepskyblue] MAYWEATHER JR-MCGREGOR [/B][/COLOR]  [COLOR orange] ES [MAX 08] [/COLOR]  </title>
+ <link>$doregex[bro.adca.st]</link>
+<regex>
+<name>bro.adca.st</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url = 'http://bro.adca.st/stream.php?id=715&p=1&c=0&stretching=uniform&old=0'):
+ import requests, re, urllib
+ headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0'}
+ headers['Referer'] = 'http://maxdeportv.net/indexa.php?canal=8'
+ source = requests.get(url, headers=headers)
+ m3u8 = re.findall('trap = "(.+?)"', source.text)[0]
+ m3u8 = m3u8.decode('base64')
+ tokenpage = re.findall('nws1 = "(.+?)"', source.text)[0]
+ headers['Referer'] = url
+ headers['X-Requested-With'] = 'XMLHttpRequest'
+ headers['Accept'] = 'application/json, text/javascript, */*; q=0.01'
+ headers['Accept-Language'] = 'en-US,en;q=0.5'
+ source = requests.get('http://bro.adca.st/%s'%tokenpage, headers=headers)
+ m3u8 = m3u8 + re.findall(':"(.+?)"', source.text)[0] + '|User-Agent=%s&Referer=http://bro.adca.st/&Origin=http://bro.adca.st'%headers['User-Agent']
+ return m3u8
+]]></expres>
+<page></page>
+</regex>
+ <thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/EEThumbnail.png?raw=true</thumbnail>
+ <fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/EEFanart.jpg?raw=true</fanart>
+</item>
+ 
+
+
+
+<item>
+<title>[B] [COLOR deepskyblue] MAYWEATHER JR-MCGREGOR [/B][/COLOR]  [COLOR orange] ES [MAX 15] [/COLOR]  </title>
+ <link>$doregex[bro.adca.st]</link>
+<regex>
+<name>bro.adca.st</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url = 'http://bro.adca.st/stream.php?id=16042&p=1&c=0&stretching=uniform&old=0'):
+ import requests, re, urllib
+ headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0'}
+ headers['Referer'] = 'http://maxdeportv.net/indexa.php?canal=15'
+ source = requests.get(url, headers=headers)
+ m3u8 = re.findall('trap = "(.+?)"', source.text)[0]
+ m3u8 = m3u8.decode('base64')
+ tokenpage = re.findall('nws1 = "(.+?)"', source.text)[0]
+ headers['Referer'] = url
+ headers['X-Requested-With'] = 'XMLHttpRequest'
+ headers['Accept'] = 'application/json, text/javascript, */*; q=0.01'
+ headers['Accept-Language'] = 'en-US,en;q=0.5'
+ source = requests.get('http://bro.adca.st/%s'%tokenpage, headers=headers)
+ m3u8 = m3u8 + re.findall(':"(.+?)"', source.text)[0] + '|User-Agent=%s&Referer=http://bro.adca.st/&Origin=http://bro.adca.st'%headers['User-Agent']
+ return m3u8
+]]></expres>
+<page></page>
+</regex>
+ <thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/EEThumbnail.png?raw=true</thumbnail>
+ <fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/EEFanart.jpg?raw=true</fanart>
+</item>
+ 
+
+
+<item>
+<title>[B] [COLOR deepskyblue] MAYWEATHER JR-MCGREGOR [/B][/COLOR]  [COLOR orange] ES [MAX 35] [/COLOR]  </title>
+ <link>$doregex[bro.adca.st]</link>
+<regex>
+<name>bro.adca.st</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url = 'http://bro.adca.st/stream.php?id=15226&p=1&c=0&stretching=uniform&old=0'):
+ import requests, re, urllib
+ headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0'}
+ headers['Referer'] = 'http://maxdeportv.net/indexa.php?canal=35'
+ source = requests.get(url, headers=headers)
+ m3u8 = re.findall('trap = "(.+?)"', source.text)[0]
+ m3u8 = m3u8.decode('base64')
+ tokenpage = re.findall('nws1 = "(.+?)"', source.text)[0]
+ headers['Referer'] = url
+ headers['X-Requested-With'] = 'XMLHttpRequest'
+ headers['Accept'] = 'application/json, text/javascript, */*; q=0.01'
+ headers['Accept-Language'] = 'en-US,en;q=0.5'
+ source = requests.get('http://bro.adca.st/%s'%tokenpage, headers=headers)
+ m3u8 = m3u8 + re.findall(':"(.+?)"', source.text)[0] + '|User-Agent=%s&Referer=http://bro.adca.st/&Origin=http://bro.adca.st'%headers['User-Agent']
+ return m3u8
+]]></expres>
+<page></page>
+</regex>
+ <thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/EEThumbnail.png?raw=true</thumbnail>
+ <fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/EEFanart.jpg?raw=true</fanart>
+</item>
+ 
+
+<item>
+<title>[B] [COLOR deepskyblue] MAYWEATHER JR-MCGREGOR [/B][/COLOR]  [COLOR orange] ES [MAX 60] [/COLOR]  </title>
+ <link>$doregex[bro.adca.st]</link>
+<regex>
+<name>bro.adca.st</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url = 'http://bro.adca.st/stream.php?id=13633&p=1&c=0&stretching=uniform&old=0'):
+ import requests, re, urllib
+ headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0'}
+ headers['Referer'] = 'http://maxdeportv.net/indexa.php?canal=60'
+ source = requests.get(url, headers=headers)
+ m3u8 = re.findall('trap = "(.+?)"', source.text)[0]
+ m3u8 = m3u8.decode('base64')
+ tokenpage = re.findall('nws1 = "(.+?)"', source.text)[0]
+ headers['Referer'] = url
+ headers['X-Requested-With'] = 'XMLHttpRequest'
+ headers['Accept'] = 'application/json, text/javascript, */*; q=0.01'
+ headers['Accept-Language'] = 'en-US,en;q=0.5'
+ source = requests.get('http://bro.adca.st/%s'%tokenpage, headers=headers)
+ m3u8 = m3u8 + re.findall(':"(.+?)"', source.text)[0] + '|User-Agent=%s&Referer=http://bro.adca.st/&Origin=http://bro.adca.st'%headers['User-Agent']
+ return m3u8
+]]></expres>
+<page></page>
+</regex>
+ <thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/EEThumbnail.png?raw=true</thumbnail>
+ <fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/EEFanart.jpg?raw=true</fanart>
+</item>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+<item>
+<title>[B] [COLOR deepskyblue] MAYWEATHER JR-MCGREGOR [/B][/COLOR]  [COLOR orange] ES [MAX 02] [/COLOR]  </title>
+ <link>http://$doregex[ip]$doregex[m3u8]$doregex[hls]</link>
+			<regex>
+			<name>ip</name>
+			<expres>redirect=(.*)</expres>
+			<page>http://cdn.mipspublisher.com:1935/loadbalancer</page>
+			</regex>
+			<regex>
+			<name>m3u8</name>
+			<expres>ea \+ "(.*?)"</expres>
+			<page>http://www.mipsplayer.net/membedplayer/max2a3/1/650/400</page>
+			<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
+			<referer>http://www.mipsplayer.net</referer>
+			</regex> 
+			<regex>
+			<name>hls</name>
+			<expres>hlsUrl \+ \(\"(.*?)"</expres>
+			<page>http://www.mipsplayer.net/membedplayer/max2a3/1/650/400</page>
+			<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
+			<referer>http://www.mipsplayer.net</referer>
+			</regex>
+ <thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/EEThumbnail.png?raw=true</thumbnail>
+ <fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/EEFanart.jpg?raw=true</fanart>
+</item>
+ 
+
+
+
+<item>
+<title>[B] [COLOR deepskyblue] MAYWEATHER JR-MCGREGOR [/B][/COLOR]  [COLOR orange] ES [MAX 07] [/COLOR]  </title>
+ <link>http://$doregex[ip]$doregex[m3u8]$doregex[hls]</link>
+			<regex>
+			<name>ip</name>
+			<expres>redirect=(.*)</expres>
+			<page>http://cdn.mipspublisher.com:1935/loadbalancer</page>
+			</regex>
+			<regex>
+			<name>m3u8</name>
+			<expres>ea \+ "(.*?)"</expres>
+			<page>http://www.mipsplayer.net/membedplayer/max7a2/1/650/400</page>
+			<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
+			<referer>http://www.mipsplayer.net</referer>
+			</regex> 
+			<regex>
+			<name>hls</name>
+			<expres>hlsUrl \+ \(\"(.*?)"</expres>
+			<page>http://www.mipsplayer.net/membedplayer/max7a2/1/650/400</page>
+			<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
+			<referer>http://www.mipsplayer.net</referer>
+			</regex>
+ <thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/EEThumbnail.png?raw=true</thumbnail>
+ <fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/EEFanart.jpg?raw=true</fanart>
+</item>
+ 
+
+
+
+<item>
+<title>[B] [COLOR deepskyblue] MAYWEATHER JR-MCGREGOR [/B][/COLOR]  [COLOR orange] ES [MAX 18] [/COLOR]  </title>
+ <link>http://$doregex[ip]$doregex[m3u8]$doregex[hls]</link>
+			<regex>
+			<name>ip</name>
+			<expres>redirect=(.*)</expres>
+			<page>http://cdn.mipspublisher.com:1935/loadbalancer</page>
+			</regex>
+			<regex>
+			<name>m3u8</name>
+			<expres>ea \+ "(.*?)"</expres>
+			<page>http://www.mipsplayer.net/membedplayer/max18a2/1/650/400</page>
+			<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
+			<referer>http://www.mipsplayer.net</referer>
+			</regex> 
+			<regex>
+			<name>hls</name>
+			<expres>hlsUrl \+ \(\"(.*?)"</expres>
+			<page>http://www.mipsplayer.net/membedplayer/max18a2/1/650/400</page>
+			<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
+			<referer>http://www.mipsplayer.net</referer>
+			</regex>
+ <thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/EEThumbnail.png?raw=true</thumbnail>
+ <fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/EEFanart.jpg?raw=true</fanart>
+</item>
+ 
+
+
+<item>
+<title>[B] [COLOR deepskyblue] MAYWEATHER JR-MCGREGOR [/B][/COLOR]  [COLOR orange] ES [MAX 34] [/COLOR]  </title>
+ <link>http://$doregex[ip]$doregex[m3u8]$doregex[hls]</link>
+			<regex>
+			<name>ip</name>
+			<expres>redirect=(.*)</expres>
+			<page>http://cdn.mipspublisher.com:1935/loadbalancer</page>
+			</regex>
+			<regex>
+			<name>m3u8</name>
+			<expres>ea \+ "(.*?)"</expres>
+			<page>http://www.mipsplayer.net/membedplayer/max34a1/1/650/400</page>
+			<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
+			<referer>http://www.mipsplayer.net</referer>
+			</regex> 
+			<regex>
+			<name>hls</name>
+			<expres>hlsUrl \+ \(\"(.*?)"</expres>
+			<page>http://www.mipsplayer.net/membedplayer/max34a1/1/650/400</page>
+			<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
+			<referer>http://www.mipsplayer.net</referer>
+			</regex>
+ <thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/EEThumbnail.png?raw=true</thumbnail>
+ <fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/EEFanart.jpg?raw=true</fanart>
+</item>
+ 
+ 
+
+ 
+
+<item>
+<title>[B] [COLOR deepskyblue] MAYWEATHER JR-MCGREGOR [/B][/COLOR]  [COLOR orange] ES [MAX 36] [/COLOR]  </title>
+ <link>http://$doregex[ip]$doregex[m3u8]$doregex[hls]</link>
+			<regex>
+			<name>ip</name>
+			<expres>redirect=(.*)</expres>
+			<page>http://cdn.mipspublisher.com:1935/loadbalancer</page>
+			</regex>
+			<regex>
+			<name>m3u8</name>
+			<expres>ea \+ "(.*?)"</expres>
+			<page>http://www.mipsplayer.net/membedplayer/max36a1/1/650/400</page>
+			<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
+			<referer>http://www.mipsplayer.net</referer>
+			</regex> 
+			<regex>
+			<name>hls</name>
+			<expres>hlsUrl \+ \(\"(.*?)"</expres>
+			<page>http://www.mipsplayer.net/membedplayer/max36a1/1/650/400</page>
+			<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
+			<referer>http://www.mipsplayer.net</referer>
+			</regex>
+ <thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/EEThumbnail.png?raw=true</thumbnail>
+ <fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/EEFanart.jpg?raw=true</fanart>
+</item>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<item>
+<title>[B] [COLOR deepskyblue] MAYWEATHER JR-MCGREGOR [/B][/COLOR]  [COLOR orange] EN [MAX 20] [/COLOR]  </title>
+ <link>http://$doregex[ip]$doregex[m3u8]$doregex[hls]</link>
+			<regex>
+			<name>ip</name>
+			<expres>redirect=(.*)</expres>
+			<page>http://cdn.mipspublisher.com:1935/loadbalancer</page>
+			</regex>
+			<regex>
+			<name>m3u8</name>
+			<expres>ea \+ "(.*?)"</expres>
+			<page>http://www.mipsplayer.net/membedplayer/max20a1/1/650/400</page>
+			<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
+			<referer>http://www.mipsplayer.net</referer>
+			</regex> 
+			<regex>
+			<name>hls</name>
+			<expres>hlsUrl \+ \(\"(.*?)"</expres>
+			<page>http://www.mipsplayer.net/membedplayer/max20a1/1/650/400</page>
+			<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
+			<referer>http://www.mipsplayer.net</referer>
+			</regex>
+ <thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/EEThumbnail.png?raw=true</thumbnail>
+ <fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/EEFanart.jpg?raw=true</fanart>
+</item>
+ 
+
+
+
+
+
+
+
+
+<item>
+<title>[B] [COLOR deepskyblue] MAYWEATHER JR-MCGREGOR [/B][/COLOR]  [COLOR orange] EN [MAX 32] [/COLOR]  </title>
+ <link>http://$doregex[ip]$doregex[m3u8]$doregex[hls]</link>
+			<regex>
+			<name>ip</name>
+			<expres>redirect=(.*)</expres>
+			<page>http://cdn.mipspublisher.com:1935/loadbalancer</page>
+			</regex>
+			<regex>
+			<name>m3u8</name>
+			<expres>ea \+ "(.*?)"</expres>
+			<page>http://www.mipsplayer.net/membedplayer/max32a1/1/650/400</page>
+			<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
+			<referer>http://www.mipsplayer.net</referer>
+			</regex> 
+			<regex>
+			<name>hls</name>
+			<expres>hlsUrl \+ \(\"(.*?)"</expres>
+			<page>http://www.mipsplayer.net/membedplayer/max32a1/1/650/400</page>
+			<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
+			<referer>http://www.mipsplayer.net</referer>
+			</regex>
+ <thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/EEThumbnail.png?raw=true</thumbnail>
+ <fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/EEFanart.jpg?raw=true</fanart>
+</item>
+ 
+
+
+
+
+<item>
+<title>[B] [COLOR deepskyblue] MAYWEATHER JR-MCGREGOR [/B][/COLOR]  [COLOR orange] EN [MAX 14] [/COLOR]  </title>
+ <link>$doregex[bro.adca.st]</link>
+<regex>
+<name>bro.adca.st</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url = 'http://bro.adca.st/stream.php?id=15308&p=1&c=0&stretching=uniform&old=0'):
+ import requests, re, urllib
+ headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0'}
+ headers['Referer'] = 'http://maxdeportv.net/indexa.php?canal=19'
+ source = requests.get(url, headers=headers)
+ m3u8 = re.findall('trap = "(.+?)"', source.text)[0]
+ m3u8 = m3u8.decode('base64')
+ tokenpage = re.findall('nws1 = "(.+?)"', source.text)[0]
+ headers['Referer'] = url
+ headers['X-Requested-With'] = 'XMLHttpRequest'
+ headers['Accept'] = 'application/json, text/javascript, */*; q=0.01'
+ headers['Accept-Language'] = 'en-US,en;q=0.5'
+ source = requests.get('http://bro.adca.st/%s'%tokenpage, headers=headers)
+ m3u8 = m3u8 + re.findall(':"(.+?)"', source.text)[0] + '|User-Agent=%s&Referer=http://bro.adca.st/&Origin=http://bro.adca.st'%headers['User-Agent']
+ return m3u8
+]]></expres>
+<page></page>
+</regex>
+ <thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/EEThumbnail.png?raw=true</thumbnail>
+ <fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/EEFanart.jpg?raw=true</fanart>
+</item>
+ 
+
+
+
+<item>
+<title>[B] [COLOR deepskyblue] MAYWEATHER JR-MCGREGOR [/B][/COLOR]  [COLOR orange] EN [MAX 33] [/COLOR]  </title>
+ <link>$doregex[bro.adca.st]</link>
+<regex>
+<name>bro.adca.st</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url = 'http://bro.adca.st/stream.php?id=10762&p=1&c=0&stretching=uniform&old=0'):
+ import requests, re, urllib
+ headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0'}
+ headers['Referer'] = 'http://maxdeportv.net/indexa.php?canal=19'
+ source = requests.get(url, headers=headers)
+ m3u8 = re.findall('trap = "(.+?)"', source.text)[0]
+ m3u8 = m3u8.decode('base64')
+ tokenpage = re.findall('nws1 = "(.+?)"', source.text)[0]
+ headers['Referer'] = url
+ headers['X-Requested-With'] = 'XMLHttpRequest'
+ headers['Accept'] = 'application/json, text/javascript, */*; q=0.01'
+ headers['Accept-Language'] = 'en-US,en;q=0.5'
+ source = requests.get('http://bro.adca.st/%s'%tokenpage, headers=headers)
+ m3u8 = m3u8 + re.findall(':"(.+?)"', source.text)[0] + '|User-Agent=%s&Referer=http://bro.adca.st/&Origin=http://bro.adca.st'%headers['User-Agent']
+ return m3u8
+]]></expres>
+<page></page>
+</regex>
+ <thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/EEThumbnail.png?raw=true</thumbnail>
+ <fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/EEFanart.jpg?raw=true</fanart>
+</item>
+ 
+
+
+
+
+
+<item>
+<title>[B] [COLOR deepskyblue] MAYWEATHER JR-MCGREGOR [/B][/COLOR]  [COLOR orange] EN [MAX 54] [/COLOR]  </title>
+ <link>$doregex[bro.adca.st]</link>
+<regex>
+<name>bro.adca.st</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url = 'http://bro.adca.st/stream.php?id=13525&p=1&c=0&stretching=uniform&old=0'):
+ import requests, re, urllib
+ headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0'}
+ headers['Referer'] = 'http://maxdeportv.net/indexa.php?canal=19'
+ source = requests.get(url, headers=headers)
+ m3u8 = re.findall('trap = "(.+?)"', source.text)[0]
+ m3u8 = m3u8.decode('base64')
+ tokenpage = re.findall('nws1 = "(.+?)"', source.text)[0]
+ headers['Referer'] = url
+ headers['X-Requested-With'] = 'XMLHttpRequest'
+ headers['Accept'] = 'application/json, text/javascript, */*; q=0.01'
+ headers['Accept-Language'] = 'en-US,en;q=0.5'
+ source = requests.get('http://bro.adca.st/%s'%tokenpage, headers=headers)
+ m3u8 = m3u8 + re.findall(':"(.+?)"', source.text)[0] + '|User-Agent=%s&Referer=http://bro.adca.st/&Origin=http://bro.adca.st'%headers['User-Agent']
+ return m3u8
+]]></expres>
+<page></page>
+</regex>
+ <thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/EEThumbnail.png?raw=true</thumbnail>
+ <fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/EEFanart.jpg?raw=true</fanart>
+</item>
+ 
+
+
+
+
+<item>
+<title>[B] [COLOR deepskyblue] MAYWEATHER JR-MCGREGOR [/B][/COLOR]  [COLOR orange] EN [MAX 55] [/COLOR]  </title>
+ <link>$doregex[bro.adca.st]</link>
+<regex>
+<name>bro.adca.st</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url = 'http://bro.adca.st/stream.php?id=13637&p=1&c=0&stretching=uniform&old=0'):
+ import requests, re, urllib
+ headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0'}
+ headers['Referer'] = 'http://maxdeportv.net/indexa.php?canal=19'
+ source = requests.get(url, headers=headers)
+ m3u8 = re.findall('trap = "(.+?)"', source.text)[0]
+ m3u8 = m3u8.decode('base64')
+ tokenpage = re.findall('nws1 = "(.+?)"', source.text)[0]
+ headers['Referer'] = url
+ headers['X-Requested-With'] = 'XMLHttpRequest'
+ headers['Accept'] = 'application/json, text/javascript, */*; q=0.01'
+ headers['Accept-Language'] = 'en-US,en;q=0.5'
+ source = requests.get('http://bro.adca.st/%s'%tokenpage, headers=headers)
+ m3u8 = m3u8 + re.findall(':"(.+?)"', source.text)[0] + '|User-Agent=%s&Referer=http://bro.adca.st/&Origin=http://bro.adca.st'%headers['User-Agent']
+ return m3u8
+]]></expres>
+<page></page>
+</regex>
+ <thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/EEThumbnail.png?raw=true</thumbnail>
+ <fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/EEFanart.jpg?raw=true</fanart>
+</item>
+ 
+
+
+<item>
+<title>[B] [COLOR deepskyblue] MAYWEATHER JR-MCGREGOR [/B][/COLOR]  [COLOR orange] EN [ 1 ] [/COLOR]  </title>
+ <link>$doregex[bro.adca.st]|Referer=http://goolsport.net/mytv2s.html</link>
+ 
+ 
+<regex>
+<name>bro.adca.st</name>
+<expres>source: '(.*?)'</expres>
+<page>http://goolsport.net/mytv1s.html</page>
+</regex>
+
+
+
+ <thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/EEThumbnail.png?raw=true</thumbnail>
+ <fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/EEFanart.jpg?raw=true</fanart>
+</item>
+ 
+
+
+<item>
+<title>[B] [COLOR deepskyblue] MAYWEATHER JR-MCGREGOR [/B][/COLOR]  [COLOR orange] EN [ 2 ] [/COLOR]  </title>
+ <link>$doregex[bro.adca.st]|Referer=http://goolsport.net/mytv2s.html</link>
+ 
+ 
+<regex>
+<name>bro.adca.st</name>
+<expres>source: '(.*?)'</expres>
+<page>http://goolsport.net/mytv2s.html</page>
+</regex>
+
+
+
+ <thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/EEThumbnail.png?raw=true</thumbnail>
+ <fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/EEFanart.jpg?raw=true</fanart>
+</item>
+
+
+
+
+
+
+
+
+
+
+
+
+<item>
+<title>[B][COLOR deepskyblue]MAYWEATHER JR-MCGREGOR[/B][/COLOR] [COLOR orange] AZTECA 7 [/COLOR]</title>
+<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/EEThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/EEFanart.jpg?raw=true</fanart>
+<link>http://m3u.iptvla.xyz/stream/5-PelixMax.m3u8</link>
+</item>
+
+<item>
+<title>[B][COLOR deepskyblue]MAYWEATHER JR-MCGREGOR[/B][/COLOR] [COLOR orange] FOX Action [/COLOR]</title>
+<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/EEThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/EEFanart.jpg?raw=true</fanart>
+<link>http://m3u.iptvla.xyz/stream/46-PelixMax.m3u8</link>
+</item>
+

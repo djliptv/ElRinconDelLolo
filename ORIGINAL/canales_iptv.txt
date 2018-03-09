@@ -1,0 +1,90 @@
+#EXTM3U
+
+#EXTINF:-1 tvg-ID="" tvg-name="SP: La 1" tvg-logo="" group-title="Spanish",SP: La 1
+plugin://plugin.video.f4mTester/?url=http://163.172.52.83:8000/live/59hkV7fNS2U/21g2yiAUkP4/86.ts&streamtype=TSDOWNLOADER&name
+#EXTINF:-1 tvg-ID="" tvg-name="SP: La 2" tvg-logo="" group-title="Spanish",SP: La 2
+plugin://plugin.video.f4mTester/?url=http://xc.cobra-iptv.com:25461/live/spanish-v2/TdTffMonWn/483.ts&streamtype=TSDOWNLOADER&name
+#EXTINF:-1 tvg-ID="" tvg-name="SP: Antena 3" tvg-logo="" group-title="Spanish",SP: Antena 3
+plugin://plugin.video.f4mTester/?url=http://xc.cobra-iptv.com:25461/live/spanish-v2/TdTffMonWn/484.ts&streamtype=TSDOWNLOADER&name
+#EXTINF:-1 tvg-ID="" tvg-name="SP: Cuatro" tvg-logo="" group-title="Spanish",SP: Cuatro
+plugin://plugin.video.f4mTester/?url=http://xc.cobra-iptv.com:25461/live/spanish-v2/TdTffMonWn/485.ts&streamtype=TSDOWNLOADER&name
+#EXTINF:-1 tvg-ID="" tvg-name="SP: Telecino" tvg-logo="" group-title="Spanish",SP: Telecino
+plugin://plugin.video.f4mTester/?url=http://xc.cobra-iptv.com:25461/live/spanish-v2/TdTffMonWn/518.ts&streamtype=TSDOWNLOADER&name
+#EXTINF:-1 tvg-ID="" tvg-name="SP: La Sexta" tvg-logo="" group-title="Spanish",SP: La Sexta
+plugin://plugin.video.f4mTester/?url=http://xc.cobra-iptv.com:25461/live/spanish-v2/TdTffMonWn/539.ts&streamtype=TSDOWNLOADER&name
+#EXTINF:-1 tvg-ID="" tvg-name="SP: Clan TVE" tvg-logo="" group-title="Spanish",SP: Clan TVE
+plugin://plugin.video.f4mTester/?url=http://xc.cobra-iptv.com:25461/live/spanish-v2/TdTffMonWn/545.ts&streamtype=TSDOWNLOADER&name
+#EXTINF:-1 tvg-ID="" tvg-name="SP: Nova" tvg-logo="" group-title="Spanish",SP: Nova
+plugin://plugin.video.f4mTester/?url=http://xc.cobra-iptv.com:25461/live/spanish-v2/TdTffMonWn/1858.ts&streamtype=TSDOWNLOADER&name
+#EXTINF:-1 tvg-ID="" tvg-name="SP: Neox" tvg-logo="" group-title="Spanish",SP: Neox
+plugin://plugin.video.f4mTester/?url=http://xc.cobra-iptv.com:25461/live/spanish-v2/TdTffMonWn/527.ts&streamtype=TSDOWNLOADER&name
+#EXTINF:-1 tvg-ID="" tvg-name="SP: Canal Sur" tvg-logo="" group-title="Spanish",SP: Canal Sur
+plugin://plugin.video.f4mTester/?url=http://xc.cobra-iptv.com:25461/live/spanish-v2/TdTffMonWn/542.ts&streamtype=TSDOWNLOADER&name
+#EXTINF:-1 tvg-ID="" tvg-name="SP: C+ Estrenos" tvg-logo="" group-title="Spanish",SP: C+ Estrenos
+plugin://plugin.video.f4mTester/?url=http://xc.cobra-iptv.com:25461/live/spanish-v2/TdTffMonWn/509.ts&streamtype=TSDOWNLOADER&name
+#EXTINF:-1 tvg-ID="" tvg-name="SP: C+ Xtra" tvg-logo="" group-title="Spanish",SP: C+ Xtra
+plugin://plugin.video.f4mTester/?url=http://xc.cobra-iptv.com:25461/live/spanish-v2/TdTffMonWn/534.ts&streamtype=TSDOWNLOADER&name
+#EXTINF:-1 tvg-ID="" tvg-name="SP: C+ Accion HD" tvg-logo="" group-title="Spanish",SP: C+ Accion HD
+plugin://plugin.video.f4mTester/?url=http://xc.cobra-iptv.com:25461/live/spanish-v2/TdTffMonWn/512.ts&streamtype=TSDOWNLOADER&name
+#EXTINF:-1 tvg-ID="" tvg-name="SP:  C+ Comedia HD" tvg-logo="" group-title="Spanish",SP:  C+ Comedia HD
+plugin://plugin.video.f4mTester/?url=http://xc.cobra-iptv.com:25461/live/spanish-v2/TdTffMonWn/513.ts&streamtype=TSDOWNLOADER&name
+#EXTINF:-1 tvg-ID="" tvg-name="SP: C+ Dcine HD" tvg-logo="" group-title="Spanish",SP: C+ Dcine HD
+plugin://plugin.video.f4mTester/?url=http://xc.cobra-iptv.com:25461/live/spanish-v2/TdTffMonWn/511.ts&streamtype=TSDOWNLOADER&name
+#EXTINF:-1 tvg-ID="" tvg-name="SP: Hollywood" tvg-logo="" group-title="Spanish",SP: Hollywood
+plugin://plugin.video.f4mTester/?url=http://xc.cobra-iptv.com:25461/live/spanish-v2/TdTffMonWn/538.ts&streamtype=TSDOWNLOADER&name
+#EXTINF:-1 tvg-ID="" tvg-name="SP: TNT" tvg-logo="" group-title="Spanish",SP: TNT
+http://xc.cobra-iptv.com:25461/live/spanish-v2/TdTffMonWn/520.ts
+#EXTINF:-1 tvg-ID="" tvg-name="SP: Tcm" tvg-logo="" group-title="Spanish"
+plugin://plugin.video.f4mTester/?url=http://xc.cobra-iptv.com:25461/live/spanish-v2/TdTffMonWn/517.ts&streamtype=TSDOWNLOADER&name
+#EXTINF:-1 tvg-ID="" tvg-name="SP: C+ Series" tvg-logo="" group-title="Spanish",SP: C+ Series
+plugin://plugin.video.f4mTester/?url=http://xc.cobra-iptv.com:25461/live/spanish-v2/TdTffMonWn/503.ts&streamtype=TSDOWNLOADER&name
+#EXTINF:-1 tvg-ID="" tvg-name="SP: C+ Series Xtra" tvg-logo="" group-title="Spanish",SP: C+ Series Xtra
+plugin://plugin.video.f4mTester/?url=http://xc.cobra-iptv.com:25461/live/spanish-v2/TdTffMonWn/514.ts&streamtype=TSDOWNLOADER&name
+#EXTINF:-1 tvg-ID="" tvg-name="SP: Fox HD" tvg-logo="" group-title="Spanish",SP: Fox HD
+plugin://plugin.video.f4mTester/?url=http://xc.cobra-iptv.com:25461/live/spanish-v2/TdTffMonWn/492.ts&streamtype=TSDOWNLOADER&name
+#EXTINF:-1 tvg-ID="" tvg-name="SP: Amc" tvg-logo="" group-title="Spanish",SP: Amc
+plugin://plugin.video.f4mTester/?url=http://xc.cobra-iptv.com:25461/live/spanish-v2/TdTffMonWn/500.ts&streamtype=TSDOWNLOADER&name
+#EXTINF:-1 tvg-ID="" tvg-name="SP: Axn HD" tvg-logo="" group-title="Spanish",SP: Axn HD
+plugin://plugin.video.f4mTester/?url=http://xc.cobra-iptv.com:25461/live/spanish-v2/TdTffMonWn/550.ts&streamtype=TSDOWNLOADER&name
+#EXTINF:-1 tvg-ID="" tvg-name="SP: Syfy" tvg-logo="" group-title="Spanish",SP: Syfy
+plugin://plugin.video.f4mTester/?url=http://xc.cobra-iptv.com:25461/live/spanish-v2/TdTffMonWn/516.ts&streamtype=TSDOWNLOADER&name
+#EXTINF:-1 tvg-ID="" tvg-name="SP: Calle 13" tvg-logo="" group-title="Spanish",SP: Calle 13
+plugin://plugin.video.f4mTester/?url=http://xc.cobra-iptv.com:25461/live/spanish-v2/TdTffMonWn/540.ts&streamtype=TSDOWNLOADER&name
+#EXTINF:-1 tvg-ID="" tvg-name="SP: Comedy Central" tvg-logo="" group-title="Spanish",SP: Comedy Central
+plugin://plugin.video.f4mTester/?url=http://xc.cobra-iptv.com:25461/live/spanish-v2/TdTffMonWn/528.ts&streamtype=TSDOWNLOADER&name
+#EXTINF:-1 tvg-ID="" tvg-name="SP: FDF" tvg-logo="" group-title="Spanish",SP: FDF
+plugin://plugin.video.f4mTester/?url=http://xc.cobra-iptv.com:25461/live/spanish-v2/TdTffMonWn/535.ts&streamtype=TSDOWNLOADER&name
+#EXTINF:-1 tvg-ID="" tvg-name="SP: Divinity" tvg-logo="" group-title="Spanish",SP: Divinity
+plugin://plugin.video.f4mTester/?url=http://xc.cobra-iptv.com:25461/live/spanish-v2/TdTffMonWn/489.ts&streamtype=TSDOWNLOADER&name
+#EXTINF:-1 tvg-ID="" tvg-name="SP: Energy" tvg-logo="" group-title="Spanish",SP: Energy
+plugin://plugin.video.f4mTester/?url=http://xc.cobra-iptv.com:25461/live/spanish-v2/TdTffMonWn/490.ts&streamtype=TSDOWNLOADER&name
+#EXTINF:-1 tvg-ID="" tvg-name="SP: C+ Toros" tvg-logo="" group-title="Spanish",SP: C+ Toros
+plugin://plugin.video.f4mTester/?url=http://xc.cobra-iptv.com:25461/live/spanish-v2/TdTffMonWn/501.ts&streamtype=TSDOWNLOADER&name
+#EXTINF:-1 tvg-ID="" tvg-name="SP: Ltc" tvg-logo="" group-title="Spanish",SP: Ltc
+http://xc.cobra-iptv.com:25461/live/spanish-v2/TdTffMonWn/491.ts
+#EXTINF:-1 tvg-ID="" tvg-name="SP: C+ Deportes" tvg-logo="" group-title="Spanish",SP: C+ Deportes
+plugin://plugin.video.f4mTester/?url=http://xc.cobra-iptv.com:25461/live/spanish-v2/TdTffMonWn/507.ts&streamtype=TSDOWNLOADER&name
+#EXTINF:-1 tvg-ID="" tvg-name="SP: C+ Deportes 2" tvg-logo="" group-title="Spanish",SP: C+ Deportes 2
+plugin://plugin.video.f4mTester/?url=http://xc.cobra-iptv.com:25461/live/spanish-v2/TdTffMonWn/508.ts&streamtype=TSDOWNLOADER&name
+#EXTINF:-1 tvg-ID="" tvg-name="SP: C+ Futbol HD" tvg-logo="" group-title="Spanish",SP: C+ Futbol HD
+plugin://plugin.video.f4mTester/?url=http://xc.cobra-iptv.com:25461/live/spanish-v2/TdTffMonWn/505.ts&streamtype=TSDOWNLOADER&name
+#EXTINF:-1 tvg-ID="" tvg-name="SP: C + Futbol" tvg-logo="" group-title="Spanish",SP: C + Futbol
+plugin://plugin.video.f4mTester/?url=http://xc.cobra-iptv.com:25461/live/spanish-v2/TdTffMonWn/504.ts&streamtype=TSDOWNLOADER&name
+#EXTINF:-1 tvg-ID="" tvg-name="SP: Teledeporte" tvg-logo="" group-title="Spanish",SP: Teledeporte
+plugin://plugin.video.f4mTester/?url=http://xc.cobra-iptv.com:25461/live/spanish-v2/TdTffMonWn/519.ts&streamtype=TSDOWNLOADER&nam
+#EXTINF:-1 tvg-ID="" tvg-name="SP: Bein Sports" tvg-logo="" group-title="Spanish",SP: Bein Sports
+plugin://plugin.video.f4mTester/?url=http://xc.cobra-iptv.com:25461/live/spanish-v2/TdTffMonWn/523.ts&streamtype=TSDOWNLOADER&name
+#EXTINF:-1 tvg-ID="" tvg-name="SP: Real Madrid TV" tvg-logo="" group-title="Spanish",SP: Real Madrid TV
+plugin://plugin.video.f4mTester/?url=http://xc.cobra-iptv.com:25461/live/spanish-v2/TdTffMonWn/525.ts&streamtype=TSDOWNLOADER&name
+#EXTINF:-1 tvg-ID="" tvg-name="SP: Barca TV" tvg-logo="" group-title="Spanish",SP: Barca TV
+plugin://plugin.video.f4mTester/?url=http://xc.cobra-iptv.com:25461/live/spanish-v2/TdTffMonWn/524.ts&streamtype=TSDOWNLOADER&name
+#EXTINF:-1 tvg-ID="" tvg-name="SP: Euro Sport 1" tvg-logo="" group-title="Spanish",SP: Euro Sport 1
+plugin://plugin.video.f4mTester/?url=http://xc.cobra-iptv.com:25461/live/spanish-v2/TdTffMonWn/529.ts&streamtype=TSDOWNLOADER&name
+#EXTINF:-1 tvg-ID="" tvg-name="SP: Euro Sport 2" tvg-logo="" group-title="Spanish",SP: Euro Sport 2
+plugin://plugin.video.f4mTester/?url=http://xc.cobra-iptv.com:25461/live/spanish-v2/TdTffMonWn/530.ts&streamtype=TSDOWNLOADER&name
+#EXTINF:-1 tvg-ID="" tvg-name="SP: Moto GP" tvg-logo="" group-title="Spanish",SP: Moto GP
+plugin://plugin.video.f4mTester/?url=http://xc.cobra-iptv.com:25461/live/spanish-v2/TdTffMonWn/493.ts&streamtype=TSDOWNLOADER&name
+#EXTINF:-1 tvg-ID="" tvg-name="SP: C+ Golf" tvg-logo="" group-title="Spanish",SP: C+ Golf
+plugin://plugin.video.f4mTester/?url=http://xc.cobra-iptv.com:25461/live/spanish-v2/TdTffMonWn/510.ts&streamtype=TSDOWNLOADER&name
+#EXTINF:-1 tvg-ID="" tvg-name="SP: Canal Odisea" tvg-logo="" group-title="Spanish",SP: Canal Odisea
+plugin://plugin.video.f4mTester/?url=http://xc.cobra-iptv.com:25461/live/spanish-v2/TdTffMonWn/541.ts&streamtype=TS

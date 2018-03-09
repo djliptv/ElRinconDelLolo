@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet href="hide-it.xsl" type="text/xsl"?> 
+
+<item>
+	<title></title> <!--- titulo de la pelicula --->
+	<link></link> <!--- link de la pelicula --->
+	<thumbnail></thumbnail> <!--- portada de la pelicula --->
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart> <!--- imagen de fondo --->
+</item>

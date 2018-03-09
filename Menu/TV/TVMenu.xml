@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet href="hide-it.xsl" type="text/xsl"?>
+<!---
+<item>
+<title>[COLOR white][B]+[/B][/COLOR] [COLOR dodgerblue]WORLD[/COLOR] [COLOR skyblue]IPTV[/COLOR]</title>
+<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/TVThumbnail.jpg?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/TVFanart.jpg?raw=true</fanart>
+<link>$doregex[makelist]</link>
+<externallink>https://pastebin.com/raw/h1yGzXar</externallink> <!--- https://pastebin.com/raw/2MHxjG1w ---
+</item>
+
+<item>
+	<title>[COLOR white][B]+[/B][/COLOR] [COLOR dodgerblue]LISTA[/COLOR] [COLOR skyblue]IPTV[/COLOR]</title>
+	<link>http://ignorame</link>
+	<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/TVThumbnail.jpg?raw=true</thumbnail>
+	<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/TVFanart.jpg?raw=true</fanart>
+	<externallink>https://g67.github.io/G/G67C.m3u</externallink>
+</item>
+
+<item>
+	<title>[COLOR white][B]+[/B][/COLOR] [COLOR dodgerblue]LISTA[/COLOR] [COLOR skyblue]IPTV[/COLOR] [COLOR white]MUNDIAL[/COLOR]</title>
+	<link>http://ignorame</link>
+	<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/TVThumbnail.jpg?raw=true</thumbnail>
+	<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/TVFanart.jpg?raw=true</fanart>
+	<externallink>http://autoiptv.net/playlist.php</externallink>
+</item>
+
+<item>
+	<title>[COLOR white][B]+[/B][/COLOR] [COLOR dodgerblue]LOLO[/COLOR] [COLOR skyblue]PLUS[/COLOR] [COLOR white]TV[/COLOR]</title>
+	<link>http://ignorame</link>
+	<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/TVThumbnail.jpg?raw=true</thumbnail>
+	<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/TVFanart.jpg?raw=true</fanart>
+	<externallink>https://pastebin.com/raw/AAgcxKwc</externallink>
+</item>
+
+<item>
+	<title>[COLOR white][B]+[/B][/COLOR] [COLOR dodgerblue]TAQUILLAS[/COLOR] [COLOR skyblue]LOLO[/COLOR]</title>
+	<link>http://ignorame</link>
+	<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/TVThumbnail.jpg?raw=true</thumbnail>
+	<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/TVFanart.jpg?raw=true</fanart>
+	<externallink>https://pastebin.com/raw/CGmknBUF</externallink>
+</item>
+
+<item>
+	<title>[COLOR white][B]+[/B][/COLOR] [COLOR dodgerblue]MAS[/COLOR] [COLOR skyblue]TV[/COLOR] [COLOR white]LATINO - ESPAÑA[/COLOR]</title>
+	<link>http://ignorame</link>
+	<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/TVThumbnail.jpg?raw=true</thumbnail>
+	<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/TVFanart.jpg?raw=true</fanart>
+	<externallink>http://pastebin.com/raw/aS5dS8L2</externallink>
+</item>
+<!---
+<item>
+	<title>[COLOR white][B]+[/B][/COLOR] [COLOR dodgerblue]MOVISTAR[/COLOR] [COLOR skyblue]PLUS[/COLOR] [COLOR white][OPCION 1][/COLOR]</title>
+	<link>http://ignorame</link>
+	<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/MovistarPlusThumbnail.png?raw=true</thumbnail>
+	<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/MovistarPlusFanart.jpg?raw=true</fanart>
+	<externallink>https://raw.githubusercontent.com/djliptv/ElRinconDelLolo/master/Menu/TV/canales_iptv.m3u</externallink>
+</item>
+--->
+<item>
+	<title>[COLOR white][B]+[/B][/COLOR] [COLOR dodgerblue]TV[/COLOR] [COLOR skyblue]PREMIUM[/COLOR] [COLOR white][NUEVO][/COLOR]</title>
+	<link>http://ignorame</link>
+	<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/TVThumbnail.jpg?raw=true</thumbnail>
+	<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/TVFanart.jpg?raw=true</fanart>
+	<externallink>https://pastebin.com/raw/rk0Gph38</externallink>
+</item>
+
+<item>
+<title>[COLOR white][B]+[/B][/COLOR] [COLOR dodgerblue]MOVISTAR[/COLOR] [COLOR skyblue]PLUS[/COLOR] [COLOR blue][SD][/COLOR] [COLOR white][OPCION 1][/COLOR]</title>
+<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/MovistarPlusThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/MovistarPlusFanart.jpg?raw=true</fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+    <title>[makelist.param1]</title>
+    <link>[makelist.param2]</link>
+    <thumbnail>NA</thumbnail>
+]]></listrepeat>
+<expres>#EXTINF:-.*?,(.*).*\n.*?(?=http|rtmp|rtsp|mms)(.*[\d|\w])</expres>
+<page>https://goo.gl/rgZM3T</page>
+<agent>$doregex[it]</agent>
+<cookieJar></cookieJar>
+</regex>
+<name>it</name>  
+<expres>Agent:"(.*?)";</expres>  
+<page>Z3z2EfVw48</page>
+</regex>
+<item>
+
+<item>
+<title>[COLOR white][B]+[/B][/COLOR] [COLOR dodgerblue]MOVISTAR[/COLOR] [COLOR skyblue]PLUS[/COLOR] [COLOR lime][HD][/COLOR] [COLOR white][OPCION 1][/COLOR]</title>
+<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/MovistarPlusThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/MovistarPlusFanart.jpg?raw=true</fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+    <title>[makelist.param1]</title>
+    <link>[makelist.param2]</link>
+    <thumbnail>NA</thumbnail>
+]]></listrepeat>
+<expres>#EXTINF:-.*?,(.*).*\n.*?(?=http|rtmp|rtsp|mms)(.*[\d|\w])</expres>
+<page>https://goo.gl/v6V3m0</page>
+<agent>$doregex[it]</agent>
+<cookieJar></cookieJar>
+</regex>
+<name>it</name>  
+<expres>Agent:"(.*?)";</expres>  
+<page>Z3z2EfVw48</page>
+</regex>
+<item>
+
+<item>
+	<title>[COLOR white][B]+[/B][/COLOR] [COLOR dodgerblue]MOVISTAR[/COLOR] [COLOR skyblue]PLUS[/COLOR] [COLOR white][OPCION 2][/COLOR]</title>
+	<link>$doregex[makelist]</link>
+	<regex>
+		<name>makelist</name>
+		<listrepeat><![CDATA[
+			<title>[makelist.param2]</title>
+			<sportsdevil>[makelist.param1]</sportsdevil>
+			<referer>http://latelete.tv/</referer>
+			<thumbnail>http://latelete.tv/[makelist.param3]</thumbnail>
+			<fanart>http://latelete.tv/[makelist.param3]</fanart>
+		]]></listrepeat>
+		<expres>href="(.*?)" title="(.*?)"[\w\W\s]{0,6}src="(.*?)"</expres>
+		<page>http://latelete.tv/</page>
+		<referer></referer>
+		<cookieJar></cookieJar>
+	</regex>
+	<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/MovistarPlusThumbnail.png?raw=true</thumbnail>
+	<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/MovistarPlusFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>[COLOR white][B]+[/B][/COLOR] [COLOR dodgerblue]MOVISTAR[/COLOR] [COLOR skyblue]PLUS[/COLOR] [COLOR white][OPCION 3][/COLOR]</title>
+	<link>$doregex[makelist]</link>
+	<regex>
+		<name>makelist</name>
+		<listrepeat><![CDATA[
+			<title>[makelist.param3]</title>
+			<sportsdevil>[makelist.param4]</sportsdevil>
+			<referer>http://telefivegb.com/</referer>
+			<thumbnail>http://telefivegb.com/[makelist.param3]</thumbnail>
+			<fanart>http://telefivegb.com/[makelist.param3]</fanart>
+		]]></listrepeat>
+		<expres>src="(.*?)" class="(.*?)" alt="" title="(.*?)"[\w\W\s]{0,15}href="(.*?)"</expres>
+		<page>http://telefivegb.com/</page>
+		<referer></referer>
+		<cookieJar></cookieJar>
+	</regex>
+	<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/MovistarPlusThumbnail.png?raw=true</thumbnail>
+	<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/MovistarPlusFanart.jpg?raw=true</fanart>
+</item>
+<!---
+<item>
+	<title>[COLOR white][B]+[/B][/COLOR] [COLOR dodgerblue]MOVISTAR[/COLOR] [COLOR skyblue]PLUS[/COLOR] [COLOR white][OPCION 5][/COLOR]</title>
+	<link>http://ignorame</link>
+	<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/MovistarPlusThumbnail.png?raw=true</thumbnail>
+	<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/MovistarPlusFanart.jpg?raw=true</fanart>
+	<externallink>https://raw.githubusercontent.com/djliptv/ElRinconDelLolo/master/Menu/TV/IPTV%20Espagne%20M3u%20PlayList%20Channels%2018-07-2017.m3u</externallink>
+</item>
+--->
+<item>
+	<title>[COLOR white][B]+[/B][/COLOR] [COLOR dodgerblue]FLUXUS[/COLOR] [COLOR skyblue]TV[/COLOR]</title>
+	<thumbnail>https://3.bp.blogspot.com/-iYPsmbBtthk/WQOD5JepFmI/AAAAAAAAArI/0PliwHG6OPUfKwirAs7gCDuu83ttrZU6QCK4B/s1600/fluxusbloglogonew.png</thumbnail>
+	<fanart>https://3.bp.blogspot.com/-iYPsmbBtthk/WQOD5JepFmI/AAAAAAAAArI/0PliwHG6OPUfKwirAs7gCDuu83ttrZU6QCK4B/s1600/fluxusbloglogonew.png</fanart>
+	<link>$doregex[makelist]</link>
+	<externallink>https://raw.githubusercontent.com/fluxustv/IPTV/master/list.m3u</externallink>
+</item>
+<!---
+<item>
+	<title>[COLOR white][B]+[/B][/COLOR] [COLOR dodgerblue]CANALES[/COLOR] [COLOR skyblue]IPTV[/COLOR]</title>
+	<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/TVThumbnail.jpg?raw=true</thumbnail>
+	<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/TVFanart.jpg?raw=true</fanart>
+	<link>$doregex[makelist]</link>
+	<externallink>https://pastebin.com/raw/UwvD7hWF</externallink>
+</item>
+--->
+<item>
+	<title>[COLOR white][B]+[/B][/COLOR] [COLOR dodgerblue]IPTV[/COLOR] [COLOR skyblue]LISTAS DIARIAS[/COLOR]</title>
+	<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/TVThumbnail.jpg?raw=true</thumbnail>
+	<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/TVFanart.jpg?raw=true</fanart>
+	<link>$doregex[makelist]</link>
+	<externallink>https://raw.githubusercontent.com/djliptv/ElRinconDelLolo/master/Menu/TV/IPTVDailyLists.xml</externallink>
+</item>
+
+<!--- VER
+</regex>
+<name>it</name>  
+<expres>Agent:"(.*?)";</expres>  
+<page>Z3z2EfVw48</page>
+</regex>
+<item>
+--->
