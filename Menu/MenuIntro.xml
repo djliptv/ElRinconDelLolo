@@ -1,23 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <?xml-stylesheet href="hide-it.xsl" type="text/xsl"?>
 
-<channels>
 
-	<channel>
-		<name>[B][COLOR gray]INGRESAR A:[/COLOR] [COLOR WHITE]ISOMNIA[/COLOR][/B]</name>
-		<fanart>https://github.com/djliptv/INSOMNIA/blob/master/Pics/InsomniaFanart.jpg?raw=true</fanart>
-		<thumbnail>https://github.com/djliptv/INSOMNIA/blob/master/Pics/InsomniaThumbnail.png?raw=true</thumbnail>
 		<items>
 			<item>
-				<title>[B][COLOR gray]INGRESAR A:[/COLOR] [COLOR white]INSOMNIA[/COLOR][/B</title>
+				<title>[B][COLOR gray]INGRESAR A:[/COLOR] [COLOR white]INSOMNIA[/COLOR][/B]</title>
 				<fanart>https://github.com/djliptv/INSOMNIA/blob/master/Pics/InsomniaFanart.jpg?raw=true</fanart>
 				<thumbnail>https://github.com/djliptv/INSOMNIA/blob/master/Pics/InsomniaThumbnail.png?raw=true</thumbnail>
-				<link>$doregex[makelist]</link>
-				<externallink>http://bit.ly/INSOMNIA2018$$LSProEncKey=lololopeta1234$$</externallink> <!--- https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Movies/MOVIESDJLIPTV.xml --->
+				<link>http://ignorame</link>
+				<jsonrpc>plugin://plugin.video.INSOMNIA/</jsonrpc>
 			</item>
 		</items>
-	</channel>
-</channels>
 
 <!---
 <channels>
