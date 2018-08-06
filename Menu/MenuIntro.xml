@@ -2,16 +2,16 @@
 <?xml-stylesheet href="hide-it.xsl" type="text/xsl"?>
 
 
-		<items>
-			<item>
-				<title>[B][COLOR gray]INSTALAR[/COLOR] [COLOR white]INSOMNIA[/COLOR] 
-				[COLOR gray]DESDE REPOSITORIO[/COLOR] | [COLOR white]DUDAS Y CONSULTAS EN TELEGRAM @Grupololo[/COLOR][/B]</title>
-				<fanart>https://github.com/djliptv/INSOMNIA/blob/master/Pics/InsomniaFanart.jpg?raw=true</fanart>
-				<thumbnail>https://github.com/djliptv/INSOMNIA/blob/master/Pics/InsomniaThumbnail.png?raw=true</thumbnail>
-				<link>http://ignorame</link>
-				<externallink>http://pastebin.com</externallink>
-			</item>
-		</items>
+<items>
+	<item>
+		<title>[B][COLOR gray]INSTALAR[/COLOR] [COLOR white]INSOMNIA[/COLOR] 
+[COLOR gray]DESDE REPOSITORIO[/COLOR] | [COLOR white]DUDAS Y CONSULTAS EN TELEGRAM @Grupololo[/COLOR][/B]</title>
+		<fanart>https://github.com/djliptv/INSOMNIA/blob/master/Pics/InsomniaFanart.jpg?raw=true</fanart>
+		<thumbnail>https://github.com/djliptv/INSOMNIA/blob/master/Pics/InsomniaThumbnail.png?raw=true</thumbnail>
+		<link>http://ignorame</link>
+		<externallink>http://pastebin.com</externallink>
+	</item>
+</items>
 
 <!---
 <channels>
